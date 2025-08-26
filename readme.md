@@ -1,30 +1,10 @@
+SwagExpress is a web platform where you can easily get the code of your choice.  
+It is built with **React, Railgun CSS, JavaScript, and HTML** to provide a smooth and modern experience.  
 
-/**
- * Header 
- *   - Logo
- *   - Nav Items
- * Body 
- *   - Search Bar
- *   - Card Container 
- *       - Restaurants
- *               -Image 
- *                -Price
- *                -Ratings
- * Footer
- *   - Disclaimer 
- *   - Copyright
- */
+✨ Features:
+- About Us page with Customer Reviews section (see what our users say about us!)
+- Interactive Restaurant Cards with color-coded ratings (green for excellent, orange for average, red for low rating)
+- Clean and responsive design powered by Railgun CSS
+- User-friendly structure to explore and access code easily  
 
-
-TWo types of Export And Import
-
--Default export/import.
-
-import Component from path.
-export default comp_name.
-
-
--Named Export/import
-
-export const component
-import{comp_name} from path.
+💬 Our customers love us! We have received very positive reviews that highlight both the quality of our code and the user experience.
