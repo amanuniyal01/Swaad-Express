@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import Starter from "./Starter";
+import useOnlineStatus from "../utils/useOnlineStatus";
+import { WifiOff } from "lucide-react";
+
 
 const Body = () => {
 
@@ -19,6 +22,19 @@ const Body = () => {
 
         }, 500); // 500ms delay to "simulate" API load
     }, []);
+
+    const status=useOnlineStatus();
+    if(status===false){
+        return(
+            <div className="offline">
+                <WifiOff size={60} className="wifi-icon" />
+            <h1 >Offline🛑</h1>
+            <p>Sorry, it seems that you are currently offline</p>
+            </div>
+            
+            
+        )
+    }
 
 
     return RestaurantList.length === 0 ? <Shimmer /> :

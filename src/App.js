@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
+import Reviews from "./components/Reviews";
 
 
 
@@ -50,7 +51,11 @@ const appRouter = createBrowserRouter([
             {
                 path: "/restaurants/:resId",
                 element: <RestaurantMenu />
-            }
+            },
+            {
+                path: "/reviews",
+                element: <Reviews />
+            },
 
         ], errorElement: <Error />
 

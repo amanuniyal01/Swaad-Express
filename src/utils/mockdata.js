@@ -98,7 +98,7 @@ const resList = [
             "cuisines": [
                 "Pizzas"
             ],
-            "avgRating": 4.2,
+            "avgRating": 2.2,
             "parentId": "721",
             "avgRatingString": "4.2",
             "totalRatingsString": "6.5K+",
@@ -265,7 +265,7 @@ const resList = [
                 "Bakery",
                 "Desserts"
             ],
-            "avgRating": 4.5,
+            "avgRating": 2.5,
             "parentId": "1040",
             "avgRatingString": "4.5",
             "totalRatingsString": "7.5K+",
@@ -541,7 +541,7 @@ const resList = [
             "cuisines": [
                 "Ice Cream"
             ],
-            "avgRating": 4.6,
+            "avgRating": 3.6,
             "veg": true,
             "parentId": "5588",
             "avgRatingString": "4.6",
@@ -908,7 +908,7 @@ const resList = [
                 "wrap",
                 "Healthy Food"
             ],
-            "avgRating": 4.4,
+            "avgRating": 3.4,
             "parentId": "2",
             "avgRatingString": "4.4",
             "totalRatingsString": "17K+",
@@ -1194,7 +1194,7 @@ const resList = [
             "cuisines": [
                 "Japanese"
             ],
-            "avgRating": 4.5,
+            "avgRating": 2.9,
             "parentId": "262021",
             "avgRatingString": "4.5",
             "totalRatingsString": "1.2K+",
@@ -1498,7 +1498,7 @@ const resList = [
                 "Desserts",
                 "Chinese"
             ],
-            "avgRating": 4.4,
+            "avgRating": 3.4,
             "veg": true,
             "parentId": "4772",
             "avgRatingString": "4.4",
@@ -2403,6 +2403,64 @@ export const mockMenuData = {
 
 
 }
+export const teamMembers = [
+    {
+        name: "Aman Uniyal",
+        role: "Founder & Developer",
+        image: "https://via.placeholder.com/150", // Replace with your image link
+        linkedin: "https://www.linkedin.com/feed/",
+    },
+    {
+        name: "John Doe",
+        role: "Head Chef",
+        image: "https://via.placeholder.com/150",
+        linkedin: "https://linkedin.com/",
+    },
+    {
+        name: "Jane Smith",
+        role: "Marketing Manager",
+        image: "https://via.placeholder.com/150",
+        linkedin: "https://linkedin.com/",
+    },
+];
+
+export const reviews = [
+    {
+      name: "Aarav Sharma",
+      review:
+        "I had an amazing experience here! The food was not only delicious but also freshly prepared with great attention to detail. The staff was polite and the ambiance made it even better. Definitely coming back again!"
+    },
+    {
+      name: "Sneha Patel",
+      review:
+        "The flavors were outstanding! Every dish felt like it was made with love. I really appreciated how the team took extra care to serve everything hot and fresh. Highly recommended to all food lovers!"
+    },
+    {
+      name: "Rahul Verma",
+      review:
+        "What I liked the most was the balance between taste and quality. The service was quick and friendly, and I didn’t feel rushed at all. It’s rare to find such a perfect dining experience nowadays."
+    },
+    {
+      name: "Priya Nair",
+      review:
+        "Absolutely delightful! The presentation of the food was top-notch, and the portions were generous. I can honestly say this has been one of the best food experiences I’ve had in a long time."
+    },
+    {
+      name: "Karan Mehta",
+      review:
+        "From the moment we entered, we felt welcomed. The staff was extremely courteous and ensured we had everything we needed. The dishes had authentic flavors that took me by surprise. A must-visit place!"
+    },
+    {
+      name: "Riya Singh",
+      review:
+        "I can’t stop recommending this place to my friends. The food was flavorful, healthy, and beautifully presented. The team has done a wonderful job creating such a positive experience for customers."
+    },
+    {
+      name: "Vikram Joshi",
+      review:
+        "Every bite was a burst of flavor! What stood out to me was not just the taste but the consistency. The quality remained top-class across all the dishes we tried. Truly satisfied with everything!"
+    }
+  ];
 
 
 export default resList;
