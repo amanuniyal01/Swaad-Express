@@ -1,5 +1,5 @@
 SwagExpress is a web platform where you can easily get the code of your choice.  
-It is built with **React, Railgun CSS, JavaScript, and HTML** to provide a smooth and modern experience.  
+It is built with **React, Tailwind CSS, JavaScript, and HTML** to provide a smooth and modern experience.  
 
 ✨ Features:
 - About Us page with Customer Reviews section (see what our users say about us!)
