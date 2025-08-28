@@ -9,12 +9,17 @@ const About = () => {
 
     return (
 
-        <div className="about">
+        <div className="about bg-gradient-to-b from-orange-50 to-white">
 
-            <h1>"Swaad is not just food, it’s an experience of authentic taste crafted with love."</h1>
+            <h1>"Swaad is not just food, it’s an experience of authentic taste crafted with love🍔."</h1>
             <p> At Swaad Express, we bring authentic flavors with love and passion.</p>
               <Link className="card-link" to="/reviews">
-                <button className="reviews-btn">Customer Reviews</button>
+              <button className="px-6 py-3 my-4 rounded-lg text-white font-semibold 
+  bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-600 
+  hover:from-orange-500 hover:via-yellow-500 hover:to-red-500 
+  shadow-md hover:shadow-lg transition-all duration-300">
+  Customer Reviews
+</button>
             </Link>
                 <Team />
             <h2>Find us Here:</h2>
