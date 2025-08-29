@@ -55,6 +55,10 @@
 
 
 }
+.starter>h1{
+      font-family: Libertinus Sans, sans-serif;
+
+}
 
 .card-link {
   color: inherit;
@@ -364,19 +368,19 @@
 
 }
 
-.menu {
+/* .menu {
   display: flex;
   align-self: flex-start;
   flex-direction: column;
 
 
   margin-top: 200px;
-}
+} */
 
-.menu>h1 {
+/* .menu>h1 {
   align-self: center;
   color: #3f32a7;
-}
+} */
 
 .categ {
 

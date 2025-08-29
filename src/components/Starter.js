@@ -5,10 +5,10 @@ const Starter = () => {
 
     return (
         <div className="starter">
-            <h1 className="text-[55px] font-900 text-white">
+            <h1 className="text-[61px] font-900 text-white mb-6">
                 “Swaad – Where Every Bite Tells a Story”
             </h1>
-            <p className="max-w-[800px] leading-[40px] text-[35px] font-[100] text-white ">
+            <p className="max-w-[800px] leading-[30px] text-[30px] font-[100] text-white ">
                 From rich, traditional recipes to modern culinary delights, we serve dishes made with love, freshness, and authentic taste
 
             </p>
