@@ -1,6 +1,5 @@
-SwagExpress
-
-SwagExpress is a web platform where you can easily get the code of your choice.
+Swaad
+Express is a web platform where you can easily get the code of your choice.
 It is built with React, Tailwind CSS, JavaScript, and HTML to provide a smooth and modern experience.
 
 ✨ Features:
@@ -17,9 +16,15 @@ Interactive Restaurant Cards with color-coded ratings:
 
 Promoted Label: Restaurants with this tag are specially promoted on our platform to help them reach more customers.
 
-Clean and Responsive Design powered by Railgun CSS
+Accordion in Restaurant Menu: Expand and collapse sections to easily explore restaurant items.
 
-User-Friendly Structure to explore and access code easily
+Login / Logout Page for secure access and personalized experience.
 
-💬 Customer Love
+Dynamic UserName Feature: Users can type their name, and it will be displayed at the top of the website.
+
+Clean and Responsive Design powered by Tailwind CSS.
+
+User-Friendly Structure to explore and access code easily.
+
+💬 Customer Love:
 Our customers love us! We have received very positive reviews that highlight both the quality of our code and the smooth user experience.
