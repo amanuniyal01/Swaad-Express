@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import Starter from "./Starter";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { WifiOff } from "lucide-react";
+import { useContext } from "react";
+import UserContext from "../utils/usercontext";
 
 
 
@@ -16,6 +18,7 @@ const Body = () => {
     const [filterRestaurant, setfilterRestaurant] = useState([])
     const [SearchText, setSearchText] = useState("");
     const RestaurantPromoted = showpromotedCard(RestaurantCard);
+    const { loggedInUser, setuserName } = useContext(UserContext)
 
     useEffect(() => {
         setTimeout(() => {
@@ -76,6 +79,20 @@ const Body = () => {
                     }}
 
                     >Popular Picks</button>
+
+                    <div className="flex items-center space-x-3 m-3">
+                        <label className="font-bold w-28 text-right">UserName:</label>
+                        <input
+                            className="flex-1 w-full max-w-md text-gray-800 p-3 text-lg rounded-md 
+               bg-purple-500 border border-gray-300 
+               placeholder-gray-200 
+               hover:bg-blue-500 hover:text-white 
+               focus:outline-none focus:ring-2 focus:ring-blue-400"
+                            value={loggedInUser}
+                            onChange={(e) => setuserName(e.target.value)}
+                        />
+                    </div>
+
                 </div>
                 <div className="res-container flex items-center justify-evenly  flex-wrap w-full ">
                     {filterRestaurant.map((restaurant) => (

@@ -1,20 +1,17 @@
-import { useState } from "react";
 import ItemList from "./ItemList";
 
-const RestaurantCategory = ({ data }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const RestaurantCategory = ({ data, isOpen, handleToggle }) => {
 
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
-
+  const onToggle=()=>{
+    handleToggle();
+  }
   return (
-    <div className="w-6/12 mx-auto my-6">
+    <div className="w-6/12 mx-auto my-4 shadow-lg">
       {/* Category Card */}
       <div className="bg-gray-200 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.15)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.2)] transition-shadow duration-300 cursor-pointer">
         <div
-          className="flex justify-between items-center p-5"
-          onClick={handleClick}
+          className="flex justify-between items-center p-4"
+          onClick={onToggle}
         >
           {/* Title */}
           <span className="font-semibold text-xl text-gray-800 tracking-wide">

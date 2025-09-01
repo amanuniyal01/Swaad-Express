@@ -1,12 +1,15 @@
 import { LOGO_URL } from "../utils/constants";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-
+import UserContext from "../utils/usercontext";
+import { useNavigate } from "react-router-dom";
 const Header = () => {
     const [btnName, setbtnName] = useState("Login")
-    const status=useOnlineStatus();
-    
+    const navigate = useNavigate();
+    const status = useOnlineStatus();
+    const { loggedInUser } = useContext(UserContext);
+
 
 
     return (
@@ -17,17 +20,29 @@ const Header = () => {
             </div>
             <div className="nav-items">
                 <ul className="flex items-center justify-center list-none">
-                   
-                    <li><Link to="">Home</Link></li>
-                    <li><Link to="/about">About Us</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/cart">🛒</Link></li>
+
+                    <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="">Home</Link></li>
+                    <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px]  hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/about">About Us</Link></li>
+                    <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/contact">Contact</Link></li>
+                    <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/cart">🛒</Link></li>
                     <button className="login" onClick={() => {
-                        btnName === "Login" ? setbtnName("Logout") : setbtnName("Login")
+                        if (btnName === "Login") {
+                            setbtnName("Logout")
+                            navigate("/login")
+                        }
+                        else {
+                            setbtnName("Login")
+                            navigate("/")
+                        }
                     }}>
                         {btnName}</button>
-                         <li className="online flex items-center content-center text-black font-[700] text-[1.2rem] no-underline">{status?"Online 🟢":"Offline 🛑"}</li>
+                    <li className="online  font-bold flex items-center justify-center m-5 h-[60px] w-[100px] rounded-[15px] transition-all duration-300 hover:bg-cyan-200/40 ">{status ? "Online 🟢" : "Offline 🛑"}</li>
+                    <li className="flex  font-bold items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px]">
+                        {loggedInUser}
+
+                    </li>
                 </ul>
+
             </div>
         </div>
     )
