@@ -4,11 +4,16 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/usercontext";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 const Header = () => {
     const [btnName, setbtnName] = useState("Login")
     const navigate = useNavigate();
     const status = useOnlineStatus();
     const { loggedInUser } = useContext(UserContext);
+
+    // Subscribing to the store using selector.
+
+const cartItems = useSelector((store) => store.cart.items);
 
 
 
@@ -24,7 +29,7 @@ const Header = () => {
                     <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="">Home</Link></li>
                     <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px]  hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/about">About Us</Link></li>
                     <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/contact">Contact</Link></li>
-                    <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/cart">🛒</Link></li>
+                    <li className="flex items-center justify-center m-2 h-[60px] w-[100px] transition-all duration-300 ease-in-out border-2 border-transparent rounded-[15px] hover:bg-cyan-200/40 hover:text-teal-600 transition-all duration-300 transform hover:-translate-y-1"><Link to="/cart">🛒({cartItems.length})</Link></li>
                     <button className="login" onClick={() => {
                         if (btnName === "Login") {
                             setbtnName("Logout")

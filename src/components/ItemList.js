@@ -1,15 +1,27 @@
-const ItemList = ({ items }) => {
+import { useDispatch } from "react-redux";
+import { addItem, removeItem } from "../utils/cartSlice";
+
+const ItemList = ({ items, isCartPage = false }) => {
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) => {
+    dispatch(addItem(item));
+  };
+
+  const handleRemoveItem = (item) => {
+    dispatch(removeItem(item.id));
+  };
+
   return (
     <div className="max-w-3xl mx-auto">
-      {items.map((item) => (
+      {items.map((item, index) => (
         <div
-          key={item.id}
+          key={`${item.id}-${index}`}
           className="p-6 bg-gray-100 mb-4 border rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300"
         >
-          {/* Flex container for content and button */}
-          <div className="flex  justify-between items-center">
+          <div className="flex justify-between items-center">
             <div className="flex-1 pr-4">
-              <h3 className="text-[22px] font-bold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 mb-2">
+              <h3 className="text-[22px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 mb-2">
                 {item.name}
               </h3>
               <p className="text-[22px] text-gray-700 font-[200] leading-relaxed mb-2">
@@ -20,9 +32,22 @@ const ItemList = ({ items }) => {
               </p>
             </div>
 
-            <button className="bg-blue-500 text-white text-[18px] px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">
-              Add +
-            </button>
+            {/* Show Add or Remove button based on page */}
+            {isCartPage ? (
+              <button
+                className="bg-red-500 text-white text-[18px] px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200"
+                onClick={() => handleRemoveItem(item)}
+              >
+                Remove ❌
+              </button>
+            ) : (
+              <button
+                className="bg-blue-500 text-white text-[18px] px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                onClick={() => handleAddItem(item)}
+              >
+                Add +
+              </button>
+            )}
           </div>
         </div>
       ))}
