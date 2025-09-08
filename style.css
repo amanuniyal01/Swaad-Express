@@ -166,9 +166,9 @@
 }
 
 .about>h1 {
-  max-width: 1200px;
-  font-size: 50px;
-  margin-top: 180px;
+  
+  
+
   font-weight: 600;
   font-family: "Libertinus Sans", sans-serif;
   color: black;
@@ -178,7 +178,7 @@
 
 .about>p {
   margin-top: 30px;
-  font-size: 30px;
+
   font-weight: 200;
   color: rgba(7, 6, 6, 0.333);
 
@@ -192,14 +192,10 @@
   gap: 20px;
 }
 
-.map {
-  height: 50vh;
-  width: 50vw;
-}
+
 
 .contact-info {
-  position: absolute;
-  top: 20px;
+
 
   background: white;
   padding: 15px 20px;

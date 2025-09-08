@@ -1,3 +1,4 @@
+import amanImg from "../images/aman.jpg";
 const resList = [
     {
         "info": {
@@ -2426,7 +2427,7 @@ export const teamMembers = [
     {
         name: "Aman Uniyal",
         role: "Founder & Developer",
-        image: "https://via.placeholder.com/150", // Replace with your image link
+        image: amanImg, 
         linkedin: "https://www.linkedin.com/feed/",
     },
     {

@@ -6,7 +6,7 @@ const RestaurantCategory = ({ data, isOpen, handleToggle }) => {
     handleToggle();
   }
   return (
-    <div className="w-6/12 mx-auto my-4 shadow-lg">
+    <div className=" w-full sm:w-8/12 md:w-6/12 mx-auto my-4 shadow-lg">
       {/* Category Card */}
       <div className="bg-gray-200 rounded-xl shadow-[0_8px_25px_rgba(0,0,0,0.15)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.2)] transition-shadow duration-300 cursor-pointer">
         <div

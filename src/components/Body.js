@@ -49,10 +49,14 @@ const Body = () => {
             <div className="body pt-[50px]">
                 <Starter />
 
-                <div className="filter mb-4 flex items-center justify-center gap-[50px]">
+                <div className="filter mb-6 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-10">
                     <input
-                        className=" search-text flex items-center justify-center w-[420px] cursor-pointer border-none text-[1.4rem] h-[40px] rounded-md shadow-[2px_2px_2px_2px_rgba(35,30,30,0.507)] p-[25px] hover:bg-gray-100
-"
+                        className="search-text flex items-center justify-center 
+             w-[260px] sm:w-[300px] md:w-[420px] 
+             cursor-pointer border-none text-[1rem] sm:text-[1.2rem] md:text-[1.4rem] 
+             h-[40px] rounded-md 
+             shadow-[2px_2px_2px_2px_rgba(35,30,30,0.507)] 
+             px-4 hover:bg-gray-100"
                         type="text"
                         placeholder="🔍 Search restaurants, cuisines..."
 
@@ -72,18 +76,27 @@ const Body = () => {
                     />
 
 
-                    <button className="filter-btn text-white cursor-pointer p-[10px] text-[20px] rounded-[6px] text-center m-[10px] bg-purple-400 font-bold hover:text-white hover:bg-[rgba(6,18,245,0.6)] " onClick={() => {
-                        let filterData = RestaurantList.filter((res) => res.info.avgRating > 4.2);
-                        setfilterRestaurant(filterData);
+                    <button className="
+    filter-btn
+    px-3 py-2 text-sm          
+    sm:px-4 sm:py-2 sm:text-base  
+    md:px-5 md:py-3 md:text-lg    
+    text-white rounded-[6px] font-bold 
+    bg-purple-400 m-2 cursor-pointer text-center
+    hover:bg-[rgba(6,18,245,0.6)] hover:text-white
+  "
+                        onClick={() => {
+                            let filterData = RestaurantList.filter((res) => res.info.avgRating > 4.2);
+                            setfilterRestaurant(filterData);
 
-                    }}
+                        }}
 
                     >Popular Picks</button>
 
                     <div className="flex items-center space-x-3 m-3">
                         <label className="font-bold w-28 text-right">UserName:</label>
                         <input
-                            className="flex-1 w-full max-w-md text-gray-800 p-3 text-lg rounded-md 
+                            className="flex-1 md:w-50  h-10 w-27 md:max-w-md text-gray-800 p-3  text-sm md:text-lg rounded-md 
                bg-purple-500 border border-gray-300 
                placeholder-gray-200 
                hover:bg-blue-500 hover:text-white 
