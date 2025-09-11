@@ -23,7 +23,7 @@ const Cart = () => {
       {/* Empty Cart */}
       {cartItems.length === 0 ? (
         <p className="text-center text-4xl text-gray-500">
-          Your cart is empty. Start adding some delicious items! 🍔🍕
+          Your cart is empty. Start adding some delicious items! 
         </p>
       ) : (
         <>
