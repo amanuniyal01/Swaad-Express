@@ -55,8 +55,9 @@
 
 
 }
-.starter>h1{
-      font-family: Libertinus Sans, sans-serif;
+
+.starter>h1 {
+  font-family: Libertinus Sans, sans-serif;
 
 }
 
@@ -160,14 +161,14 @@
 }
 
 .about {
-  
+
   text-align: center;
   padding: 100px 20px;
 }
 
 .about>h1 {
-  
-  
+
+
 
   font-weight: 600;
   font-family: "Libertinus Sans", sans-serif;
@@ -192,7 +193,16 @@
   gap: 20px;
 }
 
+.contact {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("./src/images/couple-enjoying-food-restaurant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
+}
 
 .contact-info {
 
@@ -209,7 +219,7 @@
 .team {
   text-align: center;
   padding: 60px 20px;
- 
+
   margin-top: 45px;
 }
 
@@ -364,11 +374,11 @@
 
 }
 
-.menu{
-  background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0, 0, 0, 0.311) ,rgba(0, 0, 0, 0.274)) ,url("https://img.pikbest.com/backgrounds/20191025/simple-burger-food-fast-food-background-synthesis_1905549.jpg!bw700");
+.menu {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.311), rgba(0, 0, 0, 0.274)), url("https://img.pikbest.com/backgrounds/20191025/simple-burger-food-fast-food-background-synthesis_1905549.jpg!bw700");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 }
 
 /* .menu>h1 {

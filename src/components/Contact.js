@@ -3,17 +3,21 @@ import { MapPin, Phone, Mail, Linkedin, Github } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8">
-      <h2 className="text-4xl font-bold text-blue-800 mb-4 mt-20">
+    <section className=" bg-gray-700 flex flex-col items-center justify-center p-8">
+      <div className="contact w-full h-[60vh]  bg-red-800 absolute top-[-200px] left-0 right-0 bottom-20">
+        
+
+      </div>
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 mt-20 z-40">
         Get in Touch with Swaad Express 🍴
       </h2>
-      <p className="text-gray-600 mb-10 text-center max-w-2xl">
+      <p className=" z-40 text-white font-[200] text-xl md:text-2xl mb-10 text-center max-w-2xl">
         Have questions, feedback, or want to book catering with us?  
         Fill out the form below or reach us directly!
       </p>
 
       {/* Grid Layout */}
-      <div className="grid md:grid-cols-2 gap-10 max-w-6xl w-full">
+      <div className="grid md:grid-cols-2 gap-10 max-w-6xl w-full mt-47 md:mt-60">
         {/* Contact Form */}
         <form className="bg-white shadow-lg rounded-2xl p-6 space-y-4">
           <input
