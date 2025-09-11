@@ -14,6 +14,7 @@ import UserContext from "./utils/usercontext";
 import { Provider } from 'react-redux';
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
+import Footer from "./components/Footer";
 
 
 
@@ -45,6 +46,7 @@ const AppLayout = () => {
 
                     <Header />
                     <Outlet />
+                    <Footer/>
                 </div>
             </UserContext.Provider>
         </Provider>

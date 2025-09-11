@@ -46,7 +46,7 @@ const Body = () => {
 
         (
 
-            <div className="body pt-[50px]">
+            <div className="body min-h-full bg-gray-100 pt-[50px]">
                 <Starter />
 
                 <div className="filter mb-6 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-10">

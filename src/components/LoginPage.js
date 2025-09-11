@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { checkValidData } from "../utils/validData";
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -7,6 +8,7 @@ const LoginPage = () => {
     password: "",
   });
 
+  const [errorMessage, setErrorMessage] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
@@ -15,6 +17,15 @@ const LoginPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // validate using controlled values
+    const message = checkValidData(formData.email, formData.password);
+    if (message) {
+      setErrorMessage(message);
+      return;
+    }
+
+    setErrorMessage(null);
     setIsSubmitted(true);
   };
 
@@ -56,6 +67,10 @@ const LoginPage = () => {
             className="w-full mb-6 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-400 transition"
           />
 
+          {errorMessage && (
+            <p className="font-bold text-red-800 mb-4">{errorMessage}</p>
+          )}
+
           <button
             type="submit"
             className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white py-3 rounded-xl font-semibold shadow-md hover:scale-[1.02] transition-all"
@@ -69,10 +84,9 @@ const LoginPage = () => {
             🎉 Form Submitted Successfully! 🎉
           </h2>
           <p className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 drop-shadow-lg">
-            Welcome <span className="text-5xl">{formData.username}</span> 
-           
+            Welcome{" "}
+            <span className="text-5xl">{formData.username || "User"}</span>
           </p>
-          
         </div>
       )}
     </div>

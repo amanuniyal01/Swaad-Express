@@ -19,7 +19,7 @@ const ItemList = ({ items, isCartPage = false }) => {
           key={`${item.id}-${index}`}
           className="p-6 bg-gray-100 mb-4 border rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300"
         >
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center bg-red">
             <div className="flex-1 pr-4">
               <h3 className="text-[22px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 mb-2">
                 {item.name}
