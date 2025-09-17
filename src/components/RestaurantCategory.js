@@ -6,10 +6,10 @@ const RestaurantCategory = ({ data, isOpen, handleToggle }) => {
   };
 
   return (
-    <div className="w-full sm:w-8/12 md:w-6/12 mx-auto my-6">
+    <div className="w-full sm:w-8/12 md:w-6/12 mx-auto  my-6">
       {/* Category Card */}
-      <div className=" opacity-65
-        bg-gradient-to-r from-purple-600/80 to-blue-600/80
+      <div className=" opacity-60
+        bg-gray-200
         rounded-xl
         shadow-lg
         hover:shadow-2xl
@@ -19,17 +19,17 @@ const RestaurantCategory = ({ data, isOpen, handleToggle }) => {
       ">
         {/* Header */}
         <div
-          className="flex justify-between items-center p-5"
+          className="flex justify-between items-center h-[7vh] overflow-y-hidden p-5"
           onClick={onToggle}
         >
           {/* Title */}
-          <span className="font-bold text-lg md:text-xl text-white tracking-wide">
+          <span className="font-bold text-lg md:text-xl text-black tracking-wide">
             {data.title} ({data.itemCards?.length || 0})
           </span>
 
           {/* Arrow Icon */}
           <span
-            className={`text-white transform transition-transform duration-300 ${
+            className={`text-black transform transition-transform duration-300 ${
               isOpen ? "rotate-180" : "rotate-0"
             }`}
           >

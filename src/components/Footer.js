@@ -4,18 +4,18 @@ import { FaInstagram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-100 text-gray-900 py-8 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 mt-20 md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 mt-20 md:grid-cols-3 gap-10">
 
         {/* Brand Section */}
         <div>
           <h2 className="text-3xl font-bold text-black">Swaad Express</h2>
-          <p className="mt-2 text-sm">
-            Taste that travels with you
+          <p className="mt-2 text-[15px]">
+            Swaad Express connects local food vendors with hungry customers, bringing authentic, affordable, and freshly prepared meals right to your doorstep. Our mission is to support small businesses while giving customers a seamless and reliable food-ordering experience. Taste the tradition, delivered fast!
           </p>
         </div>
 
         {/* Quick Links */}
-        <div>
+        <div className="ml-10">
           <h3 className="text-lg font-semibold text-black mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li><a href="/" className="hover:text-yellow-400">Home</a></li>
@@ -43,8 +43,8 @@ const Footer = () => {
       </div>
 
       {/* Bottom Line */}
-      <div className="border-t border-gray-700 text-center mt-6 pt-4 text-sm">
-        © {new Date().getFullYear()} Swaad Express. All rights reserved.
+      <div className="border-t border-gray-700 text-center mt-6 pt-4 text-lg font-bold">
+        © {new Date().getFullYear()} Made with 💖 by Aman Uniyal.
       </div>
     </footer>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import { teamMembers } from "../utils/mockdata";
+import { FaLinkedin } from "react-icons/fa";
+
 
 
 
@@ -17,14 +19,17 @@ const Team = () => {
               alt={member.name}
         style={{ borderRadius: "50%", width: "150px", height: "150px" }}
             />
-            <h3>{member.name}</h3>
-            <p>{member.role}</p>
+            <h3 className="font-bold">{member.name}</h3>
+            <p className="text-gray-200 font-[400]">{member.role}</p>
             <a
+            className="text-center"
               href={member.linkedin}
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
+                 <FaLinkedin className="rounded-b-xl hover:text-blue-800" size={28} />
+
+              
             </a>
           </div>
         ))}

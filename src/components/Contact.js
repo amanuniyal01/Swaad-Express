@@ -17,7 +17,7 @@ const Contact = () => {
       </p>
 
       {/* Grid Layout */}
-      <div className="grid md:grid-cols-2 gap-10 max-w-6xl w-full mt-25 md:mt-60">
+      <div className="grid md:grid-cols-2 gap-10 max-w-6xl w-full  md:mt-60">
         {/* Contact Form */}
         <form className="bg-white shadow-lg rounded-2xl p-6 space-y-4">
           <input

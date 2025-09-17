@@ -8,8 +8,8 @@ const Starter = () => {
   }
   return (
     <div className="starter text-center px-4 sm:px-6 md:px-12">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[61px] font-extrabold text-white mb-6 leading-tight">
-        “Swaad – Where Every Bite Tells a Story”
+      <h1 className="text-3xl sm:text-4xl md:text-3xl lg:text-[61px] font-extrabold text-white mb-6 leading-tight">
+        “Swaad – Where Every <span className="text-blue-700">Bite</span> Tells a Story”
       </h1>
       <p className="max-w-[800px] mx-auto text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-white font-light">
         From rich, traditional recipes to modern culinary delights, we serve

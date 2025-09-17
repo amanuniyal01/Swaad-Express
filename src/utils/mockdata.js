@@ -2448,37 +2448,45 @@ export const reviews = [
     {
         name: "Aarav Sharma",
         review:
-            "I had an amazing experience here! The food was not only delicious but also freshly prepared with great attention to detail. The staff was polite and the ambiance made it even better. Definitely coming back again!"
+            "I had an amazing experience here! The food was not only delicious but also freshly prepared with great attention to detail. The staff was polite and the ambiance made it even better. Definitely coming back again!",
+            rating: 5
+
     },
     {
         name: "Sneha Patel",
         review:
-            "The flavors were outstanding! Every dish felt like it was made with love. I really appreciated how the team took extra care to serve everything hot and fresh. Highly recommended to all food lovers!"
+            "The flavors were outstanding! Every dish felt like it was made with love. I really appreciated how the team took extra care to serve everything hot and fresh. Highly recommended to all food lovers!",
+            rating:3
     },
     {
         name: "Rahul Verma",
         review:
-            "What I liked the most was the balance between taste and quality. The service was quick and friendly, and I didn’t feel rushed at all. It’s rare to find such a perfect dining experience nowadays."
+            "What I liked the most was the balance between taste and quality. The service was quick and friendly, and I didn’t feel rushed at all. It’s rare to find such a perfect dining experience nowadays.",
+            rating:4
     },
     {
         name: "Priya Nair",
         review:
-            "Absolutely delightful! The presentation of the food was top-notch, and the portions were generous. I can honestly say this has been one of the best food experiences I’ve had in a long time."
+            "Absolutely delightful! The presentation of the food was top-notch, and the portions were generous. I can honestly say this has been one of the best food experiences I’ve had in a long time.",
+            rating:2
     },
     {
         name: "Karan Mehta",
         review:
-            "From the moment we entered, we felt welcomed. The staff was extremely courteous and ensured we had everything we needed. The dishes had authentic flavors that took me by surprise. A must-visit place!"
+            "From the moment we entered, we felt welcomed. The staff was extremely courteous and ensured we had everything we needed. The dishes had authentic flavors that took me by surprise. A must-visit place!",
+            rating:3
     },
     {
         name: "Riya Singh",
         review:
-            "I can’t stop recommending this place to my friends. The food was flavorful, healthy, and beautifully presented. The team has done a wonderful job creating such a positive experience for customers."
+            "I can’t stop recommending this place to my friends. The food was flavorful, healthy, and beautifully presented. The team has done a wonderful job creating such a positive experience for customers.",
+            rating:5
     },
     {
         name: "Vikram Joshi",
         review:
-            "Every bite was a burst of flavor! What stood out to me was not just the taste but the consistency. The quality remained top-class across all the dishes we tried. Truly satisfied with everything!"
+            "Every bite was a burst of flavor! What stood out to me was not just the taste but the consistency. The quality remained top-class across all the dishes we tried. Truly satisfied with everything!",
+            rating:2
     }
 ];
 

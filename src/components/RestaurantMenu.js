@@ -22,7 +22,7 @@ const RestaurantMenu = () => {
   };
 
   return (
-    <div className="menu   mx-auto mt-30   md:w-290 mb-18 flex flex-col px-4 py-6 shadow-[20px_55px_80px_rgba(0,0,0,0.3)] rounded-xl overflow-y-auto"
+    <div className="menu   mx-auto mt-30    md:w-290 mb-18 flex flex-col px-4 py-6 shadow-[20px_55px_80px_rgba(0,0,0,0.3)] rounded-xl overflow-y-auto"
       style={{
         backgroundImage: `linear-gradient(
                         to right,
