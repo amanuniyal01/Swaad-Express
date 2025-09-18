@@ -26,8 +26,8 @@ const About = () => {
 
 
         </div>
-        <div className="">
-          <p className="text-gray-500 text-lg bg-gradient-to-b from-orange-50 to-white  leading-relaxed">
+        <div className="overflow-y-hidden">
+          <p className="text-gray-500 text-lg bg-gradient-to-b from-orange-50 to-white  leading-6md:leading-relaxed">
             Swaad Express is a next-generation food delivery platform designed to bridge the gap between local food vendors and hungry customers.<br /><br />
             Our platform celebrates the vibrant diversity of street food, home kitchens, and small eateries by giving them a digital stage to showcase their dishes.<br /><br />
             Unlike conventional food delivery apps that mostly highlight big restaurants, Swaad Express focuses on empowering small business owners, local chefs, and family-run kitchens, making it easier for them to reach a wider audience.<br /><br />
@@ -41,10 +41,10 @@ const About = () => {
       </div>
 <Link to="/reviews">
   <div className="group relative flex flex-col items-center justify-center my-10 cursor-pointer">
-    {/* Animated Background */}
+   
     <div className="absolute inset-0  rounded-xl blur-md opacity-70 group-hover:opacity-90 transition-all duration-300"></div>
 
-    {/* Text Container */}
+  
     <div className="relative px-8 py-6 rounded-xl shadow-md group-hover:shadow-lg transition-all duration-300 text-center">
       <h3 className="text-2xl md:text-3xl font-bold text-gray-800 group-hover:text-orange-600">
         Want to know what customers say?
@@ -72,7 +72,7 @@ const About = () => {
           loading="lazy"
         ></iframe>
 
-        <div className="contact-info text-center md:text-left">
+        <div className="contact-info absolute text-center md:text-left">
           <h3 className="flex items-center justify-center md:justify-start gap-2 font-semibold text-lg">
             <MapPin className="text-red-500" />
             Visit Us
@@ -86,7 +86,7 @@ const About = () => {
 
           <p className="flex items-center justify-center md:justify-start gap-2">
             <Mail className="text-blue-600" />
-            contact@swaadexpress.com
+            amanuniyal315@gmail.com
           </p>
         </div>
       </div>

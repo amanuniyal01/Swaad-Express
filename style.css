@@ -248,20 +248,7 @@
 
 }
 
-.login-bg {
-  background-image: linear-gradient(to right,
-      rgba(0, 0, 0, 0.562),
-      
-      rgba(0, 0, 0, 0.347),
-     
-      rgba(18, 4, 4, 0.256)
-      
-    ),
-    url("https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 
 .member:hover {
   transform: translateY(-8px);

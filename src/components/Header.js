@@ -5,6 +5,7 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/usercontext";
 import { useSelector } from "react-redux";
 import { Menu, X } from "lucide-react";
+import { useTheme } from "../utils/ThemeContext";
 
 const Header = () => {
   const [btnName, setbtnName] = useState("Login");
@@ -14,8 +15,11 @@ const Header = () => {
   const { loggedInUser } = useContext(UserContext);
   const cartItems = useSelector((store) => store.cart.items);
 
+  // Get dark mode state and toggle function from ThemeProvider
+  const { isDarkMode, toggleTheme } = useTheme();
+
   return (
-    <header className="fixed top-0 left-0 w-full bg-white z-[1000] shadow-md px-6">
+    <header className="fixed top-0 left-0 w-full z-[1000] shadow-md px-6 bg-white dark:bg-gray-800 text-black dark:text-gray-100 transition-colors duration-300">
       <div className="flex items-center relative h-[60px]">
         {/* Left: Logo */}
         <div className="flex items-center">
@@ -28,7 +32,7 @@ const Header = () => {
             <li>
               <Link
                 to="/"
-                className="hover:text-blue-700 font-[500] text-gray-700 text-[20px] transition-all duration-300"
+                className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
               >
                 Home
               </Link>
@@ -36,7 +40,7 @@ const Header = () => {
             <li>
               <Link
                 to="/about"
-                className="hover:text-blue-700 font-[500] text-gray-700 text-[20px] transition-all duration-300"
+                className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
               >
                 About Us
               </Link>
@@ -44,23 +48,22 @@ const Header = () => {
             <li>
               <Link
                 to="/contact"
-                className="hover:text-blue-700 text-gray-700 text-[20px] font-[500] transition-all duration-300"
+                className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
               >
                 Contact
               </Link>
             </li>
             <Link
               to="/cart"
-              className="hover:text-blue-700 font-[500] text-gray-700 text-[20px] transition-all duration-300"
+              className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
             >
               🛒({cartItems.length})
             </Link>
           </ul>
         </nav>
 
-
-        <div className="ml-auto flex items-center space-x-4">
-
+        {/* Right Section */}
+        <div className="hidden md:ml-auto md:flex md:items-center md:space-x-4">
           <button
             onClick={() => {
               if (btnName === "Login") {
@@ -75,6 +78,15 @@ const Header = () => {
           >
             {btnName}
           </button>
+
+          {/* Dark mode toggle */}
+          <button
+            onClick={toggleTheme}
+            className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-md"
+          >
+            {isDarkMode ? " 🌞" : " 🌙"}
+          </button>
+
           <span className="font-[500]">{status ? "Online 🟢" : "Offline 🛑"}</span>
           <span className="font-[500]">{loggedInUser}</span>
         </div>
@@ -82,7 +94,7 @@ const Header = () => {
         {/* Hamburger button (mobile only) */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden ml-auto text-gray-800 focus:outline-none"
+          className="md:hidden ml-auto text-gray-800 dark:text-gray-100 focus:outline-none"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -90,21 +102,21 @@ const Header = () => {
 
       {/* Mobile nav toggle */}
       {isOpen && (
-        <nav className="md:hidden bg-gray-100 py-4 rounded-lg shadow-lg">
+        <nav className="md:hidden bg-gray-100 dark:bg-gray-800 py-4 rounded-lg shadow-lg transition-colors duration-300">
           <ul className="flex flex-col items-center space-y-4">
             <li>
-              <Link className="hover:text-blue-800" to="/" onClick={() => setIsOpen(false)}>
+              <Link className="hover:text-blue-800 dark:hover:text-blue-400" to="/" onClick={() => setIsOpen(false)}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
+              <Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-blue-800 dark:hover:text-blue-400">About Us</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+              <Link to="/contact" onClick={() => setIsOpen(false)} className="hover:text-blue-800 dark:hover:text-blue-400">Contact</Link>
             </li>
             <li>
-              <Link to="/cart" onClick={() => setIsOpen(false)}>
+              <Link to="/cart" onClick={() => setIsOpen(false)} className="hover:text-blue-800 dark:hover:text-blue-400">
                 🛒({cartItems.length})
               </Link>
             </li>
@@ -125,11 +137,18 @@ const Header = () => {
             </button>
             <li className="font-bold">{status ? "Online 🟢" : "Offline 🛑"}</li>
             <li className="font-bold">{loggedInUser}</li>
+
+            {/* Mobile Dark Mode Toggle */}
+            <button
+              onClick={toggleTheme}
+              className="px-4 py-2 mt-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-md"
+            >
+              {isDarkMode ? "Light Mode 🌞" : "Dark Mode 🌙"}
+            </button>
           </ul>
         </nav>
       )}
     </header>
-
   );
 };
 

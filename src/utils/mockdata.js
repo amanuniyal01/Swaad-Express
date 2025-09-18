@@ -1,4 +1,4 @@
-import amanImg from "../images/aman.jpg";
+// import amanImg from '../images/aman.jpg'
 const resList = [
     {
         "info": {
@@ -2427,19 +2427,19 @@ export const teamMembers = [
     {
         name: "Aman Uniyal",
         role: "Founder & Developer",
-        image: amanImg, 
+        image:"https://avatars.githubusercontent.com/u/186562118?v=4",
         linkedin: "https://www.linkedin.com/feed/",
     },
     {
         name: "John Doe",
         role: "Head Chef",
-        image: "https://via.placeholder.com/150",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPnE_fy9lLMRP5DLYLnGN0LRLzZOiEpMrU4g&s",
         linkedin: "https://linkedin.com/",
     },
     {
         name: "Jane Smith",
         role: "Marketing Manager",
-        image: "https://via.placeholder.com/150",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsuivklBvfV8KEIg3jFvarltnmzogZKzIA1WH_kD5sHLTGsncF_ov4euXGCeL7AX8dek&usqp=CAU",
         linkedin: "https://linkedin.com/",
     },
 ];
