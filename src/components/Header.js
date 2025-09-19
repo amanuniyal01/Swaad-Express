@@ -19,7 +19,10 @@ const Header = () => {
   const { isDarkMode, toggleTheme } = useTheme();
 
   return (
-    <header className="fixed top-0 left-0 w-full z-[1000] shadow-md px-6 bg-white dark:bg-gray-800 text-black dark:text-gray-100 transition-colors duration-300">
+    <header
+      className={`fixed top-0 left-0 w-full z-[1000] shadow-md px-6 transition-colors duration-300 
+        ${isDarkMode ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"}`}
+    >
       <div className="flex items-center relative h-[60px]">
         {/* Left: Logo */}
         <div className="flex items-center">
@@ -32,7 +35,8 @@ const Header = () => {
             <li>
               <Link
                 to="/"
-                className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
+                className={`font-[500] text-[20px] transition-all duration-300 
+                  ${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-700"}`}
               >
                 Home
               </Link>
@@ -40,7 +44,8 @@ const Header = () => {
             <li>
               <Link
                 to="/about"
-                className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
+                className={`font-[500] text-[20px] transition-all duration-300 
+                  ${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-700"}`}
               >
                 About Us
               </Link>
@@ -48,14 +53,16 @@ const Header = () => {
             <li>
               <Link
                 to="/contact"
-                className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
+                className={`font-[500] text-[20px] transition-all duration-300 
+                  ${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-700"}`}
               >
                 Contact
               </Link>
             </li>
             <Link
               to="/cart"
-              className="hover:text-blue-700 dark:hover:text-blue-400 font-[500] text-[20px] transition-all duration-300"
+              className={`font-[500] text-[20px] transition-all duration-300 
+                ${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-700"}`}
             >
               🛒({cartItems.length})
             </Link>
@@ -82,9 +89,10 @@ const Header = () => {
           {/* Dark mode toggle */}
           <button
             onClick={toggleTheme}
-            className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-md"
+            className={`px-4 py-2 rounded-md 
+              ${isDarkMode ? "bg-gray-700 text-white" : "bg-gray-200 text-black"}`}
           >
-            {isDarkMode ? " 🌞" : " 🌙"}
+            {isDarkMode ? "🌞" : "🌙"}
           </button>
 
           <span className="font-[500]">{status ? "Online 🟢" : "Offline 🛑"}</span>
@@ -94,7 +102,8 @@ const Header = () => {
         {/* Hamburger button (mobile only) */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden ml-auto text-gray-800 dark:text-gray-100 focus:outline-none"
+          className={`md:hidden ml-auto focus:outline-none 
+            ${isDarkMode ? "text-gray-100" : "text-gray-800"}`}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -102,21 +111,44 @@ const Header = () => {
 
       {/* Mobile nav toggle */}
       {isOpen && (
-        <nav className="md:hidden bg-gray-100 dark:bg-gray-800 py-4 rounded-lg shadow-lg transition-colors duration-300">
+        <nav
+          className={`md:hidden py-4 rounded-lg shadow-lg transition-colors duration-300 
+            ${isDarkMode ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-900"}`}
+        >
           <ul className="flex flex-col items-center space-y-4">
             <li>
-              <Link className="hover:text-blue-800 dark:hover:text-blue-400" to="/" onClick={() => setIsOpen(false)}>
+              <Link
+                className={`${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-800"}`}
+                to="/"
+                onClick={() => setIsOpen(false)}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-blue-800 dark:hover:text-blue-400">About Us</Link>
+              <Link
+                to="/about"
+                onClick={() => setIsOpen(false)}
+                className={`${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-800"}`}
+              >
+                About Us
+              </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={() => setIsOpen(false)} className="hover:text-blue-800 dark:hover:text-blue-400">Contact</Link>
+              <Link
+                to="/contact"
+                onClick={() => setIsOpen(false)}
+                className={`${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-800"}`}
+              >
+                Contact
+              </Link>
             </li>
             <li>
-              <Link to="/cart" onClick={() => setIsOpen(false)} className="hover:text-blue-800 dark:hover:text-blue-400">
+              <Link
+                to="/cart"
+                onClick={() => setIsOpen(false)}
+                className={`${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-800"}`}
+              >
                 🛒({cartItems.length})
               </Link>
             </li>
@@ -141,7 +173,8 @@ const Header = () => {
             {/* Mobile Dark Mode Toggle */}
             <button
               onClick={toggleTheme}
-              className="px-4 py-2 mt-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-md"
+              className={`px-4 py-2 mt-2 rounded-md 
+                ${isDarkMode ? "bg-gray-700 text-white" : "bg-gray-200 text-black"}`}
             >
               {isDarkMode ? "Light Mode 🌞" : "Dark Mode 🌙"}
             </button>
