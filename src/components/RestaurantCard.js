@@ -25,7 +25,7 @@ const RestaurantCard = ({ resData }) => {
     >
       <img
         className="res-logo h-[180px] w-full object-cover"
-        src={CDN_URL + cloudinaryImageId}
+        src={cloudinaryImageId}
         alt={name}
       />
       <div className="res-details p-[15px]">
@@ -36,29 +36,29 @@ const RestaurantCard = ({ resData }) => {
           {name}
         </h3>
         <p
-          className={`res-cuisines text-sm line-clamp-1 mb-[10px] 
+          className={`res-cuisines  text-sm line-clamp-1 mb-[10px] 
             ${isDarkMode ? "text-gray-400" : "text-gray-600"}`}
         >
           {cuisines.join(", ")}
         </p>
-        <div className="res-info flex items-center justify-between">
+        <div className="res-info  flex items-center justify-between">
           <span
-            className={`res-rating font-semibold ${
-              avgRating >= 4
-                ? isDarkMode
-                  ? "text-green-400"
-                  : "text-green-700"
-                : avgRating >= 3
-                ? isDarkMode
-                  ? "text-yellow-400"
-                  : "text-yellow-600"
-                : isDarkMode
-                ? "text-red-400"
-                : "text-red-600"
-            }`}
-          >
-            ⭐ {avgRating}
-          </span>
+  className={`res-rating font-semibold px-2 py-1 rounded ${
+    avgRating >= 4
+      ? isDarkMode
+        ? "bg-green-400 text-gray-900" // dark mode stays same
+        : "bg-green-400 text-green-700" // light mode: light green bg, green text
+      : avgRating >= 3
+      ? isDarkMode
+        ? "bg-yellow-400 text-gray-900"
+        : "bg-yellow-400 text-yellow-600"
+      : isDarkMode
+      ? "bg-red-400 text-gray-900"
+      : "bg-red-400 text-red-600"
+  }`}
+>
+  ⭐ {avgRating}
+</span>
           <span className="res-cost">{costForTwo}</span>
         </div>
       </div>

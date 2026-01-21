@@ -16,7 +16,7 @@ export const ThemeProvider = ({ children }) => {
     });
   };
 
-  // Optional: apply dark class to html element (works with Tailwind)
+
   useEffect(() => {
     if (isDarkMode) document.documentElement.classList.add("dark");
     else document.documentElement.classList.remove("dark");

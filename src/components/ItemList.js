@@ -11,7 +11,7 @@ const ItemList = ({ items, isCartPage = false }) => {
   const handleRemoveItem = (item) => {
     dispatch(removeItem(item.id));
   };
-
+  
   return (
     <div className="max-w-3xl mx-auto">
       {items.map((item, index) => (

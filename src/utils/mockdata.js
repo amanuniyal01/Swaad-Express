@@ -3,78 +3,63 @@ const resList = [
     {
         "info": {
             "id": "655882",
-            "name": "Chinese Wok",
-            "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+            "name": "Punjabi Zaika Dhaba",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Ru7EyATfCZp0PWhKMp01EOOehGurBU7aTnQsMTbzdPSPJe5Y_RmHin2vjKracW3m0xM&usqp=CAU",
             "locality": "Kirti Nagar",
             "areaName": "Kirti Nagar Metro",
-            "costForTwo": "₹250 for two",
+            "costForTwo": "₹150 for two",
             "cuisines": [
-                "Chinese",
-                "Asian",
-                "Tibetan",
-                "Desserts"
+                "North Indian",
+                "Punjabi",
+                "Paratha",
+                "Thali",
+                "Chai"
             ],
-            "avgRating": 4.1,
-            "promoted": true,
-            "parentId": "61955",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "1.7K+",
+            "avgRating": 4.3,
+            "promoted": false,
+            "parentId": "112233",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "950+",
             "sla": {
-                "deliveryTime": 38,
-                "lastMileTravel": 3,
+                "deliveryTime": 28,
+                "lastMileTravel": 2,
                 "serviceability": "SERVICEABLE",
-                "slaString": "35-40 mins",
-                "lastMileTravelString": "3.0 km",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.0 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
                 "nextCloseTime": "2025-08-02 23:00:00",
                 "opened": true
             },
-            "badges": {
-
-            },
+            "badges": {},
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {
-
-                    },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "ITEMS",
-                "subHeader": "AT ₹129"
+                "header": "FLAT ₹20 OFF",
+                "subHeader": "ON PARATHA MEALS"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
-                    "rating": "2.9",
-                    "ratingCount": "57"
+                    "rating": "4.0",
+                    "ratingCount": "210"
                 },
                 "source": "GOOGLE",
                 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -85,36 +70,39 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/chinese-wok-kirti-nagar-kirti-nagar-metro-rest655882",
+            "link": "https://www.swiggy.com/city/delhi/punjabi-zaika-dhaba-kirti-nagar-rest655882",
             "type": "WEBLINK"
         }
     },
+
     {
         "info": {
             "id": "435678",
-            "name": "Pizza Hut",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/3b4d7108-fdb7-41c5-8280-c734a4e801bc_435678.JPG",
-            "locality": "Western Extension Area",
-            "areaName": "Karol Bagh",
-            "costForTwo": "₹350 for two",
+            "name": "Mughlai Zaika",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fOytNxRtAqhN8H8REEFoeFl9UWkiKnh-Rw&s",
+            "locality": "Connaught Place",
+            "areaName": "New Delhi",
+            "costForTwo": "₹600 for two",
             "cuisines": [
-                "Pizzas"
+                "North Indian",
+                "Mughlai",
+                "Biryani"
             ],
-            "avgRating": 2.2,
+            "avgRating": 4.5,
             "parentId": "721",
-            "avgRatingString": "4.2",
+            "avgRatingString": "4.5",
             "promoted": false,
-            "totalRatingsString": "6.5K+",
+            "totalRatingsString": "2.5K+",
             "sla": {
-                "deliveryTime": 40,
-                "lastMileTravel": 3.9,
+                "deliveryTime": 50,
+                "lastMileTravel": 4.2,
                 "serviceability": "SERVICEABLE",
-                "slaString": "40-45 mins",
-                "lastMileTravelString": "3.9 km",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "4.2 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2025-08-03 04:00:00",
+                "nextCloseTime": "2025-12-31 23:59:00",
                 "opened": true
             },
             "badges": {
@@ -136,8 +124,8 @@ const resList = [
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "₹171 OFF",
-                "subHeader": "ABOVE ₹1199",
+                "header": "₹150 OFF",
+                "subHeader": "ABOVE ₹999",
                 "discountTag": "FLAT DEAL"
             },
             "differentiatedUi": {
@@ -160,7 +148,7 @@ const resList = [
             },
             "externalRatings": {
                 "aggregatedRating": {
-                    "rating": "--"
+                    "rating": "4.5"
                 }
             },
             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
@@ -169,37 +157,40 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/pizza-hut-western-extension-area-karol-bagh-rest435678",
+            "link": "https://www.swiggy.com/city/delhi/mughlai-zaika-connaught-place-new-delhi-rest435678",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "129211",
-            "name": "Burger King",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/1f217cc6-a5a9-458a-a145-0556864405f5_129211.jpg",
+            "name": "Indian Accent",
+            "cloudinaryImageId": "https://media.licdn.com/dms/image/v2/C4D0BAQGXNOFmXFd8Kw/company-logo_200_200/company-logo_200_200/0/1653773529109?e=2147483647&v=beta&t=CmR1-dzHofHrgbUOra4_Uy-qHiVVxX1C9ynL-dSx4SY",
             "locality": "Patel Rd",
             "areaName": "Shadipur",
-            "costForTwo": "₹350 for two",
+            "costForTwo": "₹400 for two",
             "cuisines": [
-                "Burgers",
-                "American"
+                "Modern Indian",
+                "North Indian",
+                "Indian Fusion",
+                "Contemporary Mughlai"
             ],
-            "avgRating": 4.3,
+            "avgRating": 2.4,
             "promoted": false,
             "parentId": "166",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "23K+",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "18K+",
             "sla": {
-                "deliveryTime": 16,
+                "deliveryTime": 20,
                 "lastMileTravel": 1.4,
                 "serviceability": "SERVICEABLE",
-                "slaString": "15-20 mins",
+                "slaString": "20-25 mins",
                 "lastMileTravelString": "1.4 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2025-08-03 02:00:00",
+                "nextCloseTime": "2025-12-31 23:59:00",
                 "opened": true
             },
             "badges": {
@@ -244,7 +235,7 @@ const resList = [
             },
             "externalRatings": {
                 "aggregatedRating": {
-                    "rating": "--"
+                    "rating": "4.4"
                 }
             },
             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
@@ -253,37 +244,39 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/burger-king-patel-rd-shadipur-rest129211",
+            "link": "https://www.swiggy.com/city/delhi/indian-accent-patel-rd-shadipur-rest129211",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "51710",
-            "name": "Theobroma",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/23/24610218-2848-496c-b32d-759e9ef1366e_51710.JPG",
+            "name": "Desi Zaika Sweets",
+            "cloudinaryImageId": "https://yt3.googleusercontent.com/aO8nvZ7kpyRc6NVQogyTXFSN8XFyloZgR8xJiWIZAVTqlAWCSUqdkjKp2W44exJ4L1sXLB0Dcg=s900-c-k-c0x00ffffff-no-rj",
             "locality": "Karol Bagh",
             "areaName": "East Patel Nagar",
             "costForTwo": "₹400 for two",
             "cuisines": [
-                "Bakery",
-                "Desserts"
+                "Indian Sweets",
+                "Desserts",
+                "Snacks"
             ],
-            "avgRating": 2.5,
+            "avgRating": 4.5,
             "promoted": true,
             "parentId": "1040",
             "avgRatingString": "4.5",
             "totalRatingsString": "7.5K+",
             "sla": {
-                "deliveryTime": 11,
+                "deliveryTime": 15,
                 "lastMileTravel": 1.1,
                 "serviceability": "SERVICEABLE",
-                "slaString": "10-15 mins",
+                "slaString": "15-20 mins",
                 "lastMileTravelString": "1.1 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2025-08-03 00:00:00",
+                "nextCloseTime": "2025-12-31 23:59:00",
                 "opened": true
             },
             "badges": {
@@ -318,12 +311,8 @@ const resList = [
                             }
                         ]
                     },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -333,52 +322,30 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
-            },
-            "reviewsSummary": {
-
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
-            "externalRatings": {
-                "aggregatedRating": {
-                    "rating": "--"
-                }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        "analytics": {
-            "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/city/delhi/theobroma-karol-bagh-east-patel-nagar-rest51710",
-            "type": "WEBLINK"
+            }
         }
-    },
+    }
+    ,
+
     {
         "info": {
             "id": "443498",
-            "name": "EatFit",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/6/690260ec-df73-49ad-8cee-af9de21243ae_443498.jpg",
+            "name": "Tandoori Tales",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZoIOspIJhPj8H7m179SoCa88yHMkOmNuD2cMoxtExQljIhS42_9eDl0-pTzfUfNamZUw&usqp=CAU",
             "locality": "Payara Lal Road",
             "areaName": "Karol Bagh",
             "costForTwo": "₹270 for two",
             "cuisines": [
-                "Chinese",
-                "Healthy Food",
-                "Tandoor",
-                "Pizzas",
                 "North Indian",
+                "Tandoor",
+                "Biryani",
+                "Indian Street Food",
                 "Thalis",
-                "Biryani"
+                "Punjabi",
+                "Mughlai"
             ],
             "avgRating": 4.4,
             "promoted": false,
@@ -397,22 +364,14 @@ const resList = [
                 "nextCloseTime": "2025-08-03 01:00:00",
                 "opened": true
             },
-            "badges": {
-
-            },
+            "badges": {},
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {
-
-                    },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -422,21 +381,13 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "--"
@@ -448,22 +399,23 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/eatfit-payara-lal-road-karol-bagh-rest443498",
+            "link": "https://www.swiggy.com/city/delhi/tandoori-tales-payara-lal-road-karol-bagh-rest443498",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "655883",
-            "name": "Big Bowl",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/30548ac4-2e57-4c1d-ba73-8372f74a1ad2_655883.JPG",
+            "name": "Masala Monarch",
+            "cloudinaryImageId": "https://img.freepik.com/premium-vector/food-logo-design-concept-restaurant-logo-design_9850-5111.jpg",
             "locality": "PATEL NAGAR",
             "areaName": "Kirti Nagar Metro",
             "costForTwo": "₹250 for two",
             "cuisines": [
-                "Chinese",
-                "Tibetan",
-                "Desserts"
+                "North Indian",
+                "Punjabi",
+                "Tandoori"
             ],
             "avgRating": 4.2,
             "parentId": "434792",
@@ -540,15 +492,17 @@ const resList = [
     {
         "info": {
             "id": "68582",
-            "name": "Baskin Robbins - Ice Cream Desserts",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/fbb90c14-65be-4cd8-a52e-95b47acdeeca_68582.JPG",
+            "name": "Tiwari Chai",
+            "cloudinaryImageId": "https://b.zmtcdn.com/data/pictures/0/19493940/114f6b0cac37ec7602de1a0ff7ed282b_o2_featured_v2.jpg",
             "locality": "Shankar Road",
             "areaName": "Rajinder Nagar",
-            "costForTwo": "₹500 for two",
+            "costForTwo": "₹300 for two",
             "cuisines": [
-                "Ice Cream"
+                "Indian Desserts",
+                "Kulfi & Ice Cream",
+                "Street Snacks"
             ],
-            "avgRating": 3.6,
+            "avgRating": 4.6,
             "promoted": false,
             "veg": true,
             "parentId": "5588",
@@ -636,15 +590,17 @@ const resList = [
     {
         "info": {
             "id": "253722",
-            "name": "McDonald's",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/580fb9c3-804c-402f-9370-c826963951b6_253722.JPG",
+            "name": "Maharaja Masala",
+            "cloudinaryImageId": "https://files.yappe.in/place/full/maharaja-restaurant-10680969.webp",
             "locality": "Rajendra Place",
             "areaName": "Rajendra Place",
             "costForTwo": "₹400 for two",
             "cuisines": [
-                "American"
+                "Mughlai",
+                "North Indian",
+                "Kebabs"
             ],
-            "avgRating": 4.4,
+            "avgRating": 3.4,
             "promoted": true,
             "parentId": "630",
             "avgRatingString": "4.4",
@@ -705,9 +661,7 @@ const resList = [
                 "aggregatedRating": {
                     "rating": "4.0",
                     "ratingCount": "3.3K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                }
             },
             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
@@ -718,20 +672,21 @@ const resList = [
             "link": "https://www.swiggy.com/city/delhi/mcdonalds-rajendra-place-rest253722",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "24194",
-            "name": "Domino's Pizza",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/14/62c56c30-0971-4e27-b4b8-50e340086915_24194.JPG",
+            "name": "Bikaner Sweets & Snacks",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlj-I8vWTE7FHTML1gt2jWvl8cij_Dj1hw-w&s",
             "locality": "Karol Bagh",
             "areaName": "East Patel Nagar",
             "costForTwo": "₹400 for two",
             "cuisines": [
-                "Pizzas",
-                "Italian",
-                "Pastas",
-                "Desserts"
+                "Indian",
+                "North Indian",
+                "Sweets",
+                "Snacks"
             ],
             "avgRating": 4.5,
             "promoted": false,
@@ -804,19 +759,21 @@ const resList = [
             "link": "https://www.swiggy.com/city/delhi/dominos-pizza-karol-bagh-east-patel-nagar-rest24194",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "26724",
-            "name": "KFC",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/a316eccb-a276-467e-beef-13622bcc4f0d_26724.JPG",
+            "name": "Spice Route Restaurant",
+            "cloudinaryImageId": "https://b.zmtcdn.com/data/pictures/5/2725/eb836deb2778468b1ebd3024a7d377c6.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
             "locality": "West Patel Nagar",
             "areaName": "West Patel Nagar",
             "costForTwo": "₹400 for two",
             "cuisines": [
-                "Burgers",
-                "Rolls & Wraps",
-                "Fast Food"
+                "North Indian",
+                "South Indian",
+                "Street Food",
+                "Beverages"
             ],
             "avgRating": 4.3,
             "promoted": false,
@@ -836,57 +793,31 @@ const resList = [
                 "opened": true
             },
             "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "Rxawards/_CATEGORY-Burger.png",
-                        "description": "Delivery!"
-                    }
-                ]
+                "imageBadges": []
             },
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "ITEMS",
-                "subHeader": "AT ₹77"
+                "header": "SPECIAL",
+                "subHeader": "DEALS AVAILABLE"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "4.2",
@@ -901,25 +832,26 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/kfc-west-patel-nagar-rest26724",
+            "link": "https://www.swiggy.com/city/delhi/spice-route-restaurant-west-patel-nagar-rest26724",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "20055",
-            "name": "Subway",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/c5268ee3-b2e8-4445-889f-de2220978113_20055.jpg",
+            "name": "Desi Darbaar",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Km8hxm2kcYA5o0jwFDu6rFxfEQiiOtW1AA&s",
             "locality": "Karol Bagh",
             "areaName": "Patel Nagar, Connaught Place",
             "costForTwo": "₹350 for two",
             "cuisines": [
-                "sandwich",
-                "Salads",
-                "wrap",
-                "Healthy Food"
+                "North Indian",
+                "Biryani",
+                "Kebabs",
+                "Thalis"
             ],
-            "avgRating": 3.4,
+            "avgRating": 2.4,
             "promoted": true,
             "parentId": "2",
             "avgRatingString": "4.4",
@@ -987,20 +919,24 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/subway-karol-bagh-patel-nagar-connaught-place-rest20055",
+            "link": "https://www.swiggy.com/city/delhi/desi-darbaar-karol-bagh-patel-nagar-connaught-place-rest20055",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "458477",
-            "name": "Salad Days",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/29/47c48640-25d0-4efc-820e-3d74ffce1b86_458477.jpg",
+            "name": "Royal Thali House",
+            "cloudinaryImageId": "https://b.zmtcdn.com/data/pictures/6/21310736/67e168c28fd73179fe600367ed8a6c5b.jpg?fit=around|960:500&crop=960:500;*,*",
             "locality": "Rajouri Garden",
             "areaName": "Rajouri Garden",
             "costForTwo": "₹500 for two",
             "cuisines": [
-                "Salads"
+                "Indian",
+                "Thali",
+                "North Indian",
+                "Gujarati"
             ],
             "avgRating": 4.5,
             "promoted": false,
@@ -1032,9 +968,7 @@ const resList = [
                 ]
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
-
-            },
+            "aggregatedDiscountInfoV2": {},
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
@@ -1054,32 +988,20 @@ const resList = [
                             }
                         ]
                     },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "4.4",
@@ -1094,22 +1016,23 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/salad-days-rajouri-garden-rest458477",
+            "link": "https://www.swiggy.com/city/delhi/royal-thali-house-rajouri-garden-rest458477",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "763929",
-            "name": "Blue Tokai Coffee Roasters",
-            "cloudinaryImageId": "1a0521375f07155eda2f1ed263206831",
+            "name": "Rangrez Kitchen",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_QUinbv3DheQMh0GGKW6P9ibuHCb35_XsKhnbnGnzZ1dAJgTBZ1v1EbSxFT5R98k_l0&usqp=CAU",
             "locality": "Rajouri Garden",
             "areaName": "Rajouri Garden",
             "costForTwo": "₹600 for two",
             "cuisines": [
-                "Cafe",
-                "Coffee",
-                "Beverages"
+                "North Indian Curries",
+                "Sweets",
+                "Non"
             ],
             "avgRating": 4.5,
             "promoted": true,
@@ -1200,21 +1123,23 @@ const resList = [
     {
         "info": {
             "id": "422811",
-            "name": "Dashi - Dimsum & Sushi Bar",
-            "cloudinaryImageId": "r2gipozznjw0ghzxf7xd",
+            "name": "Haveli Feast",
+            "cloudinaryImageId": "https://havelidharampura.com/assets/images/dining-experience-gallery-3.webp",
             "locality": "Rajinder Nagar",
             "areaName": "Rajinder Nagar",
-            "costForTwo": "₹1000 for two",
+            "costForTwo": "₹800 for two",
             "cuisines": [
-                "Japanese"
+                "North Indian",
+                "Mughlai",
+                "Thali"
             ],
-            "avgRating": 2.9,
+            "avgRating": 4.2,
             "promoted": false,
             "parentId": "262021",
-            "avgRatingString": "4.5",
+            "avgRatingString": "4.2",
             "totalRatingsString": "1.2K+",
             "sla": {
-                "deliveryTime": 26,
+                "deliveryTime": 28,
                 "lastMileTravel": 2.5,
                 "serviceability": "SERVICEABLE",
                 "slaString": "25-30 mins",
@@ -1247,12 +1172,8 @@ const resList = [
                             }
                         ]
                     },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -1262,25 +1183,17 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
-                    "rating": "3.2",
-                    "ratingCount": "23"
+                    "rating": "4.1",
+                    "ratingCount": "300"
                 },
                 "source": "GOOGLE",
                 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -1291,23 +1204,24 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/dashi-dimsum-and-sushi-bar-rajinder-nagar-rest422811",
+            "link": "https://www.swiggy.com/city/delhi/haveli-feast-rajinder-nagar-rest422811",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "492326",
-            "name": "Saladspoint",
-            "cloudinaryImageId": "6116a2736e177c4a872d11a9d077584a",
+            "name": "Swad Lifestyle",
+            "cloudinaryImageId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/46/f3/57/getlstd-property-photo.jpg?w=900&h=-1&s=1",
             "locality": "West Patel Nagar",
             "areaName": "West Patel Nagar",
             "costForTwo": "₹600 for two",
             "cuisines": [
-                "Salads",
-                "Healthy food",
-                "Juices",
-                "Beverages"
+                "Indian",
+                "Healthy Food",
+                "Beverages",
+                "Juices"
             ],
             "avgRating": 4.5,
             "promoted": false,
@@ -1348,12 +1262,8 @@ const resList = [
                             }
                         ]
                     },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -1363,21 +1273,13 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "3.0",
@@ -1392,15 +1294,16 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/saladspoint-west-patel-nagar-rest492326",
+            "link": "https://www.swiggy.com/city/delhi/swad-lifestyle-west-patel-nagar-rest492326",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "492325",
-            "name": "Caterspoint",
-            "cloudinaryImageId": "aq9ujdegkrwzbtlhfurg",
+            "name": "The UrbanRasoi",
+            "cloudinaryImageId": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/5/19/3f8fea54-64b5-4d4c-ae80-835aebb527ce_image30efe017cce114f80bdc755e07dbb34e2.JPG",
             "locality": "West Patel Nagar",
             "areaName": "West Patel Nagar",
             "costForTwo": "₹400 for two",
@@ -1408,7 +1311,7 @@ const resList = [
                 "Salads",
                 "Healthy food",
                 "Snacks",
-                "pastas",
+                "Pastas",
                 "Lebanese",
                 "Mexican",
                 "Desserts",
@@ -1453,12 +1356,8 @@ const resList = [
                             }
                         ]
                     },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -1468,21 +1367,103 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "3.9",
+                    "ratingCount": "31"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
             },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/delhi/urban-food-west-patel-nagar-rest492325",
+            "type": "WEBLINK"
+        }
+    }
+    ,
+    {
+        "info": {
+            "id": "51753",
+            "name": "Flavour Mahal",
+            "cloudinaryImageId": "https://b.zmtcdn.com/data/pictures/6/20496466/d0e64657411a5e9ffd80677a4a4787e6_o2_featured_v2.jpg",
+            "locality": "West Patel Nagar",
+            "areaName": "West Patel Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "North Indian",
+                "Urban Specials",
+                "Superfood Bowls",
+                "Beverages"
+            ],
+            "avgRating": 4.3,
+            "promoted": false,
+            "parentId": "11011",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "2.6K+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "0.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-08-03 05:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹55"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "3.9",
@@ -1500,122 +1481,20 @@ const resList = [
             "link": "https://www.swiggy.com/city/delhi/caterspoint-west-patel-nagar-rest492325",
             "type": "WEBLINK"
         }
-    },
-    {
-        "info": {
-            "id": "51753",
-            "name": "Everbake",
-            "cloudinaryImageId": "ggotmnuexemu73hx0c37",
-            "locality": "Vashisht Kumar Gulla Marg",
-            "areaName": "Punjabi Bagh",
-            "costForTwo": "₹500 for two",
-            "cuisines": [
-                "North Indian",
-                "Snacks",
-                "Desserts",
-                "Chinese"
-            ],
-            "avgRating": 3.4,
-            "promoted": true,
-            "veg": true,
-            "parentId": "4772",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "43K+",
-            "sla": {
-                "deliveryTime": 31,
-                "lastMileTravel": 4.5,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "4.5 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2025-08-02 23:15:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-
-                    },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "ITEMS",
-                "subHeader": "AT ₹129"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
-                }
-            },
-            "reviewsSummary": {
-
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
-            "externalRatings": {
-                "aggregatedRating": {
-                    "rating": "--"
-                }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        },
-        "analytics": {
-            "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/city/delhi/everbake-vashisht-kumar-gulla-marg-punjabi-bagh-rest51753",
-            "type": "WEBLINK"
-        }
-    },
+    }
+    ,
     {
         "info": {
             "id": "523200",
-            "name": "La Pino'z Pizza",
-            "cloudinaryImageId": "js7g8baosslodwoq7nk5",
+            "name": "Nukkad Rasoi",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYrwE_Z5TUebwuVpGLNU1c8J-d77dKAyYo5qpUHkIPMeMqaXYzn81GWr-XltcCreWw94&usqp=CAU",
             "locality": "West Patel Nagar",
             "areaName": "West Patel Nagar",
             "costForTwo": "₹350 for two",
             "cuisines": [
-                "Pizzas",
-                "Pastas",
-                "Italian",
-                "Desserts",
+                "North Indian",
+                "Street Food",
+                "Snacks",
                 "Beverages"
             ],
             "avgRating": 4,
@@ -1635,22 +1514,14 @@ const resList = [
                 "nextCloseTime": "2025-08-03 08:45:00",
                 "opened": true
             },
-            "badges": {
-
-            },
+            "badges": {},
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {
-
-                    },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -1660,21 +1531,13 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "3.8",
@@ -1689,23 +1552,24 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/la-pinoz-pizza-west-patel-nagar-rest523200",
+            "link": "https://www.swiggy.com/city/delhi/nukkad-rasoi-west-patel-nagar-rest523200",
             "type": "WEBLINK"
         }
-    },
+    }
+    ,
     {
         "info": {
             "id": "336330",
-            "name": "House of Chow",
-            "cloudinaryImageId": "6e97ac8f5c89213610309ef1940afa05",
+            "name": "Dilli Handi House",
+            "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5dQdi3dxWRotKovR5lOa2_VGfC896xSBFog&s",
             "locality": "East Patel Nagar",
             "areaName": "Karol Bagh",
             "costForTwo": "₹300 for two",
             "cuisines": [
-                "Pan-Asian",
-                "Chinese",
-                "Thai",
-                "Oriental"
+                "North Indian",
+                "Mughlai",
+                "Tandoori",
+                "Indian Street Food"
             ],
             "avgRating": 4.2,
             "promoted": true,
@@ -1724,22 +1588,14 @@ const resList = [
                 "nextCloseTime": "2025-08-03 04:00:00",
                 "opened": true
             },
-            "badges": {
-
-            },
+            "badges": {},
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {
-
-                    },
-                    "textBased": {
-
-                    },
-                    "textExtendedBadges": {
-
-                    }
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
@@ -1749,21 +1605,13 @@ const resList = [
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
-                    "lottie": {
-
-                    },
-                    "video": {
-
-                    }
+                    "lottie": {},
+                    "video": {}
                 }
             },
-            "reviewsSummary": {
-
-            },
+            "reviewsSummary": {},
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-
-            },
+            "restaurantOfferPresentationInfo": {},
             "externalRatings": {
                 "aggregatedRating": {
                     "rating": "--"
@@ -1775,659 +1623,758 @@ const resList = [
             "context": "seo-data-7ba8edd7-2fac-4b21-b65a-ff7d733fda76"
         },
         "cta": {
-            "link": "https://www.swiggy.com/city/delhi/house-of-chow-east-patel-nagar-karol-bagh-rest336330",
+            "link": "https://www.swiggy.com/city/delhi/dilli-handi-house-east-patel-nagar-karol-bagh-rest336330",
             "type": "WEBLINK"
         }
     }
 
 
+
 ]
 export const mockMenuData = {
     "655882": {
-        restaurantName: "Chinese Wok",
-        categories: [
+        "restaurantName": "Punjabi Zaika Dhaba",
+        "categories": [
             {
-                title: "Recommended",
-                itemCards: [
-                    { id: "cw_1", name: "Veg Hakka Noodles", description: "Stir-fried noodles with fresh vegetables", price: 17900, imageId: "veg_hakka_noodles.jpg" },
-                    { id: "cw_2", name: "Chicken Manchurian", description: "Crispy chicken balls in spicy sauce", price: 22900, imageId: "chicken_manchurian.jpg" },
-                    { id: "cw_3", name: "Chilli Paneer", description: "Paneer cubes in tangy chilli sauce", price: 19900, imageId: "chilli_paneer.jpg" },
-                    { id: "cw_4", name: "Schezwan Fried Rice", description: "Spicy rice tossed with vegetables", price: 18900, imageId: "schezwan_fried_rice.jpg" },
-                    { id: "cw_5", name: "Spring Rolls", description: "Crispy rolls stuffed with veggies", price: 14900, imageId: "spring_rolls.jpg" }
+                "title": "Recommended",
+                "itemCards": [
+                    { "id": "cw_1", "name": "Paneer Butter Masala", "description": "Cottage cheese cubes in creamy tomato gravy", "price": 17900, "imageId": "veg_hakka_noodles.jpg" },
+                    { "id": "cw_2", "name": "Amritsari Fish", "description": "Crispy fried fish with Punjabi spices", "price": 22900, "imageId": "chicken_manchurian.jpg" },
+                    { "id": "cw_3", "name": "Chilli Paneer", "description": "Paneer cubes in tangy chilli sauce", "price": 19900, "imageId": "chilli_paneer.jpg" },
+                    { "id": "cw_4", "name": "Dal Makhani", "description": "Slow-cooked black lentils in creamy gravy", "price": 18900, "imageId": "schezwan_fried_rice.jpg" },
+                    { "id": "cw_5", "name": "Tandoori Roti", "description": "Freshly baked Indian flatbread", "price": 14900, "imageId": "spring_rolls.jpg" }
                 ]
             },
             {
-                title: "Soups",
-                itemCards: [
-                    { id: "cw_6", name: "Hot & Sour Soup", description: "Spicy tangy soup with veggies", price: 9900, imageId: "hot_sour_soup.jpg" },
-                    { id: "cw_7", name: "Sweet Corn Soup", description: "Sweet corn kernels in creamy soup", price: 9900, imageId: "sweet_corn_soup.jpg" },
-                    { id: "cw_8", name: "Tom Yum Soup", description: "Thai-style spicy clear soup", price: 12900, imageId: "tom_yum_soup.jpg" }
+                "title": "Soups",
+                "itemCards": [
+                    { "id": "cw_6", "name": "Punjabi Kadhi", "description": "Gram flour dumplings in spiced yogurt gravy", "price": 9900, "imageId": "hot_sour_soup.jpg" },
+                    { "id": "cw_7", "name": "Sarson Da Saag Soup", "description": "Pureed mustard greens with mild spices", "price": 9900, "imageId": "sweet_corn_soup.jpg" },
+                    { "id": "cw_8", "name": "Mushroom Methi Soup", "description": "Mushroom soup flavored with fenugreek leaves", "price": 12900, "imageId": "tom_yum_soup.jpg" }
                 ]
             },
             {
-                title: "Rice & Noodles",
-                itemCards: [
-                    { id: "cw_9", name: "Egg Fried Rice", description: "Fried rice with scrambled eggs", price: 16900, imageId: "egg_fried_rice.jpg" },
-                    { id: "cw_10", name: "Veg Chowmein", description: "Chinese-style stir-fried noodles", price: 17900, imageId: "veg_chowmein.jpg" },
-                    { id: "cw_11", name: "Chicken Chowmein", description: "Noodles tossed with chicken & sauces", price: 20900, imageId: "chicken_chowmein.jpg" },
-                    { id: "cw_12", name: "Garlic Noodles", description: "Noodles tossed with garlic & veggies", price: 18900, imageId: "garlic_noodles.jpg" }
+                "title": "Punjabi Rice & Biryani",
+                "itemCards": [
+                    { "id": "cw_9", "name": "Punjabi Chawal", "description": "Steamed basmati rice served with ghee", "price": 16900, "imageId": "egg_fried_rice.jpg" },
+                    { "id": "cw_10", "name": "Jeera Pulao", "description": "Fragrant rice with cumin seeds and aromatic spices", "price": 17900, "imageId": "veg_chowmein.jpg" },
+                    { "id": "cw_11", "name": "Chicken Biryani", "description": "Spiced chicken cooked with basmati rice", "price": 20900, "imageId": "chicken_chowmein.jpg" },
+                    { "id": "cw_12", "name": "Paneer Pulao", "description": "Basmati rice cooked with cubes of paneer and mild spices", "price": 18900, "imageId": "garlic_noodles.jpg" }
                 ]
             }
         ]
-    },
+    }
+    ,
     "435678": {
-        restaurantName: "Pizza Hut",
-        categories: [
+        "restaurantName": "Mughlai Zaika",
+        "categories": [
             {
-                title: "Recommended",
-                itemCards: [
-                    { id: "ph_1", name: "Farmhouse Pizza", description: "Loaded with veggies and cheese", price: 29900, imageId: "farmhouse_pizza.jpg" },
-                    { id: "ph_2", name: "Chicken Supreme", description: "Grilled chicken & veggies", price: 34900, imageId: "chicken_supreme.jpg" },
-                    { id: "ph_3", name: "Veggie Lover's", description: "Cheese pizza with mixed vegetables", price: 27900, imageId: "veggie_lovers.jpg" },
-                    { id: "ph_4", name: "Tandoori Paneer Pizza", description: "Indian-style paneer toppings", price: 29900, imageId: "tandoori_paneer.jpg" }
+                "title": "Recommended",
+                "itemCards": [
+                    { "id": "ph_1", "name": "Butter Chicken", "description": "Tender chicken cooked in creamy tomato gravy", "price": 29900, "imageId": "butter_chicken.jpg" },
+                    { "id": "ph_2", "name": "Mutton Korma", "description": "Rich mutton curry with aromatic spices", "price": 34900, "imageId": "mutton_korma.jpg" },
+                    { "id": "ph_3", "name": "Paneer Lababdar", "description": "Cottage cheese cubes in rich tomato-onion gravy", "price": 27900, "imageId": "paneer_lababdar.jpg" },
+                    { "id": "ph_4", "name": "Seekh Kebabs", "description": "Spiced minced meat skewers, grilled to perfection", "price": 29900, "imageId": "seekh_kebabs.jpg" }
                 ]
             },
             {
-                title: "Sides",
-                itemCards: [
-                    { id: "ph_5", name: "Garlic Bread", description: "Toasted bread with garlic butter", price: 9900, imageId: "garlic_bread.jpg" },
-                    { id: "ph_6", name: "Cheese Garlic Bread", description: "Garlic bread topped with cheese", price: 12900, imageId: "cheese_garlic_bread.jpg" },
-                    { id: "ph_7", name: "Potato Wedges", description: "Crispy potato wedges with spices", price: 9900, imageId: "potato_wedges.jpg" }
+                "title": "Tandoor & Breads",
+                "itemCards": [
+                    { "id": "ph_5", "name": "Tandoori Roti", "description": "Freshly baked Indian flatbread", "price": 9900, "imageId": "tandoori_roti.jpg" },
+                    { "id": "ph_6", "name": "Garlic Naan", "description": "Soft naan bread topped with garlic", "price": 12900, "imageId": "garlic_naan.jpg" },
+                    { "id": "ph_7", "name": "Paneer Tikka", "description": "Marinated paneer cubes grilled in tandoor", "price": 9900, "imageId": "paneer_tikka.jpg" }
                 ]
             },
             {
-                title: "Desserts",
-                itemCards: [
-                    { id: "ph_8", name: "Choco Volcano", description: "Molten chocolate cake", price: 11900, imageId: "choco_volcano.jpg" },
-                    { id: "ph_9", name: "Chocolate Mousse", description: "Creamy mousse with chocolate", price: 9900, imageId: "chocolate_mousse.jpg" },
-                    { id: "ph_10", name: "Brownie", description: "Rich chocolate brownie", price: 10900, imageId: "brownie.jpg" }
+                "title": "Mithai & Sweets",
+                "itemCards": [
+                    { "id": "ph_8", "name": "Gulab Jamun", "description": "Soft milk dumplings soaked in sugar syrup", "price": 11900, "imageId": "gulab_jamun.jpg" },
+                    { "id": "ph_9", "name": "Rasmalai", "description": "Cottage cheese patties in sweetened milk", "price": 9900, "imageId": "rasmalai.jpg" },
+                    { "id": "ph_10", "name": "Kheer", "description": "Rice pudding flavored with cardamom and saffron", "price": 10900, "imageId": "kheer.jpg" }
                 ]
             }
         ]
-    },
+    }
+    ,
     "129211": {
-        restaurantName: "Burger King",
-        categories: [
+        "restaurantName": "Indian Accent",
+        "categories": [
             {
-                title: "Burgers",
-                itemCards: [
-                    { id: "bk_1", name: "Whopper", description: "Signature flame-grilled burger", price: 24900, imageId: "whopper.jpg" },
-                    { id: "bk_2", name: "Veg Whopper", description: "Veggie patty with sauces", price: 19900, imageId: "veg_whopper.jpg" },
-                    { id: "bk_3", name: "Chicken Zinger", description: "Crispy chicken fillet burger", price: 22900, imageId: "chicken_zinger.jpg" },
-                    { id: "bk_4", name: "Paneer King", description: "Grilled paneer patty burger", price: 20900, imageId: "paneer_king.jpg" }
+                "title": "Starters",
+                "itemCards": [
+                    { "id": "bk_1", "name": "Butter Chicken", "description": "Tender chicken cooked in creamy tomato gravy", "price": 24900, "imageId": "butter_chicken.jpg" },
+                    { "id": "bk_2", "name": "Paneer Lababdar", "description": "Cottage cheese cubes in rich tomato-onion gravy", "price": 19900, "imageId": "paneer_lababdar.jpg" },
+                    { "id": "bk_3", "name": "Mutton Korma", "description": "Rich mutton curry with aromatic spices", "price": 22900, "imageId": "mutton_korma.jpg" },
+                    { "id": "bk_4", "name": "Chicken Seekh Kebab", "description": "Spiced minced chicken skewers grilled to perfection", "price": 20900, "imageId": "chicken_seekh_kebab.jpg" }
                 ]
             },
             {
-                title: "Snacks",
-                itemCards: [
-                    { id: "bk_5", name: "French Fries", description: "Crispy golden fries", price: 7900, imageId: "french_fries.jpg" },
-                    { id: "bk_6", name: "Cheesy Fries", description: "Fries topped with cheese sauce", price: 9900, imageId: "cheesy_fries.jpg" },
-                    { id: "bk_7", name: "Onion Rings", description: "Crispy fried onion rings", price: 8900, imageId: "onion_rings.jpg" }
+                "title": "Mains",
+                "itemCards": [
+                    { "id": "bk_5", "name": "Tandoori Roti", "description": "Freshly baked Indian flatbread", "price": 7900, "imageId": "tandoori_roti.jpg" },
+                    { "id": "bk_6", "name": "Garlic Naan", "description": "Soft naan bread topped with garlic", "price": 9900, "imageId": "garlic_naan.jpg" },
+                    { "id": "bk_7", "name": "Paneer Tikka", "description": "Marinated paneer cubes grilled in tandoor", "price": 8900, "imageId": "paneer_tikka.jpg" }
                 ]
             },
             {
-                title: "Beverages",
-                itemCards: [
-                    { id: "bk_8", name: "Coke", description: "Chilled soft drink", price: 5000, imageId: "coke.jpg" },
-                    { id: "bk_9", name: "Sprite", description: "Lemon-lime soda", price: 5000, imageId: "sprite.jpg" },
-                    { id: "bk_10", name: "Chocolate Shake", description: "Rich chocolate shake", price: 9900, imageId: "chocolate_shake.jpg" }
+                "title": "Desserts",
+                "itemCards": [
+                    { "id": "bk_8", "name": "Gulab Jamun", "description": "Soft milk dumplings soaked in sugar syrup", "price": 5000, "imageId": "gulab_jamun.jpg" },
+                    { "id": "bk_9", "name": "Rasmalai", "description": "Cottage cheese patties in sweetened milk", "price": 5000, "imageId": "rasmalai.jpg" },
+                    { "id": "bk_10", "name": "Masala Chai", "description": "Traditional spiced Indian tea", "price": 9900, "imageId": "masala_chai.jpg" }
                 ]
             }
         ]
-    },
+    }
+    ,
     "51710": {
-        restaurantName: "Theobroma",
-        categories: [
+        "restaurantName": "Desi Zaika Sweets",
+        "categories": [
             {
-                title: "Cakes",
-                itemCards: [
-                    { id: "th_1", name: "Opium Cake", description: "Signature chocolate cake", price: 34900, imageId: "opium_cake.jpg" },
-                    { id: "th_2", name: "Red Velvet Cake", description: "Soft cake with cream cheese frosting", price: 37900, imageId: "red_velvet_cake.jpg" },
-                    { id: "th_3", name: "Pineapple Cake", description: "Light cake with pineapple chunks", price: 29900, imageId: "pineapple_cake.jpg" }
+                "title": "Savory Snacks",
+                "itemCards": [
+                    { "id": "dzs_1", "name": "Paneer Tikka", "description": "Soft cottage cheese cubes marinated with spices and grilled", "price": 14900, "imageId": "paneer_tikka.jpg" },
+                    { "id": "dzs_2", "name": "Veg Spring Rolls", "description": "Crispy rolls stuffed with fresh vegetables", "price": 12900, "imageId": "veg_spring_rolls.jpg" },
+                    { "id": "dzs_3", "name": "Hara Bhara Kebab", "description": "Spinach and peas patties with aromatic spices", "price": 13900, "imageId": "hara_bhara_kebab.jpg" }
                 ]
             },
             {
-                title: "Pastries",
-                itemCards: [
-                    { id: "th_4", name: "Chocolate Truffle Pastry", description: "Rich chocolate pastry", price: 17900, imageId: "choco_truffle_pastry.jpg" },
-                    { id: "th_5", name: "Blueberry Cheesecake", description: "Cheesecake topped with blueberries", price: 22900, imageId: "blueberry_cheesecake.jpg" },
-                    { id: "th_6", name: "Mango Mousse", description: "Smooth mango mousse dessert", price: 15900, imageId: "mango_mousse.jpg" }
+                "title": "Sweets",
+                "itemCards": [
+                    { "id": "dzs_4", "name": "Gulab Jamun", "description": "Soft milk dumplings soaked in sugar syrup", "price": 9900, "imageId": "gulab_jamun.jpg" },
+                    { "id": "dzs_5", "name": "Rasmalai", "description": "Cottage cheese patties in sweetened milk with saffron", "price": 12900, "imageId": "rasmalai.jpg" },
+                    { "id": "dzs_6", "name": "Kaju Katli", "description": "Smooth cashew fudge sweet", "price": 15900, "imageId": "kaju_katli.jpg" },
+                    { "id": "dzs_7", "name": "Soan Papdi", "description": "Flaky Indian sweet with cardamom flavor", "price": 11900, "imageId": "soan_papdi.jpg" }
                 ]
             },
             {
-                title: "Beverages",
-                itemCards: [
-                    { id: "th_7", name: "Hot Chocolate", description: "Creamy hot cocoa", price: 9900, imageId: "hot_chocolate.jpg" },
-                    { id: "th_8", name: "Cappuccino", description: "Espresso with steamed milk", price: 8900, imageId: "cappuccino.jpg" },
-                    { id: "th_9", name: "Iced Latte", description: "Chilled coffee with milk", price: 8900, imageId: "iced_latte.jpg" }
+                "title": "Special Treats",
+                "itemCards": [
+                    { "id": "dzs_8", "name": "Chocolate Samosa", "description": "Fried pastry filled with rich chocolate", "price": 9900, "imageId": "chocolate_samosa.jpg" },
+                    { "id": "dzs_9", "name": "Gajar Halwa", "description": "Carrot pudding cooked with milk and nuts", "price": 11900, "imageId": "gajar_halwa.jpg" },
+                    { "id": "dzs_10", "name": "Badam Milkshake", "description": "Almond flavored creamy milkshake", "price": 12900, "imageId": "badam_milkshake.jpg" }
                 ]
             }
         ]
-    },
+    }
+    ,
     "443498": {
-        restaurantName: "EatFit",
-        categories: [
+        "restaurantName": "Tandoori Tales",
+        "categories": [
             {
-                title: "Healthy Bowls",
-                itemCards: [
-                    { id: "ef_1", name: "Quinoa Salad Bowl", description: "Quinoa with veggies & dressing", price: 21900, imageId: "quinoa_salad.jpg" },
-                    { id: "ef_2", name: "Grilled Chicken Salad", description: "Chicken breast with greens", price: 24900, imageId: "grilled_chicken_salad.jpg" },
-                    { id: "ef_3", name: "Paneer Protein Bowl", description: "Paneer with beans & grains", price: 22900, imageId: "paneer_protein_bowl.jpg" }
+                "title": "Tandoori & Kebabs",
+                "itemCards": [
+                    { "id": "tt_1", "name": "Chicken Tandoori", "description": "Spiced chicken marinated and grilled in tandoor", "price": 24900, "imageId": "chicken_tandoori.jpg" },
+                    { "id": "tt_2", "name": "Paneer Tikka", "description": "Cottage cheese cubes marinated with spices and grilled", "price": 19900, "imageId": "paneer_tikka.jpg" },
+                    { "id": "tt_3", "name": "Mutton Seekh Kebab", "description": "Spiced minced mutton skewers grilled to perfection", "price": 22900, "imageId": "mutton_seekh_kebab.jpg" },
+                    { "id": "tt_4", "name": "Veg Seekh Kebab", "description": "Spinach and peas patties with aromatic spices", "price": 20900, "imageId": "veg_seekh_kebab.jpg" }
                 ]
             },
             {
-                title: "Wraps",
-                itemCards: [
-                    { id: "ef_4", name: "Falafel Wrap", description: "Chickpea patties in whole wheat wrap", price: 17900, imageId: "falafel_wrap.jpg" },
-                    { id: "ef_5", name: "Grilled Veggie Wrap", description: "Veggies with hummus in wrap", price: 16900, imageId: "grilled_veggie_wrap.jpg" },
-                    { id: "ef_6", name: "Chicken Caesar Wrap", description: "Chicken with lettuce & dressing", price: 19900, imageId: "chicken_caesar_wrap.jpg" }
+                "title": "Curries & Biryani",
+                "itemCards": [
+                    { "id": "tt_5", "name": "Butter Chicken", "description": "Tender chicken cooked in creamy tomato gravy", "price": 24900, "imageId": "butter_chicken.jpg" },
+                    { "id": "tt_6", "name": "Paneer Lababdar", "description": "Cottage cheese cubes in rich tomato-onion gravy", "price": 19900, "imageId": "paneer_lababdar.jpg" },
+                    { "id": "tt_7", "name": "Mutton Korma", "description": "Rich mutton curry with aromatic spices", "price": 22900, "imageId": "mutton_korma.jpg" },
+                    { "id": "tt_8", "name": "Veg Biryani", "description": "Fragrant basmati rice with vegetables and aromatic spices", "price": 18900, "imageId": "veg_biryani.jpg" },
+                    { "id": "tt_9", "name": "Chicken Biryani", "description": "Basmati rice cooked with tender chicken and spices", "price": 20900, "imageId": "chicken_biryani.jpg" }
                 ]
             },
             {
-                title: "Smoothies",
-                itemCards: [
-                    { id: "ef_7", name: "Berry Blast", description: "Berries blended with yogurt", price: 14900, imageId: "berry_blast.jpg" },
-                    { id: "ef_8", name: "Green Detox", description: "Spinach, apple & ginger", price: 13900, imageId: "green_detox.jpg" },
-                    { id: "ef_9", name: "Banana Peanut Shake", description: "Banana with peanut butter", price: 14900, imageId: "banana_peanut_shake.jpg" }
+                "title": "Sweet Treats",
+                "itemCards": [
+                    { "id": "tt_10", "name": "Gulab Jamun", "description": "Soft milk dumplings soaked in sugar syrup", "price": 9900, "imageId": "gulab_jamun.jpg" },
+                    { "id": "tt_11", "name": "Rasmalai", "description": "Cottage cheese patties in sweetened milk with saffron", "price": 12900, "imageId": "rasmalai.jpg" },
+                    { "id": "tt_12", "name": "Gajar Halwa", "description": "Carrot pudding cooked with milk and nuts", "price": 11900, "imageId": "gajar_halwa.jpg" }
                 ]
             }
         ]
-    },
+    }
+    ,
+
     "655883": {
-        restaurantName: "Big Bowl",
-        categories: [
-            {
-                title: "Rice Bowls",
-                itemCards: [
-                    { id: "bb_1", name: "Veg Rice Bowl", description: "Steamed rice with veggie curry", price: 17900, imageId: "veg_rice_bowl.jpg" },
-                    { id: "bb_2", name: "Chicken Rice Bowl", description: "Rice with chicken gravy", price: 19900, imageId: "chicken_rice_bowl.jpg" },
-                    { id: "bb_3", name: "Paneer Rice Bowl", description: "Rice with paneer curry", price: 18900, imageId: "paneer_rice_bowl.jpg" }
-                ]
-            },
-            {
-                title: "Noodle Bowls",
-                itemCards: [
-                    { id: "bb_4", name: "Veg Noodle Bowl", description: "Noodles with mixed vegetables", price: 17900, imageId: "veg_noodle_bowl.jpg" },
-                    { id: "bb_5", name: "Chicken Noodle Bowl", description: "Noodles with chicken strips", price: 19900, imageId: "chicken_noodle_bowl.jpg" },
-                    { id: "bb_6", name: "Egg Noodle Bowl", description: "Noodles with scrambled egg", price: 18900, imageId: "egg_noodle_bowl.jpg" }
-                ]
-            },
-            {
-                title: "Sides",
-                itemCards: [
-                    { id: "bb_7", name: "Fried Momos", description: "Crispy fried dumplings", price: 12900, imageId: "fried_momos.jpg" },
-                    { id: "bb_8", name: "Steamed Momos", description: "Soft steamed dumplings", price: 11900, imageId: "steamed_momos.jpg" },
-                    { id: "bb_9", name: "Chilli Potatoes", description: "Crispy potatoes in chilli sauce", price: 13900, imageId: "chilli_potatoes.jpg" }
-                ]
-            }
-        ]
-    },// Continuing mockMenuData
-
-    "68582": {
-        restaurantName: "Baskin Robbins – Ice Cream Dessert",
+        "restaurantName": "Masala Monarch",
         "categories": [
             {
-                "title": "Scoops",
+                "title": "Royal Starters",
                 "itemCards": [
-                    { "id": "item_1_7", "name": "Vanilla Scoop", "description": "Classic creamy vanilla ice cream", "price": 8900, "imageId": "vanilla_scoop.jpg" },
-                    { "id": "item_2_7", "name": "Chocolate Scoop", "description": "Rich chocolate ice cream", "price": 9900, "imageId": "chocolate_scoop.jpg" },
-                    { "id": "item_3_7", "name": "Strawberry Scoop", "description": "Fresh strawberry flavored ice cream", "price": 9900, "imageId": "strawberry_scoop.jpg" },
-                    { "id": "item_4_7", "name": "Mint Choco Chip Scoop", "description": "Mint ice cream with chocolate chips", "price": 10900, "imageId": "mint_choco_chip.jpg" },
-                    { "id": "item_5_7", "name": "Mango Scoop", "description": "Tropical mango ice cream", "price": 9900, "imageId": "mango_scoop.jpg" }
+                    { "id": "mm_1", "name": "Tandoori Paneer Tikka", "description": "Paneer cubes marinated in royal spices and grilled", "price": 19900, "imageId": "tandoori_paneer_tikka.jpg" },
+                    { "id": "mm_2", "name": "Chicken Seekh Kebab", "description": "Juicy minced chicken kebabs roasted in tandoor", "price": 22900, "imageId": "chicken_seekh_kebab.jpg" },
+                    { "id": "mm_3", "name": "Aloo Tikki Chaat", "description": "Crispy aloo tikki topped with chutneys", "price": 14900, "imageId": "aloo_tikki_chaat.jpg" }
                 ]
             },
             {
-                "title": "Sundaes",
+                "title": "Majestic Main Course",
                 "itemCards": [
-                    { "id": "item_6_7", "name": "Hot Fudge Sundae", "description": "Vanilla with hot chocolate fudge", "price": 12900, "imageId": "hot_fudge_sundae.jpg" },
-                    { "id": "item_7_7", "name": "Brownie Sundae", "description": "Brownie topped with ice cream & syrup", "price": 14900, "imageId": "brownie_sundae.jpg" },
-                    { "id": "item_8_7", "name": "Fruit Sundae", "description": "Vanilla ice cream with fresh fruits", "price": 13900, "imageId": "fruit_sundae.jpg" },
-                    { "id": "item_9_7", "name": "Oreo Sundae", "description": "Ice cream with Oreo crumbs & chocolate", "price": 14900, "imageId": "oreo_sundae.jpg" },
-                    { "id": "item_10_7", "name": "Caramel Sundae", "description": "Creamy caramel topping", "price": 13900, "imageId": "caramel_sundae.jpg" }
+                    { "id": "mm_4", "name": "Butter Chicken", "description": "Creamy tomato gravy with tandoori chicken", "price": 27900, "imageId": "butter_chicken.jpg" },
+                    { "id": "mm_5", "name": "Shahi Paneer", "description": "Rich royal gravy cooked with paneer cubes", "price": 24900, "imageId": "shahi_paneer.jpg" },
+                    { "id": "mm_6", "name": "Dal Makhani", "description": "Slow-cooked black lentils in buttery gravy", "price": 19900, "imageId": "dal_makhani.jpg" }
                 ]
             },
             {
-                "title": "Milkshakes",
+                "title": "Sweet Endings",
                 "itemCards": [
-                    { "id": "item_11_7", "name": "Chocolate Shake", "description": "Thick chocolate milkshake", "price": 15900, "imageId": "chocolate_shake.jpg" },
-                    { "id": "item_12_7", "name": "Strawberry Shake", "description": "Fresh strawberry milkshake", "price": 15900, "imageId": "strawberry_shake.jpg" },
-                    { "id": "item_13_7", "name": "Vanilla Shake", "description": "Classic vanilla milkshake", "price": 14900, "imageId": "vanilla_shake.jpg" },
-                    { "id": "item_14_7", "name": "Mango Shake", "description": "Refreshing mango shake", "price": 14900, "imageId": "mango_shake.jpg" },
-                    { "id": "item_15_7", "name": "Oreo Shake", "description": "Cookies & cream shake", "price": 16900, "imageId": "oreo_shake.jpg" }
-                ]
-            }
-        ]
-    },
-
-    "253722": {
-        "restaurantName": "McDonald's",
-        "categories": [
-            {
-                "title": "Burgers",
-                "itemCards": [
-                    { "id": "item_1_8", "name": "McAloo Tikki Burger", "description": "Potato patty with spices", "price": 6900, "imageId": "mcaloo_tikki.jpg" },
-                    { "id": "item_2_8", "name": "McVeggie Burger", "description": "Veggie patty with lettuce", "price": 8900, "imageId": "mcveggie.jpg" },
-                    { "id": "item_3_8", "name": "McChicken Burger", "description": "Chicken patty with mayo", "price": 10900, "imageId": "mcchicken.jpg" },
-                    { "id": "item_4_8", "name": "Filet-O-Fish", "description": "Fish fillet with tartar sauce", "price": 11900, "imageId": "filet_o_fish.jpg" },
-                    { "id": "item_5_8", "name": "McSpicy Paneer", "description": "Paneer patty with spicy sauce", "price": 9900, "imageId": "mcspicy_paneer.jpg" }
-                ]
-            },
-            {
-                "title": "Fries & Sides",
-                "itemCards": [
-                    { "id": "item_6_8", "name": "Small Fries", "description": "Crispy potato fries", "price": 5900, "imageId": "small_fries.jpg" },
-                    { "id": "item_7_8", "name": "Large Fries", "description": "Extra crispy large fries", "price": 8900, "imageId": "large_fries.jpg" },
-                    { "id": "item_8_8", "name": "McNuggets (6 pcs)", "description": "Chicken nuggets", "price": 12900, "imageId": "nuggets_6pcs.jpg" },
-                    { "id": "item_9_8", "name": "McNuggets (9 pcs)", "description": "Extra nuggets", "price": 17900, "imageId": "nuggets_9pcs.jpg" },
-                    { "id": "item_10_8", "name": "Veg Pizza McPuff", "description": "Stuffed veg puff pastry", "price": 7900, "imageId": "veg_pizza_mcpuff.jpg" }
-                ]
-            },
-            {
-                "title": "Beverages & Desserts",
-                "itemCards": [
-                    { "id": "item_11_8", "name": "Coke", "description": "Chilled soft drink", "price": 5000, "imageId": "coke.jpg" },
-                    { "id": "item_12_8", "name": "Fanta", "description": "Orange flavored drink", "price": 5000, "imageId": "fanta.jpg" },
-                    { "id": "item_13_8", "name": "Soft Serve Cone", "description": "Vanilla ice cream cone", "price": 2900, "imageId": "soft_serve_cone.jpg" },
-                    { "id": "item_14_8", "name": "McFlurry Oreo", "description": "Ice cream with Oreo bits", "price": 6900, "imageId": "mcflurry_oreo.jpg" },
-                    { "id": "item_15_8", "name": "Chocolate Sundae", "description": "Ice cream with chocolate syrup", "price": 7900, "imageId": "chocolate_sundae.jpg" }
-                ]
-            }
-        ]
-    },
-
-    "24194": {
-        "restaurantName": "Domino's Pizza",
-        "categories": [
-            {
-                "title": "Veg Pizzas",
-                "itemCards": [
-                    { "id": "item_1_9", "name": "Margherita", "description": "Classic cheese & tomato", "price": 19900, "imageId": "margherita.jpg" },
-                    { "id": "item_2_9", "name": "Veg Extravaganza", "description": "Loaded with veggies", "price": 34900, "imageId": "veg_extravaganza.jpg" },
-                    { "id": "item_3_9", "name": "Farmhouse", "description": "Veggies with extra cheese", "price": 29900, "imageId": "farmhouse.jpg" },
-                    { "id": "item_4_9", "name": "Peppy Paneer", "description": "Paneer with capsicum", "price": 27900, "imageId": "peppy_paneer.jpg" },
-                    { "id": "item_5_9", "name": "Mexican Green Wave", "description": "Veg pizza with spices", "price": 27900, "imageId": "mexican_green_wave.jpg" }
-                ]
-            },
-            {
-                "title": "Non-Veg Pizzas",
-                "itemCards": [
-                    { "id": "item_6_9", "name": "Chicken Dominator", "description": "Loaded with chicken", "price": 39900, "imageId": "chicken_dominator.jpg" },
-                    { "id": "item_7_9", "name": "Pepper Barbecue Chicken", "description": "Smoky chicken topping", "price": 29900, "imageId": "pepper_bbq_chicken.jpg" },
-                    { "id": "item_8_9", "name": "Chicken Golden Delight", "description": "Cheesy chicken pizza", "price": 31900, "imageId": "chicken_golden_delight.jpg" },
-                    { "id": "item_9_9", "name": "Non Veg Supreme", "description": "Meat-loaded pizza", "price": 34900, "imageId": "non_veg_supreme.jpg" },
-                    { "id": "item_10_9", "name": "Pepperoni", "description": "Classic pepperoni pizza", "price": 35900, "imageId": "pepperoni.jpg" }
-                ]
-            },
-            {
-                "title": "Sides & Desserts",
-                "itemCards": [
-                    { "id": "item_11_9", "name": "Garlic Breadsticks", "description": "Baked breadsticks", "price": 9900, "imageId": "garlic_breadsticks.jpg" },
-                    { "id": "item_12_9", "name": "Cheese Dip", "description": "Creamy cheese dip", "price": 4900, "imageId": "cheese_dip.jpg" },
-                    { "id": "item_13_9", "name": "Choco Lava Cake", "description": "Molten chocolate cake", "price": 9900, "imageId": "choco_lava_cake.jpg" },
-                    { "id": "item_14_9", "name": "Taco Mexicana Veg", "description": "Crispy taco shell with veggies", "price": 12900, "imageId": "taco_mexicana_veg.jpg" },
-                    { "id": "item_15_9", "name": "Taco Mexicana Non-Veg", "description": "Taco with chicken filling", "price": 14900, "imageId": "taco_mexicana_nonveg.jpg" }
-                ]
-            }
-        ]
-    },
-
-    "26724": {
-        "restaurantName": "KFC",
-        "categories": [
-            {
-                "title": "Chicken Buckets",
-                "itemCards": [
-                    { "id": "item_1_10", "name": "Hot & Crispy Chicken (2 pcs)", "description": "Signature crispy chicken", "price": 24900, "imageId": "hot_crispy_chicken.jpg" },
-                    { "id": "item_2_10", "name": "Hot & Crispy Chicken (4 pcs)", "description": "Double the crispiness", "price": 47900, "imageId": "hot_crispy_chicken_4pcs.jpg" },
-                    { "id": "item_3_10", "name": "Smoky Grilled Chicken", "description": "Juicy grilled chicken", "price": 26900, "imageId": "smoky_grilled_chicken.jpg" },
-                    { "id": "item_4_10", "name": "Peri Peri Chicken Strips (3 pcs)", "description": "Spicy strips", "price": 18900, "imageId": "peri_peri_strips.jpg" },
-                    { "id": "item_5_10", "name": "Popcorn Chicken Medium", "description": "Bite-sized chicken", "price": 15900, "imageId": "popcorn_chicken_medium.jpg" }
-                ]
-            },
-            {
-                "title": "Burgers",
-                "itemCards": [
-                    { "id": "item_6_10", "name": "Zinger Burger", "description": "Spicy chicken burger", "price": 19900, "imageId": "zinger_burger.jpg" },
-                    { "id": "item_7_10", "name": "Veg Zinger Burger", "description": "Crunchy veg burger", "price": 18900, "imageId": "veg_zinger_burger.jpg" },
-                    { "id": "item_8_10", "name": "Double Zinger Burger", "description": "Two fillets, extra flavour", "price": 28900, "imageId": "double_zinger_burger.jpg" },
-                    { "id": "item_9_10", "name": "Cheese Zinger Burger", "description": "Zinger with cheese slice", "price": 21900, "imageId": "cheese_zinger_burger.jpg" },
-                    { "id": "item_10_10", "name": "Paneer Zinger Burger", "description": "Paneer patty burger", "price": 19900, "imageId": "paneer_zinger_burger.jpg" }
-                ]
-            },
-            {
-                "title": "Snacks & Beverages",
-                "itemCards": [
-                    { "id": "item_11_10", "name": "French Fries Medium", "description": "Golden fries", "price": 8900, "imageId": "french_fries_medium.jpg" },
-                    { "id": "item_12_10", "name": "Pepsi Can 300ml", "description": "Chilled Pepsi", "price": 5000, "imageId": "pepsi_can.jpg" },
-                    { "id": "item_13_10", "name": "Mirinda Can 300ml", "description": "Chilled Mirinda", "price": 5000, "imageId": "mirinda_can.jpg" },
-                    { "id": "item_14_10", "name": "Chocolate Thick Shake", "description": "Rich shake", "price": 9900, "imageId": "chocolate_thick_shake.jpg" },
-                    { "id": "item_15_10", "name": "Brownie", "description": "Soft chocolate brownie", "price": 6900, "imageId": "brownie.jpg" }
-                ]
-            }
-        ]
-    },
-
-    "20055": {
-        "restaurantName": "Subway",
-        "categories": [
-            {
-                "title": "Veg Subs",
-                "itemCards": [
-                    { "id": "item_1_11", "name": "Veggie Delight", "description": "Fresh veggies on bread", "price": 18900, "imageId": "veggie_delight.jpg" },
-                    { "id": "item_2_11", "name": "Paneer Tikka Sub", "description": "Paneer tikka filling", "price": 21900, "imageId": "paneer_tikka_sub.jpg" },
-                    { "id": "item_3_11", "name": "Veggie Patty Sub", "description": "Patty with veggies", "price": 19900, "imageId": "veggie_patty_sub.jpg" },
-                    { "id": "item_4_11", "name": "Aloo Patty Sub", "description": "Spicy potato patty", "price": 17900, "imageId": "aloo_patty_sub.jpg" },
-                    { "id": "item_5_11", "name": "Hara Bhara Kebab Sub", "description": "Veg kebab filling", "price": 19900, "imageId": "hara_bhara_kebab_sub.jpg" }
-                ]
-            },
-            {
-                "title": "Non-Veg Subs",
-                "itemCards": [
-                    { "id": "item_6_11", "name": "Chicken Teriyaki Sub", "description": "Chicken with teriyaki sauce", "price": 24900, "imageId": "chicken_teriyaki_sub.jpg" },
-                    { "id": "item_7_11", "name": "Tuna Sub", "description": "Tuna filling", "price": 23900, "imageId": "tuna_sub.jpg" },
-                    { "id": "item_8_11", "name": "Roast Chicken Sub", "description": "Grilled chicken breast", "price": 25900, "imageId": "roast_chicken_sub.jpg" },
-                    { "id": "item_9_11", "name": "Turkey Breast Sub", "description": "Turkey slices", "price": 26900, "imageId": "turkey_breast_sub.jpg" },
-                    { "id": "item_10_11", "name": "Italian B.M.T. Sub", "description": "Ham, salami, pepperoni", "price": 27900, "imageId": "italian_bmt_sub.jpg" }
-                ]
-            },
-            {
-                "title": "Sides & Drinks",
-                "itemCards": [
-                    { "id": "item_11_11", "name": "Cookies (2 pcs)", "description": "Soft cookies", "price": 6900, "imageId": "cookies_2pcs.jpg" },
-                    { "id": "item_12_11", "name": "Chips", "description": "Crispy potato chips", "price": 3900 }
-
-                ]
-            }
-        ]
-    },
-    "458477": {
-        restaurantName: "Salad days",
-        categories: [
-
-            {
-                title: "Salads",
-                itemCards: [
-                    { id: "item_6_11", name: "Veggie Salad", description: "Fresh vegetables served salad-style", price: 17900, imageId: "veggie_salad.jpg" },
-                    { id: "item_7_11", name: "Chicken Caesar Salad", description: "Chicken with parmesan and Caesar dressing", price: 19900, imageId: "chicken_caesar.jpg" },
-                    { id: "item_8_11", name: "Turkey Salad", description: "Turkey breast with fresh greens", price: 18900, imageId: "turkey_salad.jpg" },
-                    { id: "item_9_11", name: "Tuna Salad", description: "Tuna chunks with fresh greens", price: 19900, imageId: "tuna_salad.jpg" },
-                    { id: "item_10_11", name: "Italian Salad", description: "Salami, pepperoni, and veggies", price: 20900, imageId: "italian_salad.jpg" }
-                ]
-            },
-            {
-                title: "Beverages",
-                itemCards: [
-                    { id: "item_11_11", name: "Coke Can 300ml", description: "Chilled Coca-Cola", price: 5000, imageId: "coke_can.jpg" },
-                    { id: "item_12_11", name: "Diet Coke", description: "Low-calorie Coca-Cola", price: 5000, imageId: "diet_coke.jpg" },
-                    { id: "item_13_11", name: "Bottled Water", description: "500ml mineral water", price: 3000, imageId: "water_bottle.jpg" },
-                    { id: "item_14_11", name: "Iced Tea", description: "Chilled lemon iced tea", price: 6000, imageId: "iced_tea.jpg" },
-                    { id: "item_15_11", name: "Lemonade", description: "Fresh squeezed lemonade", price: 7000, imageId: "lemonade.jpg" }
-                ]
-            },
-
-        ]
-    },
-
-    "763929": {
-        restaurantName: "Blue Tokai Coffee Roasters",
-        categories: [
-            {
-                title: "Coffee Classics",
-                itemCards: [
-                    { id: "1", name: "Espresso", price: 15000 },
-                    { id: "2", name: "Americano", price: 18000 },
-                    { id: "3", name: "Cappuccino", price: 20000 },
-                    { id: "4", name: "Latte", price: 22000 },
-                    { id: "5", name: "Flat White", price: 23000 }
-                ]
-            },
-            {
-                title: "Cold Brews & Iced Coffees",
-                itemCards: [
-                    { id: "6", name: "Cold Brew", price: 25000 },
-                    { id: "7", name: "Iced Americano", price: 19000 },
-                    { id: "8", name: "Iced Latte", price: 21000 },
-                    { id: "9", name: "Iced Mocha", price: 24000 },
-                    { id: "10", name: "Nitro Cold Brew", price: 28000 }
-                ]
-            },
-            {
-                title: "Specialty Drinks",
-                itemCards: [
-                    { id: "11", name: "Mocha", price: 24000 },
-                    { id: "12", name: "Caramel Latte", price: 26000 },
-                    { id: "13", name: "Vanilla Latte", price: 26000 },
-                    { id: "14", name: "Hazelnut Latte", price: 27000 },
-                    { id: "15", name: "Matcha Latte", price: 30000 }
-                ]
-            }
-        ]
-    },
-
-
-    "422811": {
-        restaurantName: "Dashi - Dim Sum & Sushi Bar",
-        categories: [
-            {
-                title: "Dim Sum",
-                itemCards: [
-                    { id: "1", name: "Chicken Sui Mai", price: 32000 },
-                    { id: "2", name: "Prawn Har Gow", price: 35000 },
-                    { id: "3", name: "Veg Crystal Dumpling", price: 30000 },
-                    { id: "4", name: "Chicken Gyoza", price: 34000 },
-                    { id: "5", name: "Edamame with Sea Salt", price: 25000 }
-                ]
-            },
-            {
-                title: "Sushi Rolls",
-                itemCards: [
-                    { id: "6", name: "California Roll", price: 38000 },
-                    { id: "7", name: "Spicy Tuna Roll", price: 42000 },
-                    { id: "8", name: "Salmon Avocado Roll", price: 45000 },
-                    { id: "9", name: "Vegetable Tempura Roll", price: 37000 },
-                    { id: "10", name: "Dragon Roll", price: 52000 }
-                ]
-            },
-            {
-                title: "Appetizers & Others",
-                itemCards: [
-                    { id: "11", name: "Ebi Tempura", price: 48000 },
-                    { id: "12", name: "Salmon Nigiri", price: 38000 },
-                    { id: "13", name: "Tuna Nigiri", price: 40000 },
-                    { id: "14", name: "Miso Soup", price: 18000 },
-                    { id: "15", name: "Matcha Cheesecake", price: 32000 }
-                ]
-            }
-        ]
-    },
-    "492326": {
-        restaurantName: "Salads Point",
-        categories: [
-            {
-                title: "Signature Salads",
-                itemCards: [
-                    { id: "1", name: "Caesar Salad", price: 22000 },
-                    { id: "2", name: "Greek Salad", price: 24000 },
-                    { id: "3", name: "Quinoa & Avocado Salad", price: 26000 },
-                    { id: "4", name: "Mediterranean Chickpea Salad", price: 25000 },
-                    { id: "5", name: "Spinach & Feta Salad", price: 23000 }
-                ]
-            },
-            {
-                title: "Build Your Own Salad",
-                itemCards: [
-                    { id: "6", name: "Base + 3 Veggies + Dressing", price: 20000 },
-                    { id: "7", name: "Base + 5 Veggies + Dressing", price: 25000 },
-                    { id: "8", name: "Base + 5 Veggies + Protein", price: 30000 },
-                    { id: "9", name: "Base + 7 Veggies + Protein", price: 34000 },
-                    { id: "10", name: "Base + Unlimited Veggies + Protein", price: 40000 }
-                ]
-            },
-            {
-                title: "Healthy Sides & Drinks",
-                itemCards: [
-                    { id: "11", name: "Roasted Sweet Potato Wedges", price: 18000 },
-                    { id: "12", name: "Garlic Breadsticks", price: 15000 },
-                    { id: "13", name: "Fresh Fruit Bowl", price: 20000 },
-                    { id: "14", name: "Detox Green Juice", price: 16000 },
-                    { id: "15", name: "Fresh Lemon Iced Tea", price: 14000 }
-                ]
-            }
-        ]
-    },
-
-    "492325": {
-        restaurantName: "Caterspoint",
-        categories: [
-            {
-                title: "Signature Bowls",
-                itemCards: [
-                    { id: "1", name: "Peri Peri Chicken Bowl", price: 28900 },
-                    { id: "2", name: "Tandoori Paneer Bowl", price: 23900 },
-                    { id: "3", name: "Quinoa Veg Bowl", price: 22900 },
-                    { id: "4", name: "BBQ Chicken Bowl", price: 29900 },
-                    { id: "5", name: "Falafel Salad Bowl", price: 21900 }
-                ]
-            },
-            {
-                title: "Wraps & Sandwiches",
-                itemCards: [
-                    { id: "6", name: "Paneer Tikka Wrap", price: 19900 },
-                    { id: "7", name: "BBQ Chicken Wrap", price: 20900 },
-                    { id: "8", name: "Smoked Chicken Sandwich", price: 18900 },
-                    { id: "9", name: "Veggie Delight Sandwich", price: 16900 },
-                    { id: "10", name: "Classic Club Sandwich", price: 17900 }
-                ]
-            },
-            {
-                title: "Healthy Sides & Drinks",
-                itemCards: [
-                    { id: "11", name: "Hummus & Pita Platter", price: 18900 },
-                    { id: "12", name: "Egg & Avocado Toast", price: 16900 },
-                    { id: "13", name: "Greek Salad", price: 19900 },
-                    { id: "14", name: "Healthy Fruit Bowl", price: 14900 },
-                    { id: "15", name: "Detox Green Juice", price: 16000 }
-                ]
-            }
-        ]
-    },
-
-    "51753": {
-        restaurantName: "Everbake",
-        categories: [
-            {
-                title: "Breads",
-                itemCards: [
-                    { id: "item_1_17", name: "Garlic Bread", description: "Bread with garlic butter", price: 10000, imageId: "garlic_bread.jpg" },
-                    { id: "item_2_17", name: "Baguette", description: "French-style crusty bread", price: 9000, imageId: "baguette.jpg" },
-                    { id: "item_3_17", name: "Multigrain Bread", description: "Healthy multigrain loaf", price: 11000, imageId: "multigrain_bread.jpg" },
-                    { id: "item_4_17", name: "Focaccia", description: "Italian flatbread with herbs", price: 12000, imageId: "focaccia.jpg" },
-                    { id: "item_5_17", name: "Brioche", description: "Soft, buttery bread", price: 13000, imageId: "brioche.jpg" }
-                ]
-            },
-            {
-                title: "Cakes",
-                itemCards: [
-                    { id: "item_6_17", name: "Chocolate Cake", description: "Rich chocolate sponge cake", price: 25000, imageId: "chocolate_cake.jpg" },
-                    { id: "item_7_17", name: "Cheesecake", description: "Creamy cheesecake with base", price: 27000, imageId: "cheesecake.jpg" },
-                    { id: "item_8_17", name: "Red Velvet Cake", description: "Moist red velvet cake", price: 26000, imageId: "red_velvet_cake.jpg" },
-                    { id: "item_9_17", name: "Carrot Cake", description: "Carrot cake with cream cheese frosting", price: 24000, imageId: "carrot_cake.jpg" },
-                    { id: "item_10_17", name: "Pineapple Cake", description: "Soft cake with pineapple flavor", price: 23000, imageId: "pineapple_cake.jpg" }
-                ]
-            },
-            {
-                title: "Pastries",
-                itemCards: [
-                    { id: "item_11_17", name: "Chocolate Éclair", description: "Pastry filled with cream and topped with chocolate", price: 15000, imageId: "chocolate_eclair.jpg" },
-                    { id: "item_12_17", name: "Fruit Tart", description: "Tart with custard and fresh fruits", price: 16000, imageId: "fruit_tart.jpg" },
-                    { id: "item_13_17", name: "Danish Pastry", description: "Flaky pastry with fillings", price: 14000, imageId: "danish_pastry.jpg" },
-                    { id: "item_14_17", name: "Puff Pastry", description: "Layered pastry with butter", price: 13000, imageId: "puff_pastry.jpg" },
-                    { id: "item_15_17", name: "Baklava", description: "Sweet pastry with nuts and honey", price: 17000, imageId: "baklava.jpg" }
-                ]
-            }
-        ]
-    },
-
-
-    "523200": {
-        restaurantName: "Pino's Pizza",
-        categories: [
-            {
-                title: "Pizzas",
-                itemCards: [
-                    { id: "item_1_18", name: "Margherita", description: "Classic pizza with mozzarella and tomato", price: 22000, imageId: "margherita_pizza.jpg" },
-                    { id: "item_2_18", name: "Pepperoni Pizza", description: "Pizza with pepperoni and cheese", price: 25000, imageId: "pepperoni_pizza.jpg" },
-                    { id: "item_3_18", name: "Veggie Supreme", description: "Loaded with fresh vegetables", price: 24000, imageId: "veggie_supreme.jpg" },
-                    { id: "item_4_18", name: "BBQ Chicken Pizza", description: "Grilled chicken with BBQ sauce", price: 26000, imageId: "bbq_chicken_pizza.jpg" },
-                    { id: "item_5_18", name: "Four Cheese Pizza", description: "Mozzarella, cheddar, parmesan, blue cheese", price: 28000, imageId: "four_cheese_pizza.jpg" }
-                ]
-            },
-            {
-                title: "Pastas",
-                itemCards: [
-                    { id: "item_6_18", name: "Spaghetti Bolognese", description: "Spaghetti with meat sauce", price: 23000, imageId: "spaghetti_bolognese.jpg" },
-                    { id: "item_7_18", name: "Penne Arrabbiata", description: "Penne pasta with spicy tomato sauce", price: 21000, imageId: "penne_arrabbiata.jpg" },
-                    { id: "item_8_18", name: "Fettuccine Alfredo", description: "Creamy Alfredo pasta", price: 24000, imageId: "fettuccine_alfredo.jpg" },
-                    { id: "item_9_18", name: "Lasagna", description: "Layered pasta with cheese and sauce", price: 27000, imageId: "lasagna.jpg" },
-                    { id: "item_10_18", name: "Mac and Cheese", description: "Baked macaroni with cheese sauce", price: 20000, imageId: "mac_and_cheese.jpg" }
-                ]
-            },
-            {
-                title: "Sides & Beverages",
-                itemCards: [
-                    { id: "item_11_18", name: "Garlic Breadsticks", description: "Freshly baked garlic breadsticks", price: 10000, imageId: "garlic_breadsticks.jpg" },
-                    { id: "item_12_18", name: "Cheesy Garlic Bread", description: "Garlic bread topped with cheese", price: 12000, imageId: "cheesy_garlic_bread.jpg" },
-                    { id: "item_13_18", name: "Caesar Salad", description: "Crisp lettuce with Caesar dressing", price: 15000, imageId: "caesar_salad.jpg" },
-                    { id: "item_14_18", name: "Soft Drink", description: "Choice of cola, orange, or lemon soda", price: 5000, imageId: "soft_drink.jpg" },
-                    { id: "item_15_18", name: "Chocolate Brownie", description: "Rich chocolate brownie dessert", price: 9000, imageId: "chocolate_brownie.jpg" }
-                ]
-            }
-        ]
-    },
-
-    "336330": {
-        restaurantName: "House of Chow",
-        categories: [
-            {
-                title: "Signature Bowls",
-                itemCards: [
-                    { id: "1", name: "Peri Peri Chicken Bowl", price: 28900 },
-                    { id: "2", name: "Tandoori Paneer Bowl", price: 23900 },
-                    { id: "3", name: "Quinoa Veg Bowl", price: 22900 },
-                    { id: "4", name: "BBQ Chicken Bowl", price: 29900 },
-                    { id: "5", name: "Falafel Salad Bowl", price: 21900 }
-                ]
-            },
-            {
-                title: "Wraps & Sandwiches",
-                itemCards: [
-                    { id: "6", name: "Paneer Tikka Wrap", price: 19900 },
-                    { id: "7", name: "BBQ Chicken Wrap", price: 20900 },
-                    { id: "8", name: "Smoked Chicken Sandwich", price: 18900 },
-                    { id: "9", name: "Veggie Delight Sandwich", price: 16900 },
-                    { id: "10", name: "Classic Club Sandwich", price: 17900 }
-                ]
-            },
-            {
-                title: "Healthy Sides & Drinks",
-                itemCards: [
-                    { id: "11", name: "Hummus & Pita Platter", price: 18900 },
-                    { id: "12", name: "Egg & Avocado Toast", price: 16900 },
-                    { id: "13", name: "Greek Salad", price: 19900 },
-                    { id: "14", name: "Healthy Fruit Bowl", price: 14900 },
-                    { id: "15", name: "Detox Green Juice", price: 16000 }
+                    { "id": "mm_7", "name": "Gulab Jamun", "description": "Soft khoya dumplings soaked in sugar syrup", "price": 9900, "imageId": "gulab_jamun.jpg" },
+                    { "id": "mm_8", "name": "Rasmalai", "description": "Cottage cheese patties dipped in saffron milk", "price": 12900, "imageId": "rasmalai.jpg" },
+                    { "id": "mm_9", "name": "Kesar Kulfi", "description": "Traditional saffron-flavored Indian ice cream", "price": 11900, "imageId": "kesar_kulfi.jpg" }
                 ]
             }
         ]
     }
 
+    ,
 
+    "68582": {
+        "restaurantName": "Tiwari Chai",
+        "categories": [
+            {
+                "title": "Chai Varieties",
+                "itemCards": [
+                    { "id": "tc_1", "name": "Masala Chai", "description": "Strong kadak chai brewed with Indian spices", "price": 2900, "imageId": "masala_chai.jpg" },
+                    { "id": "tc_2", "name": "Ginger Chai", "description": "Fresh adrak-infused hot chai", "price": 2800, "imageId": "ginger_chai.jpg" },
+                    { "id": "tc_3", "name": "Elaichi Chai", "description": "Creamy cardamom-flavored tea", "price": 3000, "imageId": "elaichi_chai.jpg" },
+                    { "id": "tc_4", "name": "Kullad Chai", "description": "Traditional chai served in clay cup", "price": 3500, "imageId": "kullad_chai.jpg" },
+                    { "id": "tc_5", "name": "Special Tiwari Chai", "description": "Signature kadak blend with secret masala", "price": 3900, "imageId": "special_tiwari_chai.jpg" }
+                ]
+            },
+            {
+                "title": "Snacks & Namkeen",
+                "itemCards": [
+                    { "id": "tc_6", "name": "Samosa", "description": "Crispy potato-filled samosa", "price": 2500, "imageId": "samosa.jpg" },
+                    { "id": "tc_7", "name": "Kachori", "description": "Fried kachori with spicy filling", "price": 3000, "imageId": "kachori.jpg" },
+                    { "id": "tc_8", "name": "Bread Pakora", "description": "Stuffed bread fritters", "price": 3500, "imageId": "bread_pakora.jpg" },
+                    { "id": "tc_9", "name": "Aloo Patties", "description": "Bakery-style crispy potato patties", "price": 2800, "imageId": "aloo_patties.jpg" },
+                    { "id": "tc_10", "name": "Mathri", "description": "Classic crunchy mathri snack", "price": 2000, "imageId": "mathri.jpg" }
+                ]
+            },
+            {
+                "title": "Beverages",
+                "itemCards": [
+                    { "id": "tc_11", "name": "Cold Coffee", "description": "Chilled creamy coffee", "price": 8900, "imageId": "cold_coffee.jpg" },
+                    { "id": "tc_12", "name": "Lemon Iced Tea", "description": "Refreshing lemon-flavored iced tea", "price": 6900, "imageId": "lemon_iced_tea.jpg" },
+                    { "id": "tc_13", "name": "Rose Milk", "description": "Sweet rose-flavored chilled milk", "price": 5900, "imageId": "rose_milk.jpg" },
+                    { "id": "tc_14", "name": "Badam Milk", "description": "Almond-rich warm milk", "price": 7900, "imageId": "badam_milk.jpg" },
+                    { "id": "tc_15", "name": "Falooda", "description": "Traditional falooda with vermicelli & ice cream", "price": 12900, "imageId": "falooda.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+    "253722": {
+        "restaurantName": "Maharaja Masala",
+        "categories": [
+            {
+                "title": "Royal Curries",
+                "itemCards": [
+                    { "id": "mm_1", "name": "Paneer Butter Masala", "description": "Rich and creamy paneer curry cooked in royal spices", "price": 16900, "imageId": "paneer_butter_masala.jpg" },
+                    { "id": "mm_2", "name": "Dal Makhani", "description": "Slow-cooked black lentils in buttery gravy", "price": 14900, "imageId": "dal_makhani.jpg" },
+                    { "id": "mm_3", "name": "Chicken Curry", "description": "Home-style chicken curry with Indian spices", "price": 18900, "imageId": "chicken_curry.jpg" },
+                    { "id": "mm_4", "name": "Shahi Kofta", "description": "Royal koftas in creamy gravy", "price": 17900, "imageId": "shahi_kofta.jpg" },
+                    { "id": "mm_5", "name": "Veg Kadai", "description": "Spicy & aromatic mixed veg cooked with kadai masala", "price": 15900, "imageId": "veg_kadai.jpg" }
+                ]
+            },
+            {
+                "title": "Breads & Rice",
+                "itemCards": [
+                    { "id": "mm_6", "name": "Butter Naan", "description": "Soft tandoori naan brushed with butter", "price": 4900, "imageId": "butter_naan.jpg" },
+                    { "id": "mm_7", "name": "Garlic Naan", "description": "Tandoori naan flavored with garlic", "price": 6900, "imageId": "garlic_naan.jpg" },
+                    { "id": "mm_8", "name": "Jeera Rice", "description": "Fragrant basmati rice tempered with cumin", "price": 9900, "imageId": "jeera_rice.jpg" },
+                    { "id": "mm_9", "name": "Biryani (Veg)", "description": "Aromatic vegetable biryani with spices", "price": 15900, "imageId": "veg_biryani.jpg" },
+                    { "id": "mm_10", "name": "Biryani (Chicken)", "description": "Hyderabadi-style chicken biryani", "price": 18900, "imageId": "chicken_biryani.jpg" }
+                ]
+            },
+            {
+                "title": "Drinks & Desserts",
+                "itemCards": [
+                    { "id": "mm_11", "name": "Masala Chaas", "description": "Refreshing spiced buttermilk", "price": 4900, "imageId": "masala_chaas.jpg" },
+                    { "id": "mm_12", "name": "Sweet Lassi", "description": "Thick Punjabi-style lassi", "price": 5900, "imageId": "lassi.jpg" },
+                    { "id": "mm_13", "name": "Gulab Jamun", "description": "Soft & warm khoya balls soaked in syrup", "price": 6900, "imageId": "gulab_jamun.jpg" },
+                    { "id": "mm_14", "name": "Kesar Phirni", "description": "Saffron-infused creamy rice dessert", "price": 8900, "imageId": "kesar_phirni.jpg" },
+                    { "id": "mm_15", "name": "Masala Lemonade", "description": "Zesty & refreshing lemon drink", "price": 5000, "imageId": "masala_lemonade.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+
+
+    "24194": {
+        "restaurantName": "Bikaner Sweets & Namkeen",
+        "categories": [
+            {
+                "title": "Namkeen & Snacks",
+                "itemCards": [
+                    { "id": "item_1_9", "name": "Bikaneri Bhujia", "description": "Crispy besan snack with signature Bikaneri spices", "price": 12000, "imageId": "bikaneri_bhujia.jpg" },
+                    { "id": "item_2_9", "name": "Aloo Bhujia", "description": "Tangy and spicy potato-based namkeen", "price": 11000, "imageId": "aloo_bhujia.jpg" },
+                    { "id": "item_3_9", "name": "Moong Dal Namkeen", "description": "Crispy salted moong dal", "price": 13000, "imageId": "moong_dal.jpg" },
+                    { "id": "item_4_9", "name": "Khatta Meetha Mix", "description": "Sweet & tangy mixture with nuts", "price": 14000, "imageId": "khatta_meetha.jpg" },
+                    { "id": "item_5_9", "name": "Masala Sev", "description": "Crispy sev with spicy masala coating", "price": 12000, "imageId": "masala_sev.jpg" }
+                ]
+            },
+            {
+                "title": "Authentic Sweets",
+                "itemCards": [
+                    { "id": "item_6_9", "name": "Rasgulla", "description": "Soft spongy chhena balls soaked in syrup", "price": 15000, "imageId": "rasgulla.jpg" },
+                    { "id": "item_7_9", "name": "Gulab Jamun", "description": "Classic khoya fried dumplings in sugar syrup", "price": 16000, "imageId": "gulab_jamun.jpg" },
+                    { "id": "item_8_9", "name": "Motichoor Laddu", "description": "Soft boondi laddus made with desi ghee", "price": 18000, "imageId": "motichoor_laddu.jpg" },
+                    { "id": "item_9_9", "name": "Kaju Katli", "description": "Premium cashew sweet", "price": 25000, "imageId": "kaju_katli.jpg" },
+                    { "id": "item_10_9", "name": "Milk Cake", "description": "Traditional caramelized milk sweet", "price": 20000, "imageId": "milk_cake.jpg" }
+                ]
+            },
+            {
+                "title": "Chaat & Street Snacks",
+                "itemCards": [
+                    { "id": "item_11_9", "name": "Raj Kachori", "description": "Crispy kachori filled with curd, chutneys & spices", "price": 12000, "imageId": "raj_kachori.jpg" },
+                    { "id": "item_12_9", "name": "Aloo Tikki Chaat", "description": "Spicy potato patties with chutneys & curd", "price": 9900, "imageId": "aloo_tikki_chaat.jpg" },
+                    { "id": "item_13_9", "name": "Dahi Bhalla", "description": "Soft lentil dumplings topped with curd & chutneys", "price": 11000, "imageId": "dahi_bhalla.jpg" },
+                    { "id": "item_14_9", "name": "Samosa Plate", "description": "2 crispy samosas with chutney", "price": 6000, "imageId": "samosa.jpg" },
+                    { "id": "item_15_9", "name": "Kachori Sabzi", "description": "Crispy kachori served with spicy aloo sabzi", "price": 8000, "imageId": "kachori_sabzi.jpg" }
+                ]
+            }
+        ]
+    }
+
+    ,
+
+    "26724": {
+        "restaurantName": "Spice Route",
+        "categories": [
+            {
+                "title": "Tandoori Delights",
+                "itemCards": [
+                    { "id": "item_1_10", "name": "Tandoori Chicken (2 pcs)", "description": "Juicy tandoori chicken with spices", "price": 24900, "imageId": "tandoori_chicken_2pcs.jpg" },
+                    { "id": "item_2_10", "name": "Tandoori Chicken (4 pcs)", "description": "Extra flavorful tandoori chicken", "price": 47900, "imageId": "tandoori_chicken_4pcs.jpg" },
+                    { "id": "item_3_10", "name": "Malai Chicken Tikka", "description": "Creamy marinated chicken tikka", "price": 26900, "imageId": "malai_chicken_tikka.jpg" },
+                    { "id": "item_4_10", "name": "Peri Peri Paneer Tikka", "description": "Spicy paneer tikka strips", "price": 18900, "imageId": "peri_peri_paneer_tikka.jpg" },
+                    { "id": "item_5_10", "name": "Seekh Kebab (Medium)", "description": "Soft and spicy minced meat kebabs", "price": 15900, "imageId": "seekh_kebab_medium.jpg" }
+                ]
+            },
+            {
+                "title": "Indian Burgers & Wraps",
+                "itemCards": [
+                    { "id": "item_6_10", "name": "Spicy Chicken Roll", "description": "Indian spiced chicken wrap", "price": 19900, "imageId": "spicy_chicken_roll.jpg" },
+                    { "id": "item_7_10", "name": "Paneer Wrap", "description": "Grilled paneer with veggies", "price": 18900, "imageId": "paneer_wrap.jpg" },
+                    { "id": "item_8_10", "name": "Double Chicken Roll", "description": "Two rolls with extra chicken", "price": 28900, "imageId": "double_chicken_roll.jpg" },
+                    { "id": "item_9_10", "name": "Cheese Paneer Roll", "description": "Paneer wrap with cheese slice", "price": 21900, "imageId": "cheese_paneer_roll.jpg" },
+                    { "id": "item_10_10", "name": "Veggie Delight Wrap", "description": "Mixed veggies in Indian spices", "price": 19900, "imageId": "veggie_delight_wrap.jpg" }
+                ]
+            },
+            {
+                "title": "Sides & Beverages",
+                "itemCards": [
+                    { "id": "item_11_10", "name": "Masala Fries Medium", "description": "Spiced crispy fries", "price": 8900, "imageId": "masala_fries_medium.jpg" },
+                    { "id": "item_12_10", "name": "Mango Lassi", "description": "Refreshing mango yogurt drink", "price": 5000, "imageId": "mango_lassi.jpg" },
+                    { "id": "item_13_10", "name": "Masala Chai", "description": "Traditional Indian spiced tea", "price": 5000, "imageId": "masala_chai.jpg" },
+                    { "id": "item_14_10", "name": "Chocolate Falooda", "description": "Indian dessert with vermicelli & ice cream", "price": 9900, "imageId": "chocolate_falooda.jpg" },
+                    { "id": "item_15_10", "name": "Gulab Jamun", "description": "Soft spongy milk balls in syrup", "price": 6900, "imageId": "gulab_jamun.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+    "20055": {
+        "restaurantName": "Desi Darbaar",
+        "categories": [
+            {
+                "title": "Veg Wraps & Rolls",
+                "itemCards": [
+                    { "id": "item_1_11", "name": "Paneer Tikka Wrap", "description": "Grilled paneer with Indian spices", "price": 21900, "imageId": "paneer_tikka_wrap.jpg" },
+                    { "id": "item_2_11", "name": "Aloo Tikki Wrap", "description": "Spiced potato patty in soft roti", "price": 18900, "imageId": "aloo_tikki_wrap.jpg" },
+                    { "id": "item_3_11", "name": "Hara Bhara Kebab Roll", "description": "Spinach & veggie kebab in roll", "price": 19900, "imageId": "hara_bhara_kebab_roll.jpg" },
+                    { "id": "item_4_11", "name": "Veggie Delight Wrap", "description": "Fresh seasonal veggies in soft roti", "price": 17900, "imageId": "veggie_delight_wrap.jpg" },
+                    { "id": "item_5_11", "name": "Masala Paneer Roll", "description": "Paneer with tangy Indian spices", "price": 19900, "imageId": "masala_paneer_roll.jpg" }
+                ]
+            },
+            {
+                "title": "Non-Veg Wraps & Rolls",
+                "itemCards": [
+                    { "id": "item_6_11", "name": "Tandoori Chicken Wrap", "description": "Juicy tandoori chicken in roti", "price": 24900, "imageId": "tandoori_chicken_wrap.jpg" },
+                    { "id": "item_7_11", "name": "Butter Chicken Roll", "description": "Classic butter chicken in soft roll", "price": 25900, "imageId": "butter_chicken_roll.jpg" },
+                    { "id": "item_8_11", "name": "Malai Chicken Wrap", "description": "Creamy marinated chicken", "price": 26900, "imageId": "malai_chicken_wrap.jpg" },
+                    { "id": "item_9_11", "name": "Spicy Chicken Roll", "description": "Hot and spicy chicken filling", "price": 24900, "imageId": "spicy_chicken_roll.jpg" },
+                    { "id": "item_10_11", "name": "Seekh Kebab Roll", "description": "Minced meat kebab with Indian spices", "price": 27900, "imageId": "seekh_kebab_roll.jpg" }
+                ]
+            },
+            {
+                "title": "Sides & Beverages",
+                "itemCards": [
+                    { "id": "item_11_11", "name": "Masala Fries", "description": "Crispy fries with Indian spices", "price": 8900, "imageId": "masala_fries.jpg" },
+                    { "id": "item_12_11", "name": "Gulab Jamun (2 pcs)", "description": "Sweet milk dumplings in syrup", "price": 6900, "imageId": "gulab_jamun_2pcs.jpg" },
+                    { "id": "item_13_11", "name": "Masala Chai", "description": "Traditional Indian spiced tea", "price": 5000, "imageId": "masala_chai.jpg" },
+                    { "id": "item_14_11", "name": "Lassi", "description": "Refreshing yogurt drink", "price": 5000, "imageId": "lassi.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+
+
+    "458477": {
+        "restaurantName": "Royal Thali House",
+        "categories": [
+            {
+                "title": "Veg Thalis",
+                "itemCards": [
+                    { "id": "item_6_11", "name": "Paneer Butter Masala Thali", "description": "Paneer curry served with roti, rice & salad", "price": 24900, "imageId": "paneer_butter_masala_thali.jpg" },
+                    { "id": "item_7_11", "name": "Mixed Veg Thali", "description": "Seasonal vegetables with dal, rice, and roti", "price": 21900, "imageId": "mixed_veg_thali.jpg" },
+                    { "id": "item_8_11", "name": "Dal Makhani Thali", "description": "Rich dal with butter and assorted sides", "price": 22900, "imageId": "dal_makhani_thali.jpg" },
+                    { "id": "item_9_11", "name": "Chole Bhature Thali", "description": "Spicy chickpeas with fluffy bhature", "price": 19900, "imageId": "chole_bhature_thali.jpg" },
+                    { "id": "item_10_11", "name": "Aloo Gobi Thali", "description": "Potato & cauliflower curry with rice and roti", "price": 20900, "imageId": "aloo_gobi_thali.jpg" }
+                ]
+            },
+            {
+                "title": "Non-Veg Thalis",
+                "itemCards": [
+                    { "id": "item_11_11", "name": "Butter Chicken Thali", "description": "Classic butter chicken with rice, roti & salad", "price": 29900, "imageId": "butter_chicken_thali.jpg" },
+                    { "id": "item_12_11", "name": "Mutton Curry Thali", "description": "Spicy mutton curry with rice & roti", "price": 32900, "imageId": "mutton_curry_thali.jpg" },
+                    { "id": "item_13_11", "name": "Fish Curry Thali", "description": "Tangy fish curry served with rice & sides", "price": 30900, "imageId": "fish_curry_thali.jpg" },
+                    { "id": "item_14_11", "name": "Chicken Curry Thali", "description": "Homestyle chicken curry with rice and roti", "price": 28900, "imageId": "chicken_curry_thali.jpg" },
+                    { "id": "item_15_11", "name": "Prawn Curry Thali", "description": "Spiced prawn curry with accompaniments", "price": 34900, "imageId": "prawn_curry_thali.jpg" }
+                ]
+            },
+            {
+                "title": "Beverages",
+                "itemCards": [
+                    { "id": "item_16_11", "name": "Masala Chai", "description": "Traditional Indian spiced tea", "price": 5000, "imageId": "masala_chai.jpg" },
+                    { "id": "item_17_11", "name": "Lassi", "description": "Sweet or salty yogurt drink", "price": 6000, "imageId": "lassi.jpg" },
+                    { "id": "item_18_11", "name": "Badam Milk", "description": "Almond-flavored warm milk", "price": 7000, "imageId": "badam_milk.jpg" },
+                    { "id": "item_19_11", "name": "Nimbu Pani", "description": "Refreshing lemon water", "price": 4000, "imageId": "nimbu_pani.jpg" },
+                    { "id": "item_20_11", "name": "Masala Soda", "description": "Indian spiced soda drink", "price": 5000, "imageId": "masala_soda.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+
+    "763929": {
+        "restaurantName": "Rangrez Kitchen",
+        "categories": [
+            {
+                "title": "Vegetarian Curries",
+                "itemCards": [
+                    { "id": "1", "name": "Paneer Butter Masala", "price": 24900 },
+                    { "id": "2", "name": "Dal Makhani", "price": 19900 },
+                    { "id": "3", "name": "Chole Masala", "price": 18900 },
+                    { "id": "4", "name": "Aloo Gobi", "price": 17900 },
+                    { "id": "5", "name": "Mixed Veg Curry", "price": 18900 }
+                ]
+            },
+            {
+                "title": "Non-Vegetarian Curries",
+                "itemCards": [
+                    { "id": "6", "name": "Butter Chicken", "price": 29900 },
+                    { "id": "7", "name": "Chicken Curry", "price": 27900 },
+                    { "id": "8", "name": "Mutton Rogan Josh", "price": 34900 },
+                    { "id": "9", "name": "Fish Curry", "price": 32900 },
+                    { "id": "10", "name": "Prawn Masala", "price": 35900 }
+                ]
+            },
+            {
+                "title": "Breads & Rice",
+                "itemCards": [
+                    { "id": "11", "name": "Tandoori Roti", "price": 5000 },
+                    { "id": "12", "name": "Naan", "price": 6000 },
+                    { "id": "13", "name": "Jeera Rice", "price": 7000 },
+                    { "id": "14", "name": "Veg Pulao", "price": 8000 },
+                    { "id": "15", "name": "Chicken Biryani", "price": 29900 }
+                ]
+            },
+            {
+                "title": "Beverages",
+                "itemCards": [
+                    { "id": "16", "name": "Masala Chai", "price": 5000 },
+                    { "id": "17", "name": "Sweet Lassi", "price": 7000 },
+                    { "id": "18", "name": "Salted Lassi", "price": 6000 },
+                    { "id": "19", "name": "Cold Coffee", "price": 8000 },
+                    { "id": "20", "name": "Lemonade", "price": 7000 }
+                ]
+            }
+        ]
+    }
+    ,
+
+
+    "422811": {
+        "restaurantName": "Haveli Feast",
+        "categories": [
+            {
+                "title": "Thalis",
+                "itemCards": [
+                    { "id": "item_1_12", "name": "Veg Thali", "description": "Rice, dal, sabzi, roti, salad, and dessert", "price": 29900, "imageId": "veg_thali.jpg" },
+                    { "id": "item_2_12", "name": "Non-Veg Thali", "description": "Rice, chicken curry, dal, roti, salad, and dessert", "price": 39900, "imageId": "nonveg_thali.jpg" },
+                    { "id": "item_3_12", "name": "Paneer Thali", "description": "Paneer curry, rice, dal, roti, salad, and dessert", "price": 34900, "imageId": "paneer_thali.jpg" },
+                    { "id": "item_4_12", "name": "Special Royal Thali", "description": "Mix of veg and non-veg delicacies with dessert", "price": 49900, "imageId": "royal_thali.jpg" },
+                    { "id": "item_5_12", "name": "Kids Thali", "description": "Smaller portion of veg thali for kids", "price": 19900, "imageId": "kids_thali.jpg" }
+                ]
+            },
+            {
+                "title": "Curries & Sabzis",
+                "itemCards": [
+                    { "id": "item_6_12", "name": "Paneer Butter Masala", "description": "Cottage cheese in creamy tomato gravy", "price": 19900, "imageId": "paneer_butter_masala.jpg" },
+                    { "id": "item_7_12", "name": "Dal Makhani", "description": "Black lentils cooked with butter and cream", "price": 14900, "imageId": "dal_makhani.jpg" },
+                    { "id": "item_8_12", "name": "Chole Masala", "description": "Spicy chickpea curry", "price": 12900, "imageId": "chole_masala.jpg" },
+                    { "id": "item_9_12", "name": "Mixed Veg Sabzi", "description": "Seasonal vegetables cooked with Indian spices", "price": 11900, "imageId": "mixed_veg_sabzi.jpg" },
+                    { "id": "item_10_12", "name": "Butter Chicken", "description": "Tender chicken in rich tomato gravy", "price": 24900, "imageId": "butter_chicken.jpg" }
+                ]
+            },
+            {
+                "title": "Breads & Rice",
+                "itemCards": [
+                    { "id": "item_11_12", "name": "Naan", "description": "Soft, fluffy Indian bread", "price": 5000, "imageId": "naan.jpg" },
+                    { "id": "item_12_12", "name": "Tandoori Roti", "description": "Whole wheat tandoori bread", "price": 4000, "imageId": "tandoori_roti.jpg" },
+                    { "id": "item_13_12", "name": "Jeera Rice", "description": "Basmati rice flavored with cumin", "price": 7000, "imageId": "jeera_rice.jpg" },
+                    { "id": "item_14_12", "name": "Veg Pulao", "description": "Fragrant rice with vegetables", "price": 9000, "imageId": "veg_pulao.jpg" },
+                    { "id": "item_15_12", "name": "Chicken Biryani", "description": "Aromatic basmati rice with spiced chicken", "price": 24900, "imageId": "chicken_biryani.jpg" }
+                ]
+            },
+            {
+                "title": "Desserts",
+                "itemCards": [
+                    { "id": "item_16_12", "name": "Gulab Jamun", "description": "Soft milk dumplings in sugar syrup", "price": 6000, "imageId": "gulab_jamun.jpg" },
+                    { "id": "item_17_12", "name": "Rasmalai", "description": "Cottage cheese in sweetened milk", "price": 9000, "imageId": "rasmalai.jpg" },
+                    { "id": "item_18_12", "name": "Kheer", "description": "Rice pudding flavored with cardamom", "price": 7000, "imageId": "kheer.jpg" },
+                    { "id": "item_19_12", "name": "Jalebi", "description": "Crispy spirals soaked in sugar syrup", "price": 5000, "imageId": "jalebi.jpg" },
+                    { "id": "item_20_12", "name": "Kulfi", "description": "Traditional Indian ice cream", "price": 9000, "imageId": "kulfi.jpg" }
+                ]
+            },
+            {
+                "title": "Beverages",
+                "itemCards": [
+                    { "id": "item_21_12", "name": "Masala Chai", "description": "Spiced Indian tea", "price": 5000, "imageId": "masala_chai.jpg" },
+                    { "id": "item_22_12", "name": "Mango Lassi", "description": "Sweet mango yogurt drink", "price": 9000, "imageId": "mango_lassi.jpg" },
+                    { "id": "item_23_12", "name": "Sweet Lassi", "description": "Classic yogurt drink", "price": 7000, "imageId": "sweet_lassi.jpg" },
+                    { "id": "item_24_12", "name": "Masala Soda", "description": "Spiced fizzy drink", "price": 6000, "imageId": "masala_soda.jpg" },
+                    { "id": "item_25_12", "name": "Badam Milk", "description": "Almond flavored milk drink", "price": 12000, "imageId": "badam_milk.jpg" }
+                ]
+            }
+        ]
+    },
+
+    "492326": {
+        "restaurantName": "Swad Lifestyle",
+        "categories": [
+            {
+                "title": "Vegetarian Thalis",
+                "itemCards": [
+                    { "id": "item_1", "name": "Paneer Tikka Thali", "description": "Grilled paneer served with dal, rice & roti", "price": 29900, "imageId": "paneer_tikka_thali.jpg" },
+                    { "id": "item_2", "name": "Mix Veg Thali", "description": "Seasonal vegetables with dal, rice & roti", "price": 24900, "imageId": "mix_veg_thali.jpg" },
+                    { "id": "item_3", "name": "Dal Makhani Thali", "description": "Creamy black lentils with rice & roti", "price": 25900, "imageId": "dal_makhani_thali.jpg" },
+                    { "id": "item_4", "name": "Palak Paneer Thali", "description": "Spinach and paneer curry with accompaniments", "price": 27900, "imageId": "palak_paneer_thali.jpg" },
+                    { "id": "item_5", "name": "Chole Bhature Thali", "description": "Spicy chickpeas with fluffy bhature", "price": 26900, "imageId": "chole_bhature_thali.jpg" }
+                ]
+            },
+            {
+                "title": "Non-Vegetarian Thalis",
+                "itemCards": [
+                    { "id": "item_6", "name": "Butter Chicken Thali", "description": "Creamy chicken curry with rice & roti", "price": 34900, "imageId": "butter_chicken_thali.jpg" },
+                    { "id": "item_7", "name": "Chicken Tandoori Thali", "description": "Tandoori chicken served with dal, rice & roti", "price": 36900, "imageId": "chicken_tandoori_thali.jpg" },
+                    { "id": "item_8", "name": "Fish Curry Thali", "description": "Spicy fish curry with rice & sides", "price": 35900, "imageId": "fish_curry_thali.jpg" },
+                    { "id": "item_9", "name": "Mutton Rogan Josh Thali", "description": "Rich mutton curry served with rice & roti", "price": 39900, "imageId": "mutton_rogan_josh_thali.jpg" },
+                    { "id": "item_10", "name": "Egg Curry Thali", "description": "Classic egg curry with rice & roti", "price": 29900, "imageId": "egg_curry_thali.jpg" }
+                ]
+            },
+            {
+                "title": "Healthy Bowls & Salads",
+                "itemCards": [
+                    { "id": "item_11", "name": "Quinoa Veg Bowl", "description": "Quinoa with vegetables and light dressing", "price": 21900, "imageId": "quinoa_veg_bowl.jpg" },
+                    { "id": "item_12", "name": "Chicken Salad Bowl", "description": "Grilled chicken with greens and vinaigrette", "price": 23900, "imageId": "chicken_salad_bowl.jpg" },
+                    { "id": "item_13", "name": "Sprout Salad", "description": "Protein-rich sprout salad with veggies", "price": 17900, "imageId": "sprout_salad.jpg" },
+                    { "id": "item_14", "name": "Fruit Bowl", "description": "Seasonal fresh fruits", "price": 15900, "imageId": "fruit_bowl.jpg" },
+                    { "id": "item_15", "name": "Paneer Salad Bowl", "description": "Grilled paneer cubes with fresh greens", "price": 19900, "imageId": "paneer_salad_bowl.jpg" }
+                ]
+            },
+            {
+                "title": "Beverages & Juices",
+                "itemCards": [
+                    { "id": "item_16", "name": "Fresh Orange Juice", "description": "Cold-pressed fresh orange juice", "price": 9000, "imageId": "orange_juice.jpg" },
+                    { "id": "item_17", "name": "Lemon Mint Juice", "description": "Refreshing lemon and mint drink", "price": 8000, "imageId": "lemon_mint_juice.jpg" },
+                    { "id": "item_18", "name": "Masala Chai", "description": "Traditional Indian spiced tea", "price": 5000, "imageId": "masala_chai.jpg" },
+                    { "id": "item_19", "name": "Green Tea", "description": "Refreshing green tea", "price": 4000, "imageId": "green_tea.jpg" },
+                    { "id": "item_20", "name": "Mango Lassi", "description": "Sweet mango yogurt drink", "price": 12000, "imageId": "mango_lassi.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+
+    "492325": {
+        "restaurantName": "Urban Food",
+        "categories": [
+            {
+                "title": "Superfood Bowls",
+                "itemCards": [
+                    { "id": "item_1_12", "name": "Acai Berry Bowl", "description": "Acai blended with banana, granola, chia seeds, and berries", "price": 29900, "imageId": "acai_berry_bowl.jpg" },
+                    { "id": "item_2_12", "name": "Quinoa Power Bowl", "description": "Quinoa with roasted veggies, avocado, chickpeas, and tahini dressing", "price": 25900, "imageId": "quinoa_power_bowl.jpg" },
+                    { "id": "item_3_12", "name": "Mediterranean Bowl", "description": "Falafel, hummus, cucumber, tomato, and mixed greens", "price": 24900, "imageId": "mediterranean_bowl.jpg" },
+                    { "id": "item_4_12", "name": "Kale & Avocado Bowl", "description": "Fresh kale, avocado, seeds, and lemon vinaigrette", "price": 23900, "imageId": "kale_avocado_bowl.jpg" },
+                    { "id": "item_5_12", "name": "Buddha Bowl", "description": "Brown rice, tofu, roasted veggies, edamame, and sesame dressing", "price": 26900, "imageId": "buddha_bowl.jpg" }
+                ]
+            },
+            {
+                "title": "North Indian Specials",
+                "itemCards": [
+                    { "id": "item_6_12", "name": "Paneer Tikka Bowl", "description": "Grilled paneer marinated in spices, served with salad and mint chutney", "price": 24900, "imageId": "paneer_tikka_bowl.jpg" },
+                    { "id": "item_7_12", "name": "Butter Chicken Bowl", "description": "Tender chicken in creamy tomato sauce with basmati rice", "price": 27900, "imageId": "butter_chicken_bowl.jpg" },
+                    { "id": "item_8_12", "name": "Chole Bhature", "description": "Spicy chickpeas with soft fried bread", "price": 19900, "imageId": "chole_bhature.jpg" },
+                    { "id": "item_9_12", "name": "Dal Makhani Bowl", "description": "Creamy black lentils with aromatic spices, served with rice", "price": 21900, "imageId": "dal_makhani_bowl.jpg" },
+                    { "id": "item_10_12", "name": "Tandoori Veg Platter", "description": "Assorted tandoori vegetables with green chutney", "price": 23900, "imageId": "tandoori_veg_platter.jpg" }
+                ]
+            },
+            {
+                "title": "Urban Drinks & Smoothies",
+                "itemCards": [
+                    { "id": "item_11_12", "name": "Cold Brew Coffee", "description": "Smooth, chilled cold brew", "price": 15000, "imageId": "cold_brew_coffee.jpg" },
+                    { "id": "item_12_12", "name": "Matcha Latte", "description": "Green tea matcha with almond milk", "price": 17000, "imageId": "matcha_latte.jpg" },
+                    { "id": "item_13_12", "name": "Mango Lassi Smoothie", "description": "Mango blended with yogurt and honey", "price": 13000, "imageId": "mango_lassi_smoothie.jpg" },
+                    { "id": "item_14_12", "name": "Protein Shake", "description": "Banana and peanut protein shake", "price": 14900, "imageId": "protein_shake.jpg" },
+                    { "id": "item_15_12", "name": "Berry Detox Juice", "description": "Mixed berries, apple, and detox herbs", "price": 12000, "imageId": "berry_detox_juice.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+
+
+    "51753": {
+        "restaurantName": "Flavour Mahal",
+        "categories": [
+            {
+                "title": "Signature Curries",
+                "itemCards": [
+                    { "id": "item_1", "name": "Butter Chicken", "description": "Creamy tomato gravy with tender chicken pieces", "price": 29900, "imageId": "butter_chicken.jpg" },
+                    { "id": "item_2", "name": "Paneer Butter Masala", "description": "Cottage cheese in rich buttery tomato gravy", "price": 25900, "imageId": "paneer_butter_masala.jpg" },
+                    { "id": "item_3", "name": "Dal Makhani", "description": "Slow-cooked black lentils in buttery sauce", "price": 19900, "imageId": "dal_makhani.jpg" },
+                    { "id": "item_4", "name": "Chicken Tikka Masala", "description": "Grilled chicken chunks in spiced creamy gravy", "price": 31900, "imageId": "chicken_tikka_masala.jpg" },
+                    { "id": "item_5", "name": "Kadhai Paneer", "description": "Paneer cooked with bell peppers and spicy tomato gravy", "price": 26900, "imageId": "kadhai_paneer.jpg" }
+                ]
+            },
+            {
+                "title": "Tandoori & Kebabs",
+                "itemCards": [
+                    { "id": "item_6", "name": "Tandoori Chicken", "description": "Marinated chicken roasted in tandoor", "price": 34900, "imageId": "tandoori_chicken.jpg" },
+                    { "id": "item_7", "name": "Paneer Tikka", "description": "Grilled spiced cottage cheese cubes", "price": 23900, "imageId": "paneer_tikka.jpg" },
+                    { "id": "item_8", "name": "Seekh Kebab", "description": "Minced meat skewers with aromatic spices", "price": 27900, "imageId": "seekh_kebab.jpg" },
+                    { "id": "item_9", "name": "Chicken Malai Tikka", "description": "Creamy chicken cubes with subtle spices", "price": 32900, "imageId": "chicken_malai_tikka.jpg" },
+                    { "id": "item_10", "name": "Hara Bhara Kebab", "description": "Spinach and peas patties, lightly spiced", "price": 19900, "imageId": "hara_bhara_kebab.jpg" }
+                ]
+            },
+            {
+                "title": "Breads & Rice",
+                "itemCards": [
+                    { "id": "item_11", "name": "Butter Naan", "description": "Soft leavened bread with butter", "price": 6000, "imageId": "butter_naan.jpg" },
+                    { "id": "item_12", "name": "Garlic Naan", "description": "Naan topped with garlic and butter", "price": 7000, "imageId": "garlic_naan.jpg" },
+                    { "id": "item_13", "name": "Lachha Paratha", "description": "Flaky layered whole wheat bread", "price": 8000, "imageId": "lachha_paratha.jpg" },
+                    { "id": "item_14", "name": "Jeera Rice", "description": "Fragrant cumin-flavored basmati rice", "price": 9000, "imageId": "jeera_rice.jpg" },
+                    { "id": "item_15", "name": "Veg Biryani", "description": "Aromatic rice cooked with vegetables and spices", "price": 24900, "imageId": "veg_biryani.jpg" }
+                ]
+            },
+            {
+                "title": "Desserts",
+                "itemCards": [
+                    { "id": "item_16", "name": "Gulab Jamun", "description": "Soft dumplings soaked in sugar syrup", "price": 9000, "imageId": "gulab_jamun.jpg" },
+                    { "id": "item_17", "name": "Rasmalai", "description": "Soft cheese patties in saffron-flavored milk", "price": 12000, "imageId": "rasmalai.jpg" },
+                    { "id": "item_18", "name": "Gajar Halwa", "description": "Carrot pudding cooked in milk and ghee", "price": 11000, "imageId": "gajar_halwa.jpg" },
+                    { "id": "item_19", "name": "Kheer", "description": "Creamy rice pudding with cardamom", "price": 10000, "imageId": "kheer.jpg" },
+                    { "id": "item_20", "name": "Kulfi Falooda", "description": "Traditional Indian ice cream with vermicelli", "price": 13000, "imageId": "kulfi_falooda.jpg" }
+                ]
+            },
+            {
+                "title": "Beverages",
+                "itemCards": [
+                    { "id": "item_21", "name": "Masala Chai", "description": "Spiced Indian tea", "price": 5000, "imageId": "masala_chai.jpg" },
+                    { "id": "item_22", "name": "Badam Milk", "description": "Almond flavored warm milk", "price": 7000, "imageId": "badam_milk.jpg" },
+                    { "id": "item_23", "name": "Lassi", "description": "Sweet or salted yogurt drink", "price": 6000, "imageId": "lassi.jpg" },
+                    { "id": "item_24", "name": "Nimbu Pani", "description": "Fresh lime water with a hint of salt", "price": 4000, "imageId": "nimbu_pani.jpg" },
+                    { "id": "item_25", "name": "Jaljeera", "description": "Tangy cumin flavored drink", "price": 4500, "imageId": "jaljeera.jpg" }
+                ]
+            }
+        ]
+    }
+    ,
+
+
+   
+    "523200": {
+        "restaurantName": "Nukkad Rasoi",
+            "categories": [
+                {
+                    "title": "Gully Starters",
+                    "itemCards": [
+                        { "id": "item_1_NR", "name": "Aloo Tikki Chaat", "description": "Crispy tikki topped with sweet & tangy chutneys", "price": 12000, "imageId": "aloo_tikki.jpg" },
+                        { "id": "item_2_NR", "name": "Paneer Pakoda", "description": "Stuffed paneer fritters with masala seasoning", "price": 15000, "imageId": "paneer_pakoda.jpg" },
+                        { "id": "item_3_NR", "name": "Soya Malai Chaap", "description": "Creamy tandoori soya chaap", "price": 18000, "imageId": "soya_malai_chaap.jpg" },
+                        { "id": "item_4_NR", "name": "Veg Momos Fry", "description": "Street-style crispy momos", "price": 14000, "imageId": "veg_momos.jpg" },
+                        { "id": "item_5_NR", "name": "Chole Kulche Mini", "description": "Soft kulchas served with spicy chole", "price": 16000, "imageId": "chole_kulche.jpg" }
+                    ]
+                },
+                {
+                    "title": "Nukkad Main Course",
+                    "itemCards": [
+                        { "id": "item_6_NR", "name": "Rajma Chawal Bowl", "description": "Homestyle rajma with steamed rice", "price": 17000, "imageId": "rajma_chawal.jpg" },
+                        { "id": "item_7_NR", "name": "Paneer Butter Masala", "description": "Creamy Punjabi-style paneer gravy", "price": 22000, "imageId": "paneer_butter_masala.jpg" },
+                        { "id": "item_8_NR", "name": "Dal Tadka & Jeera Rice", "description": "Smoky dal tadka served with jeera rice", "price": 19000, "imageId": "dal_tadka.jpg" },
+                        { "id": "item_9_NR", "name": "Chole Bhature", "description": "Classic Delhi-style spicy chole with fluffy bhature", "price": 16000, "imageId": "chole_bhature.jpg" },
+                        { "id": "item_10_NR", "name": "Masala Kadhi Chawal", "description": "Tangy kadhi paired with rice", "price": 15000, "imageId": "kadhi_chawal.jpg" }
+                    ]
+                },
+                {
+                    "title": "Rasoi Specials & Drinks",
+                    "itemCards": [
+                        { "id": "item_11_NR", "name": "Masala Chai Kulhad", "description": "Kulhad tea with rich aroma", "price": 5000, "imageId": "masala_chai.jpg" },
+                        { "id": "item_12_NR", "name": "Sweet Lassi", "description": "Thick Punjabi lassi", "price": 8000, "imageId": "lassi.jpg" },
+                        { "id": "item_13_NR", "name": "Gulab Jamun (2 pcs)", "description": "Soft & juicy dessert", "price": 6000, "imageId": "gulab_jamun.jpg" },
+                        { "id": "item_14_NR", "name": "Boondi Raita", "description": "Refreshing raita with crunchy boondi", "price": 5000, "imageId": "boondi_raita.jpg" },
+                        { "id": "item_15_NR", "name": "Jaljeera Cooler", "description": "Tangy fresh jaljeera drink", "price": 4000, "imageId": "jaljeera.jpg" }
+                    ]
+                }
+            ]
+    },
+
+    "336330": {
+        "restaurantName": "Dilli Handi",
+            "categories": [
+                {
+                    "title": "Handi Starters",
+                    "itemCards": [
+                        { "id": "item_1_DH", "name": "Handi Chicken Tikka", "price": 26000, "imageId": "handi_chicken_tikka.jpg" },
+                        { "id": "item_2_DH", "name": "Handi Soya Chaap", "price": 20000, "imageId": "handi_chaap.jpg" },
+                        { "id": "item_3_DH", "name": "Seekh Kebab", "price": 24000, "imageId": "seekh_kebab.jpg" },
+                        { "id": "item_4_DH", "name": "Handi Paneer Tikka", "price": 23000, "imageId": "paneer_tikka.jpg" },
+                        { "id": "item_5_DH", "name": "Tandoori Mushrooms", "price": 21000, "imageId": "tandoori_mushrooms.jpg" }
+                    ]
+                },
+                {
+                    "title": "Dilli Handi Main Course",
+                    "itemCards": [
+                        { "id": "item_6_DH", "name": "Handi Chicken Curry", "price": 29000, "imageId": "handi_chicken.jpg" },
+                        { "id": "item_7_DH", "name": "Dal Makhani Handi", "price": 22000, "imageId": "dal_makhani.jpg" },
+                        { "id": "item_8_DH", "name": "Handi Mutton Rogan Josh", "price": 34000, "imageId": "rogan_josh.jpg" },
+                        { "id": "item_9_DH", "name": "Kadhai Paneer Handi", "price": 24000, "imageId": "kadhai_paneer.jpg" },
+                        { "id": "item_10_DH", "name": "Butter Chicken (Handi)", "price": 32000, "imageId": "butter_chicken.jpg" }
+                    ]
+                },
+                {
+                    "title": "Breads & Desserts",
+                    "itemCards": [
+                        { "id": "item_11_DH", "name": "Tandoori Roti", "price": 5000, "imageId": "tandoori_roti.jpg" },
+                        { "id": "item_12_DH", "name": "Butter Naan", "price": 9000, "imageId": "butter_naan.jpg" },
+                        { "id": "item_13_DH", "name": "Lachha Paratha", "price": 12000, "imageId": "lachha_paratha.jpg" },
+                        { "id": "item_14_DH", "name": "Phirni Handi", "price": 10000, "imageId": "phirni.jpg" },
+                        { "id": "item_15_DH", "name": "Kesari Kheer", "price": 9000, "imageId": "kheer.jpg" }
+                    ]
+                }
+            ]
+    }
 }
+
+
+
+
 export const teamMembers = [
     {
         name: "Aman Uniyal",
         role: "Founder & Developer",
-        image:"https://avatars.githubusercontent.com/u/186562118?v=4",
+        image: "https://avatars.githubusercontent.com/u/186562118?v=4",
         linkedin: "https://www.linkedin.com/feed/",
     },
     {
@@ -2449,44 +2396,44 @@ export const reviews = [
         name: "Aarav Sharma",
         review:
             "I had an amazing experience here! The food was not only delicious but also freshly prepared with great attention to detail. The staff was polite and the ambiance made it even better. Definitely coming back again!",
-            rating: 5
+        rating: 5
 
     },
     {
         name: "Sneha Patel",
         review:
             "The flavors were outstanding! Every dish felt like it was made with love. I really appreciated how the team took extra care to serve everything hot and fresh. Highly recommended to all food lovers!",
-            rating:3
+        rating: 3
     },
     {
         name: "Rahul Verma",
         review:
             "What I liked the most was the balance between taste and quality. The service was quick and friendly, and I didn’t feel rushed at all. It’s rare to find such a perfect dining experience nowadays.",
-            rating:4
+        rating: 4
     },
     {
         name: "Priya Nair",
         review:
             "Absolutely delightful! The presentation of the food was top-notch, and the portions were generous. I can honestly say this has been one of the best food experiences I’ve had in a long time.",
-            rating:2
+        rating: 2
     },
     {
         name: "Karan Mehta",
         review:
             "From the moment we entered, we felt welcomed. The staff was extremely courteous and ensured we had everything we needed. The dishes had authentic flavors that took me by surprise. A must-visit place!",
-            rating:3
+        rating: 3
     },
     {
         name: "Riya Singh",
         review:
             "I can’t stop recommending this place to my friends. The food was flavorful, healthy, and beautifully presented. The team has done a wonderful job creating such a positive experience for customers.",
-            rating:5
+        rating: 5
     },
     {
         name: "Vikram Joshi",
         review:
             "Every bite was a burst of flavor! What stood out to me was not just the taste but the consistency. The quality remained top-class across all the dishes we tried. Truly satisfied with everything!",
-            rating:2
+        rating: 2
     }
 ];
 

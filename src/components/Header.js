@@ -15,7 +15,8 @@ const Header = () => {
   const { loggedInUser } = useContext(UserContext);
   const cartItems = useSelector((store) => store.cart.items);
 
-  // Get dark mode state and toggle function from ThemeProvider
+
+  
   const { isDarkMode, toggleTheme } = useTheme();
 
   return (
@@ -66,6 +67,13 @@ const Header = () => {
             >
               🛒({cartItems.length})
             </Link>
+            <Link
+              to="/vendor"
+              className={`font-[500] text-[20px] transition-all duration-300 
+                  ${isDarkMode ? "hover:text-blue-400" : "hover:text-blue-700"}`}
+            >
+              Vendor Registration
+            </Link>
           </ul>
         </nav>
 
@@ -99,7 +107,7 @@ const Header = () => {
           <span className="font-[500]">{loggedInUser}</span>
         </div>
 
-        {/* Hamburger button (mobile only) */}
+
         <button
           onClick={() => setIsOpen(!isOpen)}
           className={`md:hidden ml-auto focus:outline-none 

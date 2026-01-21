@@ -17,6 +17,7 @@ import Cart from "./components/Cart";
 import UserContext from "./utils/usercontext";
 import appStore from "./utils/appStore";
 import { ThemeProvider } from "./utils/ThemeContext";
+import VendorRegistration from "./components/VendorRegistration";
 
 const AppLayout = () => {
   const [userName, setuserName] = useState("");
@@ -52,6 +53,7 @@ const appRouter = createBrowserRouter([
       { path: "/reviews", element: <Reviews /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/cart", element: <Cart /> },
+      { path: "/vendor", element: <VendorRegistration /> }
     ],
     errorElement: <Error />,
   },
