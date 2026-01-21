@@ -1,109 +1,122 @@
-🍛 Swaad Express – Indian Food Ordering Platform(Frontend)
+🍛 Swaad Express – Indian Food Ordering Platform (Frontend)
 
-Swaad Express is a modern,  food ordering web application UI focused on authentic Indian cuisine.
-It allows users to explore a wide variety of Indian restaurants, discover regional dishes, manage their cart, and place orders seamlessly — all with a clean UI, dark/light mode, and smooth user experience.
+* Swaad Express is a modern and visually rich Indian food ordering web application (frontend) crafted to showcase the diversity of authentic Indian cuisine.
+The platform enables users to explore restaurants, discover regional dishes, manage their cart, and enjoy a seamless ordering experience — all wrapped in a clean Netflix-style UI with Dark/Light Mode support.
 
-✨ Features
+✨ Key Features
 🏠 Home & Restaurant Discovery
 
-Browse Indian restaurants from different regions
+* Explore Indian restaurants from multiple regions
 
-Beautiful, responsive UI inspired by modern food apps
+* Modern, responsive UI inspired by top food delivery apps
 
-Fast loading and smooth navigation
+* Smooth navigation with fast page transitions
 
 🍽️ Rich Indian Cuisine
 
-North Indian, South Indian, Street Food, Sweets & more
+* North Indian, South Indian, Street Food, Sweets & more
 
-Detailed restaurant menus with pricing and images
+* Detailed restaurant menus with pricing and visuals
 
-Category-wise food listings
+* Category-wise food browsing for easy discovery
 
 🛒 Smart Cart System
 
-Add/remove items instantly
+* Instantly add or remove food items
 
-Quantity management
+* Quantity control for each item
 
-Real-time cart updates
+* Real-time cart updates using global state
 
 🔐 Authentication
 
-Secure Login / Sign Up flow
+* Secure Login & Sign-Up flow
 
-User session handling
-
-Protected routes
+* Persistent user sessions
+* 
+* Protected routes for authenticated users
 
 🧑‍🍳 Vendor / Restaurant Registration
 
-Vendors can register their restaurants
+* Restaurant owners can register as vendors
 
-Add menus and manage listings (planned )
+* Restaurant listing & menu management
 
-🌙 Dark / ☀️ Light Mode
+* Admin features planned for future releases
 
-Toggle between Dark and Light themes
+🌙 Dark Mode / ☀️ Light Mode
 
-Smooth UI transitions
+* Seamless theme switching
 
-User-friendly for long browsing sessions
+* Smooth UI animations and transitions
+
+* Comfortable browsing for both day & night users
 
 🛠️ Tech Stack
 
-Frontend: React.js, Tailwind CSS
+* Frontend: React.js, Tailwind CSS
 
-State Management: Redux Toolkit
+* State Management: Redux Toolkit
+* 
+* Routing: React Router
 
-Routing: React Router
+* Backend / APIs: Firebase
 
-Backend / APIs: Firebase
+* Authentication: Firebase Auth
 
-Authentication: Firebase Auth 
+* Hosting: Firebase Hosting
 
-Hosting: Firebase Hosting
+
+📸 Application Screenshots
 
 ## 🏠 Home Page
+
 ![Home Page](./Screenshots/Home.png)
 
 ---
 
 ## 🍴 Restaurants
+
 ![Restaurant List](./Screenshots/restaurant-list.png)
 
 ---
 
 ## 📖 Restaurant Menu
+
 ![Menu Page](./Screenshots/menu1.png)
 
 ---
 
 ## 📖 Restaurant Menu
+
 ![Menu Page](./Screenshots/menu2.png)
 
 ---
+
 ## 📖 About Us
+
 ![Menu Page](./Screenshots/about.png)
 
 ---
 
 ## 🛒 Cart
+
 ![Cart Page](./Screenshots/cart.png)
 
 ---
 
-
 ## 📞 Contact Us
+
 ![Contact](./Screenshots/contact.png)
 
 ---
 
 ## 💬 Reviews
+
 ![Reviews](./Screenshots/reviews.png)
 
 ---
 
-
 ## 🔐 Login
-![Login Page](./screenshots/login.png)
+
+![Login Page](./Screenshots/login.png)
