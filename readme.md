@@ -66,6 +66,8 @@ The platform enables users to explore restaurants, discover regional dishes, man
 
 * Hosting: Firebase Hosting
 
+🌐 Live Demo:https://swaad-express-17a85.web.app/
+
 
 📸 Application Screenshots
 
@@ -120,3 +122,7 @@ The platform enables users to explore restaurants, discover regional dishes, man
 ## 🔐 Login
 
 ![Login Page](./Screenshots/login.png)
+
+
+Made with 💖 by Aman Uniyal
+Linkedin:https://www.linkedin.com/in/amanuniyal1012/
