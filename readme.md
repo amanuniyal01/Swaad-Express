@@ -125,4 +125,6 @@ The platform enables users to explore restaurants, discover regional dishes, man
 
 
 Made with 💖 by Aman Uniyal
-Linkedin:https://www.linkedin.com/in/amanuniyal1012/
+
+Linkedin
+:https://www.linkedin.com/in/amanuniyal1012/
