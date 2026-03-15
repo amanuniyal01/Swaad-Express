@@ -16,7 +16,7 @@ The platform enables users to explore restaurants, discover regional dishes, man
 
 * North Indian, South Indian, Street Food, Sweets & more
 
-* Detailed restaurant menus with pricing and visuals
+* Detailed restaurant menus with pricing and visuals(Indians)
 
 * Category-wise food browsing for easy discovery
 
@@ -124,7 +124,7 @@ The platform enables users to explore restaurants, discover regional dishes, man
 ![Login Page](./Screenshots/login.png)
 
 
-Made with 💖 by Aman Uniyal
+Made with 💖 by Aman Uniyal..
 
 Linkedin
 :https://www.linkedin.com/in/amanuniyal1012/
