@@ -22,13 +22,14 @@ const Cart = () => {
 
       {/* Empty Cart */}
       {cartItems.length === 0 ? (
-        <p className="text-center text-4xl text-gray-500">
-          Your cart is empty. Start adding some delicious items! 
-        </p>
+
+        <div> <p className=" cart-empty text-center text-4xl text-gray-500">
+          Your cart is empty. Start adding some delicious items!
+        </p></div>
       ) : (
         <>
           {/* Items List */}
-         <ItemList items={cartItems} isCartPage={true} />
+          <ItemList items={cartItems} isCartPage={true} />
 
           {/* Clear Cart Button */}
           <div className="flex justify-end mt-6">

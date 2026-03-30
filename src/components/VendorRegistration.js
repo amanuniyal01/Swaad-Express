@@ -22,6 +22,7 @@ function VendorRegistration() {
 
       
         alert("Your Vendor Application has been submitted!");
+        
 
 
         setVendor({

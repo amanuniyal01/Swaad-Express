@@ -312,7 +312,7 @@
 
 .reviews-list {
   display: grid;
-  
+
   gap: 35px;
   justify-content: center;
   align-items: stretch;
@@ -320,10 +320,10 @@
 }
 
 .review-card {
- 
+
   padding: 25px;
 
-width: 80vw;
+  width: 80vw;
   transition: all 0.3s ease;
   text-align: left;
   position: relative;
@@ -417,8 +417,17 @@ width: 80vw;
   font-weight: 200;
   font-size: 22px;
 }
-.vendor{
+
+.vendor {
   background-image: url('./src/images/kitchen-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cart-empty {
+  height: 50vh;
+  background-image: url("./src/images/cart-empty.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
