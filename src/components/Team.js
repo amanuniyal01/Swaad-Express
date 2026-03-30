@@ -24,9 +24,9 @@ const Team = () => {
 
       <div className="flex flex-wrap justify-center gap-10">
         {teamMembers.map((member, index) => (
-          <div
+          <div 
             key={index}
-            className={`text-center p-6 rounded-xl shadow-md hover:shadow-lg transition ${
+            className={`text-center  p-6 rounded-xl shadow-md hover:shadow-lg transition ${
               isDarkMode ? "bg-gray-800 text-gray-200" : "bg-white text-gray-800"
             }`}
           >

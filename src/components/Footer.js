@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <h2 className="text-3xl font-bold">Swaad Express</h2>
           <p className="mt-2 text-[17px]">
-            Swaad Express connects local food vendors with hungry customers, bringing authentic, affordable, and freshly prepared meals right to your doorstep.
+            Swaad Express Brings Indian specific Restaurants , bringing authentic, affordable, and freshly prepared meals right to your doorstep.
           </p>
         </div>
 

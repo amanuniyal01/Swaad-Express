@@ -417,3 +417,8 @@ width: 80vw;
   font-weight: 200;
   font-size: 22px;
 }
+.vendor{
+  background-image: url('./src/images/kitchen-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
