@@ -39,7 +39,7 @@ function VendorRegistration() {
     };
 
     return (
-        <div className="vendor mt-15 flex justify-center">
+        <div className=" p-10 vendor mt-15 flex justify-center">
             <form
                 onSubmit={handleSubmit}
                 className="flex opacity-80 flex-col gap-4 p-6 shadow-lg border rounded-lg w-2/4 bg-white"

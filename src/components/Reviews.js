@@ -15,7 +15,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="min-h-screen bg-amber-50 py-10 px-4">
+    <div className="min-h-screen bg-amber-50 mt-15 py-10 px-4">
       <div className="max-w-2xl mx-auto">
 
         {/* Title */}
