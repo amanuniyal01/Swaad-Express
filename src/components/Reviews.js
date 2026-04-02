@@ -28,7 +28,7 @@ const Reviews = () => {
           <input
             type="text"
             value={name}
-            placeholder="Your name"
+            placeholder="Your name?"
             onChange={(e) => setName(e.target.value)}
             className="border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-amber-400 focus:bg-white transition"
           />

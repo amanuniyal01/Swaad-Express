@@ -15,7 +15,7 @@ const Body = () => {
   const [SearchText, setSearchText] = useState("");
   const RestaurantPromoted = showpromotedCard(RestaurantCard);
   const { loggedInUser, setuserName } = useContext(UserContext);
-  const { isDarkMode } = useTheme(); // ✅ get dark mode state
+  const { isDarkMode } = useTheme();
 
   useEffect(() => {
     setTimeout(() => {
@@ -28,9 +28,8 @@ const Body = () => {
   if (status === false) {
     return (
       <div
-        className={`offline flex content-center items-center flex-col mt-[300px] ${
-          isDarkMode ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"
-        }`}
+        className={`offline flex content-center items-center flex-col mt-[300px] ${isDarkMode ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"
+          }`}
       >
         <WifiOff size={60} className="wifi-icon h-[100px] w-[100px]" />
         <h1>Offline 🛑</h1>
@@ -43,9 +42,8 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div
-      className={`body min-h-full pt-[50px] transition-colors duration-300 ${
-        isDarkMode ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-900"
-      }`}
+      className={`body min-h-full pt-[50px] transition-colors duration-300 ${isDarkMode ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-900"
+        }`}
     >
       <Starter />
 
@@ -56,10 +54,9 @@ const Body = () => {
             w-[260px] sm:w-[300px] md:w-[420px] 
             cursor-pointer border-none text-[1rem] sm:text-[1.2rem] md:text-[1.4rem] 
             h-[40px] rounded-md px-4 shadow-md hover:opacity-90
-            ${
-              isDarkMode
-                ? "bg-gray-800 text-gray-100 placeholder-gray-400"
-                : "bg-white text-gray-800 placeholder-gray-500"
+            ${isDarkMode
+              ? "bg-gray-800 text-gray-100 placeholder-gray-400"
+              : "bg-white text-gray-800 placeholder-gray-500"
             }`}
           type="text"
           placeholder="🔍 Search restaurants, cuisines..."
@@ -79,10 +76,9 @@ const Body = () => {
 
         <button
           className={`filter-btn px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base md:px-5 md:py-3 md:text-lg text-white rounded-[6px] font-bold m-2 cursor-pointer text-center
-            ${
-              isDarkMode
-                ? "bg-blue-500 hover:bg-blue-600"
-                : "bg-purple-400 hover:bg-[rgba(6,18,245,0.6)]"
+            ${isDarkMode
+              ? "bg-blue-500 hover:bg-blue-600"
+              : "bg-purple-400 hover:bg-[rgba(6,18,245,0.6)]"
             }`}
           onClick={() => {
             let filterData = RestaurantList.filter(
@@ -98,10 +94,9 @@ const Body = () => {
           <label className="font-bold w-28 text-right">UserName:</label>
           <input
             className={`flex-1 md:w-50 h-10 w-27 md:max-w-md p-3 text-sm md:text-lg rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-400
-              ${
-                isDarkMode
-                  ? "bg-gray-800 text-gray-100 border-gray-700 placeholder-gray-400"
-                  : "bg-purple-500 text-white border-gray-300 placeholder-gray-200 hover:bg-blue-500"
+              ${isDarkMode
+                ? "bg-gray-800 text-gray-100 border-gray-700 placeholder-gray-400"
+                : "bg-purple-500 text-white border-gray-300 placeholder-gray-200 hover:bg-blue-500"
               }`}
             value={loggedInUser}
             onChange={(e) => setuserName(e.target.value)}
