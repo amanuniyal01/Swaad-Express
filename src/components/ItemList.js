@@ -1,17 +1,26 @@
 import { useDispatch } from "react-redux";
 import { addItem, removeItem } from "../utils/cartSlice";
+import toast from "react-hot-toast";
 
 const ItemList = ({ items, isCartPage = false }) => {
+  console.log(items)
   const dispatch = useDispatch();
 
   const handleAddItem = (item) => {
     dispatch(addItem(item));
+    toast.success(`${item.name} added to cart 🛒`, {
+      icon: "✅",
+      className: `
+    flex items-center gap-3
+     "bg-white text-gray-900"
+  `,
+    });
   };
 
   const handleRemoveItem = (item) => {
     dispatch(removeItem(item.id));
   };
-  
+
   return (
     <div className="max-w-3xl mx-auto">
       {items.map((item, index) => (

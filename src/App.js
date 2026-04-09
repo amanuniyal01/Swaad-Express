@@ -13,11 +13,12 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Reviews from "./components/Reviews";
 import LoginPage from "./components/LoginPage";
 import Cart from "./components/Cart";
-
 import UserContext from "./utils/usercontext";
 import appStore from "./utils/appStore";
 import { ThemeProvider } from "./utils/ThemeContext";
 import VendorRegistration from "./components/VendorRegistration";
+import { Toaster } from "react-hot-toast";
+
 
 const AppLayout = () => {
   const [userName, setuserName] = useState("");
@@ -28,6 +29,17 @@ const AppLayout = () => {
 
   return (
     <Provider store={appStore}>
+      <Toaster
+        position="top-center"
+        containerClassName="!top-16 !left-0 !right-0 flex justify-center"
+        toastOptions={{
+          className: `
+      w-[95%] sm:w-[420px] 
+      rounded-xl shadow-lg 
+      px-4 py-3
+    `
+        }}
+      />
       <UserContext.Provider value={{ loggedInUser: userName, setuserName }}>
         <Header />
         <Outlet />
