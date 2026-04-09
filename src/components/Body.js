@@ -7,15 +7,34 @@ import Starter from "./Starter";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { WifiOff } from "lucide-react";
 import UserContext from "../utils/usercontext";
-import { useTheme } from "../utils/ThemeContext"; // ✅ import theme context
+import { useTheme } from "../utils/ThemeContext";
 
 const Body = () => {
   const [RestaurantList, setRestaurantList] = useState([]);
+
+
   const [filterRestaurant, setfilterRestaurant] = useState([]);
   const [SearchText, setSearchText] = useState("");
   const RestaurantPromoted = showpromotedCard(RestaurantCard);
   const { loggedInUser, setuserName } = useContext(UserContext);
   const { isDarkMode } = useTheme();
+  const handleSort = (e) => {
+    const value = e.target.value;
+
+    let sortedList = [...filterRestaurant]; // important
+
+    if (value === "asc") {
+      sortedList.sort((a, b) =>
+        a.info.name.localeCompare(b.info.name)
+      );
+    } else if (value === "desc") {
+      sortedList.sort((a, b) =>
+        b.info.name.localeCompare(a.info.name)
+      );
+    }
+
+    setfilterRestaurant(sortedList);
+  };
 
   useEffect(() => {
     setTimeout(() => {
@@ -89,6 +108,30 @@ const Body = () => {
         >
           Popular Picks
         </button>
+
+        <select
+          onChange={handleSort}
+          className={`
+    px-3 py-2.5 
+    rounded-xl 
+    shadow-md 
+    border border-gray-300 
+  
+    outline-none 
+    cursor-pointer 
+    transition-all duration-300 
+    text-sm font-medium
+
+    ${isDarkMode
+              ? "bg-gray-800 text-gray-100 border-gray-700 hover:bg-gray-700"
+              : "bg-white text-gray-800 hover:border-blue-500 hover:shadow-lg"
+            }
+  `}
+        >
+          <option value="">🔽 Sort By</option>
+          <option value="asc">🔤 Name (A → Z)</option>
+          <option value="desc">🔠 Name (Z → A)</option>
+        </select>
 
         <div className="flex items-center space-x-3 m-3">
           <label className="font-bold w-28 text-right">UserName:</label>
