@@ -21,7 +21,7 @@ const Body = () => {
   const handleSort = (e) => {
     const value = e.target.value;
 
-    let sortedList = [...filterRestaurant]; // important
+    let sortedList = [...filterRestaurant];
 
     if (value === "asc") {
       sortedList.sort((a, b) =>
@@ -31,6 +31,9 @@ const Body = () => {
       sortedList.sort((a, b) =>
         b.info.name.localeCompare(a.info.name)
       );
+    }
+    else if (value === "star") {
+      sortedList.sort((a, b) => b.info.avgRating - a.info.avgRating)
     }
 
     setfilterRestaurant(sortedList);
@@ -112,25 +115,25 @@ const Body = () => {
         <select
           onChange={handleSort}
           className={`
-    px-3 py-2.5 
-    rounded-xl 
-    shadow-md 
-    border border-gray-300 
-  
-    outline-none 
-    cursor-pointer 
-    transition-all duration-300 
-    text-sm font-medium
-
+    px-4 py-2.5
+    rounded-xl
+    border
+    text-sm font-semibold
+    cursor-pointer
+    transition-all duration-200
+    appearance-none
+    pr-8
+    focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent
     ${isDarkMode
-              ? "bg-gray-800 text-gray-100 border-gray-700 hover:bg-gray-700"
-              : "bg-white text-gray-800 hover:border-blue-500 hover:shadow-lg"
+              ? "bg-gray-800 text-gray-100 border-gray-600 hover:border-gray-400"
+              : "bg-white text-gray-700 border-gray-300 hover:border-blue-400 hover:shadow-md"
             }
   `}
         >
-          <option value="">🔽 Sort By</option>
-          <option value="asc">🔤 Name (A → Z)</option>
-          <option value="desc">🔠 Name (Z → A)</option>
+          <option value="">↕ Sort By</option>
+          <option value="asc">↑ Name (A → Z)</option>
+          <option value="desc">↓ Name (Z → A)</option>
+          <option value="star">⭐ Rating (High → Low)</option>
         </select>
 
         <div className="flex items-center space-x-3 m-3">
@@ -148,7 +151,7 @@ const Body = () => {
       </div>
 
       {/* Restaurant Cards */}
-      <div className="res-container flex items-center justify-evenly flex-wrap w-full">
+      <div className="res-container  flex  items-center  overflow-x-scroll  ">
         {filterRestaurant.map((restaurant) => (
           <Link
             className="card-link"

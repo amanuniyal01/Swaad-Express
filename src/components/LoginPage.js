@@ -38,14 +38,14 @@ const LoginPage = () => {
 
     try {
       if (isSignup) {
-        // SIGNUP
+       
         const userCredential = await createUserWithEmailAndPassword(
           auth,
           formData.email,
           formData.password
         );
 
-        // Update displayName with username
+       
         await updateProfile(userCredential.user, {
           displayName: formData.username,
         });
