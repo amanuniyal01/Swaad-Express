@@ -151,10 +151,10 @@ const Body = () => {
       </div>
 
       {/* Restaurant Cards */}
-      <div className="res-container  flex  items-center  overflow-x-scroll  ">
+      <div className="res-container  flex  items-center flex-nowrap w-full  overflow-x-scroll  ">
         {filterRestaurant.map((restaurant) => (
           <Link
-            className="card-link"
+            className="card-link "
             key={restaurant.info.id}
             to={`/restaurants/${restaurant.info.id}`}
           >

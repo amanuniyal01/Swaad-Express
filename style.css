@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-  overflow-x: hidden;
+
   font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
 }
@@ -90,6 +90,15 @@
   font-size: 0.95rem;
   font-weight: 500;
   color: #333;
+}
+
+.res-container::-webkit-scrollbar {
+  display: none;
+}
+
+.res-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 
@@ -431,4 +440,3 @@
   background-size: cover;
   background-position: center;
 }
-
