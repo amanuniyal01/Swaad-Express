@@ -2,7 +2,7 @@ import ItemList from "./ItemList";
 
 const RestaurantCategory = ({ data, isOpen, handleToggle }) => {
   return (
-    <div className="w-full sm:w-8/12 md:w-6/12 mx-auto my-6">
+    <div className="w-full sm:w-8/12 md:w-6/12 mx-auto my-4">
 
       <div
         className="
@@ -17,7 +17,7 @@ const RestaurantCategory = ({ data, isOpen, handleToggle }) => {
       >
         {/* Header */}
         <div
-          className="flex justify-between items-center px-5 py-4"
+          className="flex justify-between items-center px-5 py-2"
           onClick={handleToggle}
         >
           <span className="font-semibold text-lg md:text-xl text-gray-800">

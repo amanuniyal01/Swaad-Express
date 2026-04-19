@@ -20,11 +20,11 @@ const RestaurantCard = ({ resData }) => {
 
   return (
     <div
-      className={` res-card flex-wrap contain-content w-[250px] sm:w-64 m-[10px] rounded-xl shadow-md overflow-hidden cursor-pointer transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg mt-10 
+      className={` res-card flex-wrap contain-content w-[250px] sm:w-64 m-[10px] rounded-4xl shadow-md overflow-hidden cursor-pointer transition-transform duration-300 hover:-translate-y-2  hover:shadow-lg mt-10 
         ${isDarkMode ? "bg-gray-500 text-gray-100" : "bg-orange-100 text-gray-900"}`}
     >
       <img
-        className="res-logo h-[180px] w-full object-cover"
+        className="res-logo h-[150px] w-full object-cover"
         src={cloudinaryImageId}
         alt={name}
       />
