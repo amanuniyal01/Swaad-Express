@@ -3,7 +3,7 @@ import { useTheme } from "../utils/ThemeContext";
 
 const Starter = () => {
   const navigate = useNavigate();
-  const { isDarkMode } = useTheme(); // ✅ get dark mode state
+  const { isDarkMode } = useTheme(); // 
 
   const movetoabout = () => {
     navigate("/about");

@@ -15,12 +15,12 @@ const Cart = () => {
 
   return (
     <div className="mt-32 max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl">
-      {/* Cart Header */}
+      
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
         🛒 Your Cart
       </h1>
 
-      {/* Empty Cart */}
+      
       {cartItems.length === 0 ? (
 
         <div> <p className=" cart-empty text-center text-4xl text-gray-500">
@@ -28,10 +28,10 @@ const Cart = () => {
         </p></div>
       ) : (
         <>
-          {/* Items List */}
+      
           <ItemList items={cartItems} isCartPage={true} />
 
-          {/* Clear Cart Button */}
+          
           <div className="flex justify-end mt-6">
             <button
               onClick={handleClearCart}
@@ -41,7 +41,7 @@ const Cart = () => {
             </button>
           </div>
 
-          {/* Cart Summary */}
+          
           <div className="flex justify-between items-center border-t pt-4 mt-6">
             <h2 className="text-xl font-semibold text-gray-800">
               Total: ₹{total / 100}
