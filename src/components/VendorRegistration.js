@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useTheme } from "../utils/ThemeContext";
+
 
 function VendorRegistration() {
     const [vendor, setVendor] = useState({
@@ -13,6 +15,8 @@ function VendorRegistration() {
         image: "",
     });
 
+   const{isDarkMode}=useTheme()
+
     const handleChange = (e) => {
         setVendor({ ...vendor, [e.target.name]: e.target.value });
     };
@@ -20,10 +24,7 @@ function VendorRegistration() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-      
         alert("Your Vendor Application has been submitted!");
-        
-
 
         setVendor({
             name: "",
@@ -39,14 +40,24 @@ function VendorRegistration() {
     };
 
     return (
-        <div className=" p-10 vendor mt-15 flex justify-center">
+        <div
+            className={` vendor p-6 md:p-10 mt-15 flex justify-center transition-colors duration-300
+            ${isDarkMode ? "bg-gray-900" : "opacity-65 bg-gray-100"}`}
+        >
             <form
                 onSubmit={handleSubmit}
-                className="flex opacity-80 flex-col gap-4 p-6 shadow-lg border rounded-lg w-2/4 bg-white"
+                className={`flex flex-col gap-4 p-6 rounded-xl w-full max-w-2xl border shadow-lg transition-colors duration-300
+                ${isDarkMode
+                    ? "bg-gray-900/80 border-gray-700 text-white"
+                    : "bg-white border-gray-200 text-black"
+                }`}
             >
                 <h2 className="text-xl font-bold text-center mb-2">
                     Vendor Registration Form
                 </h2>
+
+                {/* INPUT FIELD STYLE */}
+                {/* reuse this pattern */}
 
                 <input
                     name="name"
@@ -54,7 +65,11 @@ function VendorRegistration() {
                     onChange={handleChange}
                     required
                     placeholder="Shop / Restaurant Name"
-                    className="border p-2 rounded"
+                    className={`p-2 rounded border transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <input
@@ -63,7 +78,11 @@ function VendorRegistration() {
                     onChange={handleChange}
                     required
                     placeholder="Owner Name"
-                    className="border p-2 rounded"
+                    className={`p-2 rounded border transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <input
@@ -72,7 +91,11 @@ function VendorRegistration() {
                     onChange={handleChange}
                     required
                     placeholder="Phone Number"
-                    className="border p-2 rounded"
+                    className={`p-2 rounded border transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <input
@@ -81,7 +104,11 @@ function VendorRegistration() {
                     value={vendor.email}
                     onChange={handleChange}
                     placeholder="Email (optional)"
-                    className="border p-2 rounded"
+                    className={`p-2 rounded border transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <textarea
@@ -90,7 +117,11 @@ function VendorRegistration() {
                     onChange={handleChange}
                     required
                     placeholder="Shop Address"
-                    className="border p-2 rounded h-20"
+                    className={`p-2 rounded border h-20 transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <input
@@ -99,7 +130,11 @@ function VendorRegistration() {
                     onChange={handleChange}
                     required
                     placeholder="Cuisine Type (Fast Food, Chinese, etc.)"
-                    className="border p-2 rounded"
+                    className={`p-2 rounded border transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <div className="flex gap-4">
@@ -109,8 +144,11 @@ function VendorRegistration() {
                         value={vendor.openingTime}
                         onChange={handleChange}
                         required
-                        className="border p-2 rounded w-full"
-                        placeholder="Opening Time"
+                        className={`p-2 rounded border w-full transition
+                        ${isDarkMode
+                            ? "bg-gray-800 border-gray-600 text-white"
+                            : "bg-white border-gray-300 text-black"
+                        }`}
                     />
                     <input
                         type="time"
@@ -118,8 +156,11 @@ function VendorRegistration() {
                         value={vendor.closingTime}
                         onChange={handleChange}
                         required
-                        className="border p-2 rounded w-full"
-                        placeholder="Closing Time"
+                        className={`p-2 rounded border w-full transition
+                        ${isDarkMode
+                            ? "bg-gray-800 border-gray-600 text-white"
+                            : "bg-white border-gray-300 text-black"
+                        }`}
                     />
                 </div>
 
@@ -128,12 +169,16 @@ function VendorRegistration() {
                     value={vendor.image}
                     onChange={handleChange}
                     placeholder="Shop Image URL (optional)"
-                    className="border p-2 rounded"
+                    className={`p-2 rounded border transition
+                    ${isDarkMode
+                        ? "bg-gray-800 border-gray-600 text-white placeholder-gray-400"
+                        : "bg-white border-gray-300 text-black"
+                    }`}
                 />
 
                 <button
                     type="submit"
-                    className="bg-orange-500 hover:bg-orange-600 text-white p-2 rounded-lg"
+                    className="bg-orange-500 hover:bg-orange-600 text-white p-2 rounded-lg transition active:scale-95"
                 >
                     Submit Application
                 </button>

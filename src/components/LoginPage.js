@@ -8,9 +8,10 @@ import {
   updateProfile
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { useTheme } from "../utils/ThemeContext";
 
 const LoginPage = () => {
-  const [isSignup, setIsSignup] = useState(false); // Toggle mode
+  const [isSignup, setIsSignup] = useState(false);
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -19,41 +20,39 @@ const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState(null);
-
+  
   const navigate = useNavigate();
+  const { isDarkMode } = useTheme();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+  
   const handleToggleMode = () => {
     setIsSignup(!isSignup);
     setErrorMessage(null);
   };
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setErrorMessage(null);
-
+    
     try {
       if (isSignup) {
-       
         const userCredential = await createUserWithEmailAndPassword(
           auth,
           formData.email,
           formData.password
         );
 
-       
         await updateProfile(userCredential.user, {
           displayName: formData.username,
         });
       } else {
-        // LOGIN
         await signInWithEmailAndPassword(auth, formData.email, formData.password);
       }
-
+      
       navigate("/");
     } catch (err) {
       setErrorMessage(err.message);
@@ -64,6 +63,7 @@ const LoginPage = () => {
 
   return (
     <div className="min-h-screen grid grid-cols-1 md:grid-cols-2">
+      
       {/* LEFT IMAGE */}
       <div className="relative hidden md:block">
         <img
@@ -80,26 +80,40 @@ const LoginPage = () => {
       </div>
 
       {/* RIGHT FORM */}
-      <div className="flex items-center justify-center bg-gradient-to-br from-indigo-50 via-purple-50 to-indigo-100 p-6">
+      <div
+        className={`flex items-center justify-center p-6 transition-colors duration-300
+        ${isDarkMode 
+          ? "bg-gray-900" 
+          : "bg-gradient-to-br from-indigo-50 via-purple-50 to-indigo-100"
+        }`}
+      >
         <form
           onSubmit={handleSubmit}
-          className="bg-white/90 backdrop-blur-lg p-10 rounded-3xl shadow-[0_10px_40px_rgba(0,0,0,0.1)] w-full max-w-md border border-gray-100"
+          className={`backdrop-blur-lg p-10 rounded-3xl w-full max-w-md border transition-colors duration-300
+          ${isDarkMode 
+            ? "bg-gray-900/80 border-gray-700 text-white shadow-[0_10px_40px_rgba(0,0,0,0.6)]" 
+            : "bg-white/90 border-gray-100 text-black shadow-[0_10px_40px_rgba(0,0,0,0.1)]"
+          }`}
         >
           <h2 className="text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-500">
             {isSignup ? "Create Account" : "Welcome Back"}
           </h2>
 
-          {/* USERNAME (Only for Signup) */}
+          {/* USERNAME */}
           {isSignup && (
             <div className="relative mb-5">
-              <User className="absolute left-4 top-3.5 text-gray-400" size={20} />
+              <User className={`${isDarkMode ? "text-gray-400" : "text-gray-500"} absolute left-4 top-3.5`} size={20} />
               <input
                 type="text"
                 name="username"
                 placeholder="Your username"
                 value={formData.username}
                 onChange={handleChange}
-                className="w-full pl-12 pr-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 transition"
+                className={`w-full pl-12 pr-4 py-3 rounded-2xl border transition focus:outline-none focus:ring-2 focus:ring-purple-400
+                ${isDarkMode 
+                  ? "bg-gray-800 text-white border-gray-600 placeholder-gray-400" 
+                  : "bg-white text-black border-gray-300"
+                }`}
                 required
               />
             </div>
@@ -107,55 +121,67 @@ const LoginPage = () => {
 
           {/* EMAIL */}
           <div className="relative mb-5">
-            <Mail className="absolute left-4 top-3.5 text-gray-400" size={20} />
+            <Mail className={`${isDarkMode ? "text-gray-400" : "text-gray-500"} absolute left-4 top-3.5`} size={20} />
             <input
               type="email"
               name="email"
               placeholder="Your email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full pl-12 pr-4 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 transition"
+              className={`w-full pl-12 pr-4 py-3 rounded-2xl border transition focus:outline-none focus:ring-2 focus:ring-purple-400
+              ${isDarkMode 
+                ? "bg-gray-800 text-white border-gray-600 placeholder-gray-400" 
+                : "bg-white text-black border-gray-300"
+              }`}
               required
             />
           </div>
 
           {/* PASSWORD */}
           <div className="relative mb-6">
-            <Lock className="absolute left-4 top-3.5 text-gray-400" size={20} />
+            <Lock className={`${isDarkMode ? "text-gray-400" : "text-gray-500"} absolute left-4 top-3.5`} size={20} />
             <input
               type={showPassword ? "text" : "password"}
               name="password"
               placeholder="Your password"
               value={formData.password}
               onChange={handleChange}
-              className="w-full pl-12 pr-12 py-3 rounded-2xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 transition"
+              className={`w-full pl-12 pr-12 py-3 rounded-2xl border transition focus:outline-none focus:ring-2 focus:ring-purple-400
+              ${isDarkMode 
+                ? "bg-gray-800 text-white border-gray-600 placeholder-gray-400" 
+                : "bg-white text-black border-gray-300"
+              }`}
               required
             />
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-4 top-3.5 text-gray-400 hover:text-gray-600"
+              className={`absolute right-4 top-3.5 ${isDarkMode ? "text-gray-400 hover:text-gray-200" : "text-gray-400 hover:text-gray-600"}`}
             >
               {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
             </button>
           </div>
 
-          {/* ERROR MESSAGE */}
+          {/* ERROR */}
           {errorMessage && (
-            <p className="text-red-600 font-medium mb-4">{errorMessage}</p>
+            <p className={`${isDarkMode ? "text-red-400" : "text-red-600"} font-medium mb-4`}>
+              {errorMessage}
+            </p>
           )}
 
-          {/* SUBMIT BUTTON */}
+          {/* BUTTON */}
           <button
             type="submit"
             disabled={loading}
             className="w-full bg-gradient-to-r from-purple-600 to-indigo-500 text-white py-3 rounded-2xl font-semibold shadow-lg hover:scale-[1.02] active:scale-95 transition-all"
           >
-            {loading ? (isSignup ? "Signing up..." : "Signing in...") : (isSignup ? "Sign Up" : "Login")}
+            {loading 
+              ? (isSignup ? "Signing up..." : "Signing in...") 
+              : (isSignup ? "Sign Up" : "Login")}
           </button>
 
-          {/* TOGGLE LOGIN/SIGNUP */}
-          <p className="text-center text-sm mt-6 text-gray-500">
+          {/* TOGGLE */}
+          <p className={`text-center text-sm mt-6 ${isDarkMode ? "text-gray-400" : "text-gray-500"}`}>
             {isSignup ? "Already have an account? " : "Don’t have an account? "}
             <span
               onClick={handleToggleMode}

@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { addItem, removeItem } from "../utils/cartSlice";
 import toast from "react-hot-toast";
+import { useTheme } from "../utils/ThemeContext";
 
 const ItemList = ({ items, isCartPage = false }) => {
   console.log(items)
@@ -20,9 +21,11 @@ const ItemList = ({ items, isCartPage = false }) => {
   const handleRemoveItem = (item) => {
     dispatch(removeItem(item.id));
   };
+  const{isDarkMode}=useTheme();
+  const dark=isDarkMode;
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className={` ${dark?"bg-gray-800":""} max-w-3xl mx-auto`}>
       {items.map((item, index) => (
         <div 
           key={`${item.id}-${index}`}
@@ -33,7 +36,7 @@ const ItemList = ({ items, isCartPage = false }) => {
               <h3 className="text-[20px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 mb-2">
                 {item.name}
               </h3>
-              <p className="text-[15px] text-gray-700 font-[200] leading-relaxed mb-2">
+              <p className={`text-[15px] ${dark?"text-shadow-white":"text-gray-700"} font-[200] leading-relaxed mb-2`}>
                 {item.description}
               </p>
               <p className="text-[15px] font-semibold text-green-600">
