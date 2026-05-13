@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Starter from "./Starter";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { WifiOff } from "lucide-react";
-import UserContext from "../utils/userContext";
+import UserContext from "../utils/UserContext";
 import { useTheme } from "../utils/ThemeContext";
 
 const Body = () => {

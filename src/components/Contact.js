@@ -18,9 +18,9 @@ const Contact = () => {
         Fill out the form below or reach us directly!
       </p>
 
-      {/* Grid Layout */}
+    
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl w-full  md:mt-60">
-        {/* Contact Form */}
+    
         <form className={` shadow-lg rounded-2xl p-6 space-y-4 
           ${isDarkMode?"bg-gray- text-white":"bg-white"}`}>
           <input
@@ -46,7 +46,7 @@ const Contact = () => {
           </button>
         </form>
 
-        {/* Contact Info */}
+       
         <div className="bg-green-50 shadow-lg rounded-2xl p-6 space-y-6">
           <h3 className="text-2xl font-semibold text-blue-800">Contact Info</h3>
           <p className="flex items-center gap-3 text-gray-700">
@@ -59,7 +59,7 @@ const Contact = () => {
             <Mail className="text-blue-700" /> contact@swaadexpress.com
           </p>
 
-          {/* Social Links */}
+       
           <div className="flex gap-4 mt-4">
             <a
               href="https://www.linkedin.com/in/amanuniyal1012/"

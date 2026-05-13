@@ -8,13 +8,13 @@ const RestaurantMenu = () => {
   const { resId } = useParams();
   const menu = useRestaurantMenu(resId);
 
-  // State to track which category is open
+
   const [openCategoryIndex, setOpenCategoryIndex] = useState(null);
 
-  // Show shimmer while loading
+  
   if (!menu) return <Shimmer />;
 
-  // Extract restaurantName & categories safely
+  
   const { restaurantName, categories } = menu;
 
   const handleToggle = (index) => {

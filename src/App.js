@@ -13,7 +13,7 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Reviews from "./components/Reviews";
 import LoginPage from "./components/LoginPage";
 import Cart from "./components/Cart";
-import UserContext from "./utils/userContext";
+import UserContext from "./utils/UserContext";
 import appStore from "./utils/appStore";
 import { ThemeProvider } from "./utils/ThemeContext";
 import VendorRegistration from "./components/VendorRegistration";
