@@ -12,12 +12,20 @@ import { useTheme } from "../utils/ThemeContext";
 const Body = () => {
   const [RestaurantList, setRestaurantList] = useState([]);
 
-
   const [filterRestaurant, setfilterRestaurant] = useState([]);
   const [SearchText, setSearchText] = useState("");
   const RestaurantPromoted = showpromotedCard(RestaurantCard);
   const { loggedInUser, setuserName } = useContext(UserContext);
   const { isDarkMode } = useTheme();
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const filterRestaurant = RestaurantList.filter((res) =>
+        res.info.name.toLowerCase().includes(SearchText.toLowerCase())
+      );
+      setfilterRestaurant(filterRestaurant);
+    }, 500)
+    return () => clearTimeout(timer)
+  }, [SearchText, RestaurantList])
   const handleSort = (e) => {
     const value = e.target.value;
 
@@ -86,14 +94,6 @@ const Body = () => {
           onChange={(e) => {
             setSearchText(e.target.value);
           }}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              const filterRestaurant = RestaurantList.filter((res) =>
-                res.info.name.toLowerCase().includes(SearchText.toLowerCase())
-              );
-              setfilterRestaurant(filterRestaurant);
-            }
-          }}
         />
 
         <button
@@ -152,19 +152,21 @@ const Body = () => {
 
       {/* Restaurant Cards */}
       <div className="res-container  flex  items-center flex-nowrap w-full  overflow-x-scroll  ">
-        {filterRestaurant.map((restaurant) => (
-          <Link
-            className="card-link "
-            key={restaurant.info.id}
-            to={`/restaurants/${restaurant.info.id}`}
-          >
-            {restaurant.info.promoted ? (
-              <RestaurantPromoted resData={restaurant} />
-            ) : (
-              <RestaurantCard resData={restaurant} />
-            )}
-          </Link>
-        ))}
+        {filterRestaurant.length > 0 ? (
+          filterRestaurant.map((restaurant) => (
+            <Link
+              className="card-link "
+              key={restaurant.info.id}
+              to={`/restaurants/${restaurant.info.id}`}
+            >
+              {restaurant.info.promoted ? (
+                <RestaurantPromoted resData={restaurant} />
+              ) : (
+                <RestaurantCard resData={restaurant} />
+              )}
+            </Link>
+          ))
+        ) : <div><h1 className="text-red-500 text-center font-bold">No Restaurants Found...</h1></div>}
       </div>
     </div>
   );
