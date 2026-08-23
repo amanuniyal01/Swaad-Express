@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constants";
 import { useTheme } from "../utils/ThemeContext";
 
 const RestaurantCard = ({ resData }) => {
-  const { isDarkMode } = useTheme(); // ✅ get dark mode state
+  const { isDarkMode } = useTheme();
 
   if (!resData) {
     return (
@@ -43,22 +43,21 @@ const RestaurantCard = ({ resData }) => {
         </p>
         <div className="res-info  flex items-center justify-between">
           <span
-  className={`res-rating font-semibold px-2 py-1 rounded ${
-    avgRating >= 4
-      ? isDarkMode
-        ? "bg-green-400 text-gray-900" // dark mode stays same
-        : "bg-green-400 text-green-700" // light mode: light green bg, green text
-      : avgRating >= 3
-      ? isDarkMode
-        ? "bg-yellow-400 text-gray-900"
-        : "bg-yellow-400 text-yellow-600"
-      : isDarkMode
-      ? "bg-red-400 text-gray-900"
-      : "bg-red-400 text-red-600"
-  }`}
->
-  ⭐ {avgRating}
-</span>
+            className={`res-rating font-semibold px-2 py-1 rounded ${avgRating >= 4
+                ? isDarkMode
+                  ? "bg-green-400 text-gray-900" // dark mode stays same
+                  : "bg-green-400 text-green-700" // light mode: light green bg, green text
+                : avgRating >= 3
+                  ? isDarkMode
+                    ? "bg-yellow-400 text-gray-900"
+                    : "bg-yellow-400 text-yellow-600"
+                  : isDarkMode
+                    ? "bg-red-400 text-gray-900"
+                    : "bg-red-400 text-red-600"
+              }`}
+          >
+            ⭐ {avgRating}
+          </span>
           <span className="res-cost">{costForTwo}</span>
         </div>
       </div>
@@ -74,8 +73,8 @@ export const showpromotedCard = (RestaurantCard) => {
       <div className="relative">
         <label
           className={`z-30 absolute top-3 -left-8 transform -rotate-45 text-[10px] font-bold uppercase px-10 py-1 shadow-md 
-            ${isDarkMode 
-              ? "bg-gradient-to-r from-gray-700 to-gray-500 text-gray-100" 
+            ${isDarkMode
+              ? "bg-gradient-to-r from-gray-700 to-gray-500 text-gray-100"
               : "bg-gradient-to-r from-orange-400 to-yellow-400 text-white"}`}
         >
           Promoted

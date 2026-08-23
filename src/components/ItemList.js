@@ -21,13 +21,13 @@ const ItemList = ({ items, isCartPage = false }) => {
   const handleRemoveItem = (item) => {
     dispatch(removeItem(item.id));
   };
-  const{isDarkMode}=useTheme();
-  const dark=isDarkMode;
+  const { isDarkMode } = useTheme();
+  const dark = isDarkMode;
 
   return (
-    <div className={` ${dark?"bg-gray-800":""} max-w-3xl mx-auto`}>
+    <div className={` ${dark ? "bg-gray-800" : ""} max-w-3xl mx-auto`}>
       {items.map((item, index) => (
-        <div 
+        <div
           key={`${item.id}-${index}`}
           className="p-4 bg-gray-200/ mb-4 border rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300"
         >
@@ -36,7 +36,7 @@ const ItemList = ({ items, isCartPage = false }) => {
               <h3 className="text-[20px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 mb-2">
                 {item.name}
               </h3>
-              <p className={`text-[15px] ${dark?"text-shadow-white":"text-gray-700"} font-[200] leading-relaxed mb-2`}>
+              <p className={`text-[15px] ${dark ? "text-shadow-white" : "text-gray-700"} font-[200] leading-relaxed mb-2`}>
                 {item.description}
               </p>
               <p className="text-[15px] font-semibold text-green-600">
@@ -50,7 +50,7 @@ const ItemList = ({ items, isCartPage = false }) => {
                 className="bg-red-500 text-white text-[18px] px-4 py-2 rounded-lg hover:bg-red-700 transition-colors duration-200"
                 onClick={() => handleRemoveItem(item)}
               >
-                Remove ❌
+                Remove X
               </button>
             ) : (
               <button
