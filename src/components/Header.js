@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
-import { Menu, X, ShoppingCart, Wifi, WifiOff } from "lucide-react";
+import { Menu, X, ShoppingCart, Wifi, WifiOff, Sun, Moon } from "lucide-react";
 import { useTheme } from "../utils/ThemeContext";
 
 const NAV_LINKS = [
@@ -44,9 +44,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 
-          {/* Logo */}
+          {/* //Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src={LOGO_URL} alt="Logo" className="h-10 w-auto" />
+            <img src={LOGO_URL} alt="Logo" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
@@ -94,7 +94,7 @@ const Header = () => {
                 ${dark ? "bg-gray-700 hover:bg-gray-600" : "bg-gray-100 hover:bg-gray-200"}`}
               aria-label="Toggle theme"
             >
-              {dark ? "🌞" : "🌙"}
+              {dark ? <Sun /> : <Moon />}
             </button>
 
             <button
