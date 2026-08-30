@@ -1,12 +1,10 @@
-import User from "./User";
-import Footer from "./Footer";
-import { teamMembers } from "../utils/mockdata";
 import { Link } from "react-router-dom";
 import Team from "./Team";
 import { useTheme } from "../utils/ThemeContext";
 
 // import icons
 import { MapPin, Phone, Mail } from "lucide-react";
+import { TextWithIcon } from "../reusableComponents/TextWithIcon";
 
 const About = () => {
   const { isDarkMode } = useTheme();
@@ -14,44 +12,40 @@ const About = () => {
   return (
     <div
       id="about"
-      className={`About py-6 ${
-        isDarkMode ? "bg-gray-900 text-gray-100" : "bg-orange-50 text-gray-900"
-      }`}
+      className={`About py-6 ${isDarkMode ? "bg-gray-900 text-gray-100" : "bg-orange-50 text-gray-900"
+        }`}
     >
       {/* Heading */}
-      <div className="flex items-center text-center justify-center gap-3">
+      <div className="flex items-center justify-center gap-3 mt-10">
         <h1
-          className={`mt-[10px] md:mt-[40px] text-4xl flex items-center justify-center gap-2 ${
-            isDarkMode ? "text-white" : "text-gray-500"
-          }`}
+          className={`text-4xl font-bold ${isDarkMode ? "text-white" : "text-gray-500"
+            }`}
         >
           ABOUT
         </h1>
+
         <span
-          className={`font-bold text-3xl mt-10 ${
-            isDarkMode ? "text-blue-400" : "text-blue-700"
-          }`}
+          className={`text-3xl font-bold ${isDarkMode ? "text-blue-400" : "text-blue-700"
+            }`}
         >
           US
         </span>
-        <p
-          className={`w-8 sm:w-12 mt-12 h-[1px] sm:h-[2px] ${
-            isDarkMode ? "bg-white" : "bg-gray-700"
-          }`}
-        ></p>
-      </div>
 
+        <span
+          className={`w-8 sm:w-12 h-[1px] sm:h-[2px] ${isDarkMode ? "bg-white" : "bg-gray-700"
+            }`}
+        />
+      </div>
       {/* Main Grid */}
       <div
-        className={`grid grid-cols-1 md:grid-cols-2 mt-14 h-[90vh] gap-10 flex-wrap ${
-          isDarkMode
-            ? "bg-gray-900"
-            : "bg-gradient-to-b from-orange-50 to-white"
-        }`}
+        className={`grid grid-cols-1 md:grid-cols-2 mt-14 h-[90vh] gap-10 flex-wrap ${isDarkMode
+          ? "bg-gray-900"
+          : "bg-gradient-to-b from-orange-50 to-white"
+          }`}
       >
         <div>
           <img
-            className="h-full content-stretch w-full overflow-hidden rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
             src="https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA="
             alt="Food"
           />
@@ -59,9 +53,8 @@ const About = () => {
 
         <div className="overflow-y-hidden px-4 md:px-6">
           <p
-            className={`text-lg leading-6 md:leading-relaxed ${
-              isDarkMode ? "text-gray-200" : "text-gray-700"
-            }`}
+            className={`text-lg leading-6 md:leading-relaxed ${isDarkMode ? "text-gray-200" : "text-gray-700"
+              }`}
           >
             Swaad Express is a next-generation food delivery platform designed
             to bridge the gap between local food vendors and hungry customers.
@@ -97,53 +90,45 @@ const About = () => {
       </div>
 
       {/* Reviews Section */}
-      <Link to="/reviews">
+      <Link
+        to="/reviews"
+        className={`inline-block mt-4 px-6 py-3 rounded-lg font-semibold transition-all ${isDarkMode
+          ? "bg-gray-700 hover:bg-gray-600 text-gray-100"
+          : "bg-gradient-to-r from-orange-500 via-yellow-500 to-orange-600 hover:from-orange-600 hover:via-yellow-600 hover:to-red-600 text-white"
+          }`}
+      >
         <div className="group relative flex flex-col items-center justify-center my-10 cursor-pointer">
           <div
-            className={`relative px-8 py-6 rounded-xl shadow-md group-hover:shadow-lg transition-all duration-300 text-center ${
-              isDarkMode
-                ? "bg-gray-800 text-gray-200"
-                : "bg-white text-gray-800"
-            }`}
+            className={`relative px-8 py-6 rounded-xl shadow-md group-hover:shadow-lg transition-all duration-300 text-center ${isDarkMode
+              ? "bg-gray-800 text-gray-200"
+              : "bg-white text-gray-800"
+              }`}
           >
             <h3
-              className={`text-2xl md:text-3xl font-bold ${
-                isDarkMode
-                  ? "hover:text-blue-400"
-                  : "group-hover:text-orange-600"
-              }`}
+              className={`text-2xl md:text-3xl font-bold ${isDarkMode
+                ? "hover:text-blue-400"
+                : "group-hover:text-orange-600"
+                }`}
             >
               Want to know what customers say?
             </h3>
             <p
-              className={`mt-2 ${
-                isDarkMode ? "text-gray-400" : "text-gray-500"
-              }`}
+              className={`mt-2 ${isDarkMode ? "text-gray-400" : "text-gray-500"
+                }`}
             >
               Click here to read our reviews
             </p>
 
-            <button
-              className={`mt-4 px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
-                isDarkMode
-                  ? "bg-gray-700 hover:bg-gray-600 text-gray-100"
-                  : "bg-gradient-to-r from-orange-500 via-yellow-500 to-orange-600 hover:from-orange-600 hover:via-yellow-600 hover:to-red-600 text-white"
-              }`}
-            >
-              Read Reviews
-            </button>
           </div>
         </div>
       </Link>
-
-      
       <Team />
+
 
       {/* Find Us */}
       <h2
-        className={`text-xl md:text-2xl font-semibold mt-6 ${
-          isDarkMode ? "text-gray-200" : "text-gray-700"
-        }`}
+        className={`text-xl md:text-2xl font-semibold mt-6 ${isDarkMode ? "text-gray-200" : "text-gray-700"
+          }`}
       >
         Find us Here:
       </h2>
@@ -159,29 +144,44 @@ const About = () => {
         ></iframe>
 
         <div
-          className={`contact-info absolute text-center md:text-left px-4 py-4 rounded-lg shadow ${
-            isDarkMode ? "bg-gray-800 text-gray-300" : "bg-white text-gray-700"
-          }`}
+          className={`contact-info absolute text-center md:text-left px-4 py-4 rounded-lg shadow ${isDarkMode ? "bg-gray-800 text-gray-300" : "bg-white text-gray-700"
+            }`}
         >
           <h3 className="flex items-center justify-center md:justify-start gap-2 font-semibold text-lg">
-            <MapPin className="text-red-500" />
-            Visit Us
+            <TextWithIcon
+              Icon={MapPin}
+              iconColor="text-red-500"
+              textColor="text-gray-700"
+            >
+              123 Food Street, Flavor Town, India
+            </TextWithIcon>
           </h3>
-          <p>123 Food Street, Flavor Town, India</p>
 
-          <p className="flex items-center justify-center md:justify-start gap-2">
-            <Phone className="text-green-600" />
+          <TextWithIcon
+            iconColor="text-gray-700"
+            textColor="text-gray-700"
+          >
+            123 Food Street, Flavor Town, India
+          </TextWithIcon>
+
+          <TextWithIcon
+            Icon={Phone}
+            iconColor="text-green-600"
+            textColor="text-gray-700"
+          >
             +91 98765 43210
-          </p>
+          </TextWithIcon>
 
-          <p className="flex items-center justify-center md:justify-start gap-2">
-            <Mail className="text-blue-600" />
+          <TextWithIcon
+            Icon={Mail}
+            iconColor="text-blue-600"
+            textColor="text-gray-700"
+          >
             amanuniyal315@gmail.com
-          </p>
+          </TextWithIcon>
         </div>
       </div>
 
-  
     </div>
   );
 };
